@@ -1,0 +1,74 @@
+[
+    {
+        "id": "123456",
+        "url": "https://www.crexi.com/properties/123456/florida-sunny-acres-mhp",
+        "propertyName": "Sunny Acres MHP",
+        "address": "123 Sunshine Blvd",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "32801",
+        "latitude": 28.5383,
+        "longitude": -81.3792,
+        "type": "Multifamily - Mobile Home Park",
+        "askingPrice": 2500000,
+        "units": 50,
+        "capRate": 7.5,
+        "noi": 187500,
+        "occupancy": 95,
+        "description": "Great value add opportunity. Below replacement cost. Seller financing available.",
+        "broker": {
+            "name": "John Doe",
+            "companyName": "Sunshine Realty",
+            "phone": "555-0199",
+            "email": "john@example.com"
+        }
+    },
+    {
+        "id": "789012",
+        "url": "https://www.crexi.com/properties/789012/florida-palm-grove-rv",
+        "propertyName": "Palm Grove RV Resort",
+        "address": "456 Palm Way",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "33602",
+        "latitude": 27.9506,
+        "longitude": -82.4572,
+        "type": "Specialty - RV Park",
+        "askingPrice": 1800000,
+        "units": 40,
+        "capRate": 8.0,
+        "noi": 144000,
+        "occupancy": 88,
+        "description": "Stabilized asset with room to push rents.",
+        "broker": {
+            "name": "Jane Smith",
+            "companyName": "Florida Commercial",
+            "phone": "555-0188",
+            "email": "jane@example.com"
+        }
+    },
+    {
+        "id": "555555",
+        "url": "https://www.crexi.com/properties/555555/florida-miami-lakes-mhp",
+        "propertyName": "Miami Lakes MHP",
+        "address": "789 Miami Gardens Dr",
+        "city": "Miami Gardens",
+        "state": "FL",
+        "zip": "33015",
+        "latitude": 25.9286,
+        "longitude": -80.3153,
+        "type": "Multifamily - Mobile Home Park",
+        "askingPrice": 5500000,
+        "units": 100,
+        "capRate": 6.2,
+        "noi": 341000,
+        "occupancy": 98,
+        "description": "Premium park in Miami area.",
+        "broker": {
+            "name": "Carlos Rodriguez",
+            "companyName": "Miami Prime",
+            "phone": "305-555-0123",
+            "email": "carlos@example.com"
+        }
+    }
+]

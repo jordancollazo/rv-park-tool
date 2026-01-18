@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hybrid Map Test</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            font-family: -apple-system, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: #1e293b;
+            padding: 1rem 2rem;
+            border-bottom: 1px solid #334155;
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            color: #a855f7;
+        }
+
+        .controls {
+            background: #1e293b;
+            padding: 0.75rem 2rem;
+            border-bottom: 1px solid #334155;
+        }
+
+        .toggle-btn {
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            border: 1px solid #475569;
+            background: transparent;
+            color: #94a3b8;
+            cursor: pointer;
+            margin-right: 0.5rem;
+        }
+
+        .toggle-btn.active {
+            background: #9333ea;
+            color: white;
+            border-color: transparent;
+        }
+
+        /* CRITICAL: This is the key difference from the failing version */
+        .map-container {
+            flex: 1;
+            display: flex;
+            min-height: 0;
+            /* CRITICAL for flex shrinking */
+        }
+
+        #map {
+            flex: 1;
+            /* NO height: 100% - let flex handle it */
+        }
+
+        .sidebar {
+            width: 280px;
+            background: #1e293b;
+            padding: 1rem;
+            border-left: 1px solid #334155;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>📍 Hybrid Map Test</h1>
+    </div>
+    <div class="controls">
+        <button class="toggle-btn active">🎯 Opportunity Score</button>
+        <button class="toggle-btn">📍 Leads</button>
+    </div>
+    <div class="map-container">
+        <div id="map"></div>
+        <div class="sidebar">
+            <h3 style="color:#f1f5f9">Sidebar Panel</h3>
+            <p style="color:#94a3b8;margin-top:1rem">This is a test of the layout with header, controls, map, and
+                sidebar.</p>
+        </div>
+    </div>
+
+    <script>
+        console.log('Initializing hybrid test...');
+
+        // Initialize map with OpenStreetMap tiles (known working)
+        var map = L.map('map').setView([27.6, -81.5], 7);
+        console.log('Map object created');
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+        console.log('Tile layer added');
+
+        // Add test markers
+        L.marker([27.65, -81.50]).addTo(map).bindPopup('Test Lead 1');
+        L.marker([27.62, -81.52]).addTo(map).bindPopup('Test Lead 2');
+        console.log('Markers added');
+
+        // Add a simple polygon
+        L.polygon([
+            [27.60, -81.55],
+            [27.60, -81.45],
+            [27.70, -81.45],
+            [27.70, -81.55]
+        ], {
+            color: '#a855f7',
+            fillColor: '#a855f7',
+            fillOpacity: 0.3
+        }).addTo(map);
+        console.log('Polygon added');
+
+        // Force size recalculation
+        setTimeout(function () {
+            map.invalidateSize();
+            console.log('Map size invalidated');
+        }, 100);
+    </script>
+</body>
+
+</html>

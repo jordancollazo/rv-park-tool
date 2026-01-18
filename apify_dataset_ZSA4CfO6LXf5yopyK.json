@@ -1,0 +1,4350 @@
+[
+  {
+    "activatedOn": "2025-03-21T21:39:46Z",
+    "locations": [
+      {
+        "address": "3771 72nd Street",
+        "city": "Live Oak",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "32060",
+        "latitude": 30.3012564,
+        "longitude": -83.1220074,
+        "fullAddress": "3771 72nd Street, Live Oak, FL 32060"
+      }
+    ],
+    "brokerTeamLogoUrl": "https://images.crexi.com/user-accounts/23477/7cfa7660ad614ce2b41e0aa3cc634f90_150x100_resize.jpg",
+    "brokerageName": "RESG Commercial Properties",
+    "description": "110\u00b1 acres Premier RV Campground Development",
+    "hasFlyer": true,
+    "hasOM": false,
+    "hasVideo": true,
+    "id": 1833472,
+    "isInOpportunityZone": false,
+    "name": "110\u00b1 acres Premier RV Campground Development",
+    "numberOfGalleryItems": 7,
+    "numberOfImages": 6,
+    "showCountdownAsDate": false,
+    "status": "On-Market",
+    "thumbnailUrl": "https://images.crexi.com/assets/1833472/f64a34b3a3d34485a7a9e986bac3e0b0_716x444.jpg",
+    "types": [
+      "Mobile Home Park",
+      "Land"
+    ],
+    "updatedOn": "2025-11-07T20:22:48Z",
+    "urlSlug": "florida-120-acres-premier-rv-campground-development",
+    "userIsAssetOwner": false,
+    "hasVirtualTour": false,
+    "recommId": "b0aba7bf484ab0641a5fafb4aa39823f",
+    "isNew": false,
+    "lotSizeAcres": 110,
+    "url": "https://www.crexi.com/properties/1833472/florida-120-acres-premier-rv-campground-development",
+    "ajaxUrl": "https://api.crexi.com/assets/1833472",
+    "details": {
+      "subtypes": [
+        "Agricultural",
+        "Hunting/Recreational"
+      ],
+      "investmentHighlights": "<ul><li>\u200b<p><span style=\"color: rgba(0, 0, 0, 1)\">Conveniently located at</span><strong><span style=\"color: rgba(0, 0, 0, 1)\"> I-10 & I-75 corridor</span></strong></p></li></ul><ul><li>\u200b<p><strong><span style=\"color: rgba(0, 0, 0, 1)\">Room to expand & customize </span></strong></p></li></ul><ul><li>\u200b<p><span style=\"color: rgba(0, 0, 0, 1)\">Easy access to major thoroughfare</span></p></li></ul><ul><li>\u200b<p><span style=\"color: rgba(0, 0, 0, 1)\">Interstate 75 Traffic </span><strong><span style=\"color: rgba(0, 0, 0, 1)\">[FDOT]: \u00b1 45,000 AADT.</span></strong></p></li></ul><ul><li>\u200b<p><span style=\"color: rgba(0, 0, 0, 1)\">Full equipped on-site utilities: water, sewer, power (30 & 50 amp) & wifi</span></p></li></ul><ul><li>\u200b<p><span style=\"color: rgba(0, 0, 0, 1)\">Attractions nearby: Suwannee River, springs, parks, preserves, biking, fishing, horseback riding, etc.</span></p></li></ul><p></p>",
+      "earnestDepositAmountInPercent": false,
+      "qualFormRequired": false,
+      "marketingDescription": "<p><span style=\"color: rgba(0, 0, 0, 1)\">Discover an exceptional investment opportunity with Cowbird Campground RV development located at </span><strong><span style=\"color: rgba(0, 0, 0, 1)\">3771 72nd Street, Live Oak, FL 32060.\u200b</span></strong></p><p><span style=\"color: rgba(0, 0, 0, 1)\">Boasting </span><strong><span style=\"color: rgba(0, 0, 0, 1)\">high-visibility frontage on Interstate 75</span></strong><span style=\"color: rgba(0, 0, 0, 1)\">, this </span><strong><span style=\"color: rgba(0, 0, 0, 1)\">106\u00b1 pull-through</span></strong><span style=\"color: rgba(0, 0, 0, 1)\"> campsite property is perfectly positioned for maximum exposure and convenience.\u200b</span></p><p><span style=\"color: rgba(0, 0, 0, 1)\">Each </span><strong><span style=\"color: rgba(0, 0, 0, 1)\">7,000\u00b1 SF campsite offers </span><span style=\"color: rgba(237, 6, 6, 1)\">full hookups</span></strong><span style=\"color: rgba(0, 0, 0, 1)\"> (water, sewer, power & wifi) ensuring a comfortable and convenient stay for travelers.\u200b Plus, with </span><strong><span style=\"color: rgba(0, 0, 0, 1)\">room to expand and customize</span></strong><span style=\"color: rgba(0, 0, 0, 1)\">, you have the flexibility to add premium amenities such as a clubhouse, pool, walking trails, dog park, or other resort-style features to enhance the guest experience.\u200b</span></p><p><span style=\"color: rgba(0, 0, 0, 1)\">With seamless highway access, a spacious layout, and endless development potential, this is a high-potential investment in one of Florida\u2019s most traveled corridors.\u200b Don\u2019t miss this chance to create a top-tier RV destination!</span></p>",
+      "hasVault": false,
+      "hasPrivateVault": false,
+      "hideAddress": false,
+      "hideStreetView": false,
+      "details": {
+        "Property Type": "Land, Mobile Home Park",
+        "Sub Type": "Agricultural, Hunting/Recreational",
+        "Investment Type": "Owner/User",
+        "Buildings": "0",
+        "Zoning": "ESA-2",
+        "Lot Size (acres)": "110",
+        "APN": "09-02S-15E-00110-000000 , 09-02S-15E-00112-000000 , 09-02S-15E-00112-002000",
+        "Ownership": "Fee Simple"
+      },
+      "summaryDetails": [
+        {
+          "key": "PropertyType",
+          "value": [
+            "Land",
+            "Mobile Home Park"
+          ],
+          "valueType": "Array",
+          "label": "Property Type",
+          "display": "Land, Mobile Home Park"
+        },
+        {
+          "key": "SubType",
+          "value": [
+            "Agricultural",
+            "Hunting/Recreational"
+          ],
+          "valueType": "Array",
+          "label": "Subtype",
+          "display": "Agricultural, Hunting/Recreational"
+        },
+        {
+          "key": "InvestmentType",
+          "value": "OwnerUser",
+          "valueType": "Text",
+          "label": "Investment Type",
+          "display": "Owner/User"
+        },
+        {
+          "key": "Buildings",
+          "value": 0,
+          "valueType": "IntegerType",
+          "label": "Buildings",
+          "display": "0"
+        },
+        {
+          "key": "PermittedZoning",
+          "value": "ESA-2",
+          "valueType": "Text",
+          "label": "Permitted Zoning",
+          "display": "ESA-2"
+        },
+        {
+          "key": "LotSize",
+          "value": 110,
+          "valueType": "IntegerType",
+          "label": "Lot Size (acres)",
+          "display": "110"
+        },
+        {
+          "key": "Apn",
+          "value": "09-02S-15E-00110-000000 , 09-02S-15E-00112-000000 , 09-02S-15E-00112-002000",
+          "valueType": "Text",
+          "label": "APN",
+          "display": "09-02S-15E-00110-000000 , 09-02S-15E-00112-000000 , 09-02S-15E-00112-002000"
+        },
+        {
+          "key": "Ownership",
+          "value": "Fee Simple",
+          "valueType": "Text",
+          "label": "Ownership",
+          "display": "Fee Simple"
+        }
+      ],
+      "loanDetails": {},
+      "createdOn": "2025-03-19T18:07:25.564Z",
+      "activatedOn": "2025-03-21T21:39:46.384Z",
+      "vaultAccessStatus": "AuthRequired",
+      "hasBrokerOfRecord": false,
+      "locations": [
+        {
+          "cityVerified": "Falmouth",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "3771 72nd Street",
+          "city": "Live Oak",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "32060",
+          "latitude": 30.3012564,
+          "longitude": -83.1220074,
+          "povPitch": 0,
+          "povHeading": 0
+        }
+      ],
+      "feeAgreementIsRequired": false,
+      "userCanDownloadMd": false,
+      "userExecutedCA": false,
+      "isSavedToBoards": false,
+      "caPrincipalInfoType": "None",
+      "allLoiFieldsRequired": false,
+      "hasClosing": false,
+      "usePrintViewAsFlyer": false,
+      "isInOpportunityZone": false,
+      "pricePerItemType": "Pad",
+      "isNoteLoan": false,
+      "hasVirtualTour": false,
+      "hidePropertyHistory": false,
+      "hideValuationCalculator": false,
+      "hideClimateRisk": false,
+      "hidePlacerInsights": false,
+      "hideDemographicInsights": false,
+      "brokerProducts": [
+        "Legacy All Pro"
+      ],
+      "hasDefaultSummaryDetails": false,
+      "showCountdownAsDate": false,
+      "userIsAssetOwner": false,
+      "isSold": false,
+      "isPaused": false,
+      "updatedOn": "2025-11-07T20:22:48.133Z",
+      "isOutdated": false,
+      "hasOM": false,
+      "hasFlyer": true,
+      "types": [
+        "Land",
+        "Mobile Home Park"
+      ],
+      "status": "Active",
+      "id": 1833472,
+      "name": "110\u00b1 acres Premier RV Campground Development",
+      "description": "110\u00b1 acres Premier RV Campground Development",
+      "thumbnailUrl": "https://images.crexi.com/assets/1833472/f64a34b3a3d34485a7a9e986bac3e0b0_716x444.jpg",
+      "isPrivate": false,
+      "urlSlug": "florida-120-acres-premier-rv-campground-development",
+      "isComp": false,
+      "isElite": false,
+      "isSellSubjectTo": false,
+      "hasAuctioneer": false,
+      "realtorBoards": [],
+      "url1": "https://www.crexi.com/properties/1833472/florida-120-acres-premier-rv-campground-development",
+      "ajaxUrl1": "https://api.crexi.com/assets/1833472"
+    },
+    "brokers": [
+      {
+        "capabilities": [
+          {
+            "kind": "Chats"
+          }
+        ],
+        "brokerage": {
+          "location": {
+            "address": "88 Riberia Street",
+            "city": "St. Augustine",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "FL",
+              "name": "Florida"
+            },
+            "zip": "32084",
+            "aptNumber": "360",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "RESG Commercial Properties",
+          "logoUrl": "https://images.crexi.com/user-accounts/23477/7cfa7660ad614ce2b41e0aa3cc634f90_150x100_resize.jpg",
+          "website": "www.resgcommercial.com"
+        },
+        "badges": [
+          {
+            "title": "PRO"
+          }
+        ],
+        "numberOfAssets": 53,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "fb205e74-4710-48b2-8505-a96b54c657a0",
+        "id": 293401,
+        "firstName": "Karl",
+        "lastName": "Vierck",
+        "thumbnailUrl": "https://images.crexi.com/users/293401/5214b85b40224490b6732eaa6198f0b4_164x164.jpg",
+        "createdOn": "2020-03-25T14:26:05.932Z",
+        "publicProfileId": "karlvie",
+        "licenses": [
+          "BK 3436972"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 293401,
+            "position": 1,
+            "number": "BK 3436972",
+            "createdOn": "2024-12-13T18:15:06.926Z",
+            "licenseStateCode": "FL",
+            "isAuctioneer": false
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      },
+      {
+        "capabilities": [],
+        "brokerage": {
+          "location": {
+            "address": "88 Riberia Street",
+            "city": "St. Augustine",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "FL",
+              "name": "Florida"
+            },
+            "zip": "32084",
+            "aptNumber": "360",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "RESG Commercial Properties",
+          "logoUrl": "https://images.crexi.com/user-accounts/23477/7cfa7660ad614ce2b41e0aa3cc634f90_150x100_resize.jpg",
+          "website": "www.resgcommercial.com"
+        },
+        "badges": [],
+        "numberOfAssets": 9,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "d8f0b331-fbcd-44b4-97f4-81dd0777092a",
+        "id": 1654644,
+        "firstName": "Kathy",
+        "lastName": "Jett",
+        "thumbnailUrl": "https://images.crexi.com/users/1654644/ea63f5c4b580420d80b06b924e3ab977_164x164.jpg",
+        "createdOn": "2023-07-20T03:16:38.103Z",
+        "publicProfileId": "kathyjet",
+        "licenses": [],
+        "licenseDetails": [],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      }
+    ],
+    "propertyRecord": null,
+    "media": null
+  },
+  {
+    "activatedOn": "2025-12-09T20:30:27Z",
+    "locations": [
+      {
+        "address": "842 Rattlebox Rd",
+        "city": "Chipley",
+        "county": "Washington County",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "32428",
+        "latitude": 30.7288474,
+        "longitude": -85.5023455,
+        "fullAddress": "842 Rattlebox Rd, Chipley, Washington County, FL 32428"
+      }
+    ],
+    "askingPrice": 367500,
+    "brokerTeamLogoUrl": "https://images.crexi.com/brokers/116163/59fe5badeed24ee0a7e3d301df62fec4_150x100_resize.jpg",
+    "brokerageName": "IRE Investment",
+    "description": "Mobile Home Park | 8.97% CAP",
+    "hasFlyer": false,
+    "hasOM": true,
+    "hasVideo": false,
+    "id": 2297263,
+    "isInOpportunityZone": false,
+    "name": "842 Rattlebox Rd",
+    "numberOfGalleryItems": 7,
+    "numberOfImages": 7,
+    "numberOfUnits": 4,
+    "showCountdownAsDate": false,
+    "status": "On-Market",
+    "thumbnailUrl": "https://images.crexi.com/assets/2297263/a7902e15760d499b83ac8f264b789d2f_716x444.jpg",
+    "types": [
+      "Mobile Home Park"
+    ],
+    "updatedOn": "2025-12-09T20:30:27Z",
+    "urlSlug": "florida-842-rattlebox-rd",
+    "userIsAssetOwner": false,
+    "hasVirtualTour": false,
+    "recommId": "b0aba7bf484ab0641a5fafb4aa39823f",
+    "isNew": false,
+    "capRate": 8.97,
+    "netOperatingIncome": 32950,
+    "url": "https://www.crexi.com/properties/2297263/florida-842-rattlebox-rd",
+    "ajaxUrl": "https://api.crexi.com/assets/2297263",
+    "details": {
+      "earnestDepositAmountInPercent": false,
+      "qualFormRequired": false,
+      "marketingDescription": "<p><span style=\"color: rgba(51, 51, 51, 1)\"><span>Now presenting:</span></span></p><p><span style=\"color: rgba(51, 51, 51, 1)\"><span>842 Rattlebox Rd in Chipley FL</span></span></p><p><span style=\"color: rgba(51, 51, 51, 1)\"><span>Unit 842- 2 Bed 2 Bath- $900<br>Unit 842A-2 Bed 2 Bath- $850<br>Unit 842B-3 bed 2 bed $1,100<br>Unit 842C-2 Bed 2 bath- $850</span></span></p><p><span style=\"color: rgba(51, 51, 51, 1)\"><span>Private well and septic tank</span></span></p><p><span style=\"color: rgba(51, 51, 51, 1)\"><span>Located in Washington County</span></span></p><p><span style=\"color: rgba(51, 51, 51, 1)\"><span>Call today to discuss 842 Rattlebox Road!</span></span></p><p></p><p></p>",
+      "hasVault": false,
+      "hasPrivateVault": false,
+      "hideAddress": false,
+      "hideStreetView": false,
+      "details": {
+        "Asking Price": "$367,500",
+        "Property Type": "Mobile Home Park",
+        "Class": "C",
+        "Cap Rate": "8.97%",
+        "Pro-Forma Cap Rate": "8.80%",
+        "Occupancy": "100%",
+        "NOI": "$32,950",
+        "Pro-Forma NOI": "$32,339",
+        "Units": "4"
+      },
+      "summaryDetails": [
+        {
+          "key": "AskingPrice",
+          "value": 367500,
+          "valueType": "Money",
+          "label": "Asking Price",
+          "display": "$367,500"
+        },
+        {
+          "key": "PropertyType",
+          "value": [
+            "Mobile Home Park"
+          ],
+          "valueType": "Array",
+          "label": "Property Type",
+          "display": "Mobile Home Park"
+        },
+        {
+          "key": "Class",
+          "value": "C",
+          "valueType": "Text",
+          "label": "Class",
+          "display": "C"
+        },
+        {
+          "key": "CapRate",
+          "value": 8.97,
+          "valueType": "Percentage",
+          "label": "Cap Rate",
+          "display": "8.97%"
+        },
+        {
+          "key": "ProFormaCapRate",
+          "value": 8.8,
+          "valueType": "Percentage",
+          "label": "Pro-Forma Cap Rate",
+          "display": "8.80%"
+        },
+        {
+          "key": "Occupancy",
+          "value": "100",
+          "valueType": "Text",
+          "label": "Occupancy",
+          "display": "100%"
+        },
+        {
+          "key": "Noi",
+          "value": 32950,
+          "valueType": "Money",
+          "label": "NOI",
+          "display": "$32,950"
+        },
+        {
+          "key": "ProFormaNoi",
+          "value": 32339,
+          "valueType": "Money",
+          "label": "Pro-Forma NOI",
+          "display": "$32,339"
+        },
+        {
+          "key": "Units",
+          "value": 4,
+          "valueType": "IntegerType",
+          "label": "Units",
+          "display": "4"
+        }
+      ],
+      "loanDetails": {},
+      "createdOn": "2025-12-09T20:28:37.79Z",
+      "activatedOn": "2025-12-09T20:30:27.798Z",
+      "vaultAccessStatus": "AuthRequired",
+      "hasBrokerOfRecord": false,
+      "locations": [
+        {
+          "cityVerified": "Chipley",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "842 Rattlebox Rd",
+          "city": "Chipley",
+          "county": "Washington County",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "32428",
+          "latitude": 30.7288474,
+          "longitude": -85.5023455,
+          "povPitch": 0,
+          "povHeading": 0
+        }
+      ],
+      "feeAgreementIsRequired": false,
+      "userCanDownloadMd": false,
+      "userExecutedCA": false,
+      "isSavedToBoards": false,
+      "caPrincipalInfoType": "None",
+      "allLoiFieldsRequired": true,
+      "hasClosing": false,
+      "usePrintViewAsFlyer": false,
+      "isInOpportunityZone": false,
+      "capRate": 8.97,
+      "netOperatingIncome": 32950,
+      "pricePerItemType": "Pad",
+      "isNoteLoan": false,
+      "hasVirtualTour": false,
+      "hidePropertyHistory": false,
+      "hideValuationCalculator": false,
+      "hideClimateRisk": false,
+      "hidePlacerInsights": false,
+      "hideDemographicInsights": false,
+      "brokerProducts": [
+        "Legacy Sale Pro"
+      ],
+      "hasDefaultSummaryDetails": false,
+      "showCountdownAsDate": false,
+      "askingPrice": 367500,
+      "userIsAssetOwner": false,
+      "isSold": false,
+      "isPaused": false,
+      "updatedOn": "2025-12-09T20:30:27.798Z",
+      "isOutdated": false,
+      "hasOM": true,
+      "hasFlyer": false,
+      "types": [
+        "Mobile Home Park"
+      ],
+      "status": "Active",
+      "id": 2297263,
+      "name": "842 Rattlebox Rd",
+      "description": "Mobile Home Park | 8.97% CAP",
+      "thumbnailUrl": "https://images.crexi.com/assets/2297263/a7902e15760d499b83ac8f264b789d2f_716x444.jpg",
+      "isPrivate": false,
+      "urlSlug": "florida-842-rattlebox-rd",
+      "isComp": false,
+      "isElite": false,
+      "isSellSubjectTo": false,
+      "hasAuctioneer": false,
+      "realtorBoards": [],
+      "url1": "https://www.crexi.com/properties/2297263/florida-842-rattlebox-rd",
+      "ajaxUrl1": "https://api.crexi.com/assets/2297263"
+    },
+    "brokers": [
+      {
+        "capabilities": [
+          {
+            "kind": "Chats"
+          }
+        ],
+        "brokerage": {
+          "location": {
+            "address": "63 Putnam Street",
+            "city": "Saratoga Springs",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "NY",
+              "name": "New York"
+            },
+            "zip": "12866",
+            "aptNumber": "202",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "IRE Investment",
+          "logoUrl": "https://images.crexi.com/brokers/116163/59fe5badeed24ee0a7e3d301df62fec4_150x100_resize.jpg",
+          "website": "https://ireinvestment.com"
+        },
+        "badges": [
+          {
+            "title": "PRO"
+          }
+        ],
+        "numberOfAssets": 304,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "127a10f5-4ceb-4652-a43c-c4b7ceaaa75f",
+        "id": 116163,
+        "firstName": "Steven",
+        "lastName": "Tomaso",
+        "thumbnailUrl": "https://images.crexi.com/users/116163/bcbe2d1d1a204e7a9e44c760752ad0ab_164x164.jpg",
+        "createdOn": "2018-09-13T12:54:49.036Z",
+        "publicProfileId": "stevento",
+        "licenses": [
+          "FL 3536754"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 116163,
+            "position": 0,
+            "number": "FL 3536754",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-04-30T16:15:13.658Z",
+            "isAuctioneer": false
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      }
+    ],
+    "propertyRecord": null,
+    "media": null
+  },
+  {
+    "activatedOn": "2025-12-10T21:56:12Z",
+    "locations": [
+      {
+        "address": "20303 Old Somerset Acres Ln",
+        "city": "Spring Hill",
+        "county": "Pasco County",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "34610",
+        "latitude": 28.3955676,
+        "longitude": -82.4804364,
+        "fullAddress": "20303 Old Somerset Acres Ln, Spring Hill, Pasco County, FL 34610"
+      }
+    ],
+    "askingPrice": 975000,
+    "brokerTeamLogoUrl": "https://images.crexi.com/user-accounts/20376/b6264652bbd04efdbba6318ca518ce85_150x100_resize.jpg",
+    "brokerageName": "KW Commercial Boca Raton East",
+    "description": "Mobile Home Park | 11.86% CAP",
+    "hasFlyer": true,
+    "hasOM": false,
+    "hasVideo": false,
+    "id": 2298223,
+    "isInOpportunityZone": true,
+    "name": "20303 Old Somerset Acres Ln",
+    "numberOfGalleryItems": 19,
+    "numberOfImages": 19,
+    "squareFootage": 8000,
+    "pricePerSqFt": 121.88,
+    "numberOfUnits": 13,
+    "pricePerAcreLand": "$336,206.90/Acre",
+    "showCountdownAsDate": false,
+    "status": "On-Market",
+    "thumbnailUrl": "https://images.crexi.com/assets/2298223/d6b0f1cb8083424f8603a89f37107af9_716x444.jpg",
+    "types": [
+      "Mobile Home Park"
+    ],
+    "updatedOn": "2025-12-10T21:56:12Z",
+    "urlSlug": "florida-20303-old-somerset-acres-ln",
+    "userIsAssetOwner": false,
+    "hasVirtualTour": false,
+    "recommId": "b0aba7bf484ab0641a5fafb4aa39823f",
+    "isNew": false,
+    "capRate": 11.86,
+    "lotSizeAcres": 2.9,
+    "url": "https://www.crexi.com/properties/2298223/florida-20303-old-somerset-acres-ln",
+    "ajaxUrl": "https://api.crexi.com/assets/2298223",
+    "details": {
+      "customSubtypes": [
+        "Multi-Family"
+      ],
+      "investmentHighlights": "<ul><li>\u200b<p><strong>Fully Park-Owned Asset</strong> with all <strong>13 units owned by the park</strong>, maximizing revenue and operational control.</p></li><li>\u200b<p><strong>Immediate Equity Opportunity</strong> with an offering price <strong>below the appraised value</strong>\u2014rare upside from day one.</p></li><li>\u200b<p><strong>Recent Renovations Completed</strong> across multiple units, enhancing rent potential, reducing maintenance needs, and strengthening long-term asset value.</p></li><li>\u200b<p><strong>Stable Cash Flow</strong> from an established tenant base in a consistently strong rental market.</p></li><li>\u200b<p><strong>High-Growth Location</strong> in <strong>Spring Hill, FL</strong>, one of the Tampa Bay region\u2019s rapidly expanding suburban markets with increasing demand for affordable housing.</p></li><li>\u200b<p><strong>Value-Add Potential</strong> through continued unit upgrades, rent optimization, and improved park amenities.</p></li><li>\u200b<p><strong>Desirable Tenant Demographics</strong> drawn to the area\u2019s affordability, job growth, and proximity to major employment centers in Tampa and Brooksville.</p></li><li>\u200b<p><strong>Strong Long-Term Demand</strong> for manufactured housing communities, supported by limited supply and rising housing costs in the region.</p></li></ul>",
+      "earnestDepositAmountInPercent": false,
+      "qualFormRequired": false,
+      "marketingDescription": "<p>The property at <strong>20303 Old Somerset Acres Lane</strong> is a <strong>13-unit, fully park-owned mobile home park</strong> located in the fast-growing Spring Hill, FL market.\u200b This asset offers <strong>stable, reliable cash flow</strong> along with substantial <strong>value-add potential</strong>, making it an appealing opportunity for both experienced investors and those entering the mobile home park space.\u200b Owning all 13 units allows for enhanced operational control and maximized income consistency.\u200b</p><p>An <strong>appraisal report is available upon request</strong>, and the property is being offered <strong>below the appraised value</strong>, providing immediate built-in equity.\u200b Since the appraisal, ownership has completed <strong>significant renovations and upgrades</strong> across multiple units, further improving overall quality, rental upside, and long-term asset value.\u200b</p><p><span style=\"color: rgba(0, 0, 0, 1)\"><span><br></span></span></p>",
+      "hasVault": false,
+      "hasPrivateVault": false,
+      "hideAddress": false,
+      "hideStreetView": false,
+      "details": {
+        "Asking Price": "$975,000",
+        "Property Type": "Mobile Home Park",
+        "Sub Type": "Multi-Family",
+        "Square Footage": "8,000",
+        "Price per SqFt": "$121.88",
+        "Cap Rate": "11.86%",
+        "Occupancy": "100%",
+        "Units": "13",
+        "Year Built": "1973",
+        "Year Renovated": "2022",
+        "Stories": "1",
+        "Zoning": "RMH",
+        "Lot Size (acres)": "2.9"
+      },
+      "summaryDetails": [
+        {
+          "key": "AskingPrice",
+          "value": 975000,
+          "valueType": "Money",
+          "label": "Asking Price",
+          "display": "$975,000"
+        },
+        {
+          "key": "PropertyType",
+          "value": [
+            "Mobile Home Park"
+          ],
+          "valueType": "Array",
+          "label": "Property Type",
+          "display": "Mobile Home Park"
+        },
+        {
+          "key": "SubType",
+          "value": [
+            "Multi-Family"
+          ],
+          "valueType": "Array",
+          "label": "Subtype",
+          "display": "Multi-Family"
+        },
+        {
+          "key": "SquareFootage",
+          "value": 8000,
+          "valueType": "IntegerType",
+          "label": "Square Footage",
+          "display": "8,000"
+        },
+        {
+          "key": "PriceSqFt",
+          "value": 121.88,
+          "valueType": "Money",
+          "label": "Price/SqFt",
+          "display": "$121.88"
+        },
+        {
+          "key": "CapRate",
+          "value": 11.86,
+          "valueType": "Percentage",
+          "label": "Cap Rate",
+          "display": "11.86%"
+        },
+        {
+          "key": "Occupancy",
+          "value": "100",
+          "valueType": "Text",
+          "label": "Occupancy",
+          "display": "100%"
+        },
+        {
+          "key": "Units",
+          "value": 13,
+          "valueType": "IntegerType",
+          "label": "Units",
+          "display": "13"
+        },
+        {
+          "key": "YearBuilt",
+          "value": "1973",
+          "valueType": "Text",
+          "label": "Year Built",
+          "display": "1973"
+        },
+        {
+          "key": "YearsRenovated",
+          "value": "2022",
+          "valueType": "Text",
+          "label": "Year Renovated",
+          "display": "2022"
+        },
+        {
+          "key": "Stories",
+          "value": 1,
+          "valueType": "IntegerType",
+          "label": "Stories",
+          "display": "1"
+        },
+        {
+          "key": "PermittedZoning",
+          "value": "RMH",
+          "valueType": "Text",
+          "label": "Permitted Zoning",
+          "display": "RMH"
+        },
+        {
+          "key": "LotSize",
+          "value": 2.9,
+          "valueType": "IntegerType",
+          "label": "Lot Size (acres)",
+          "display": "2.9"
+        }
+      ],
+      "loanDetails": {},
+      "createdOn": "2025-12-10T21:34:26.669Z",
+      "activatedOn": "2025-12-10T21:56:12.396Z",
+      "vaultAccessStatus": "AuthRequired",
+      "hasBrokerOfRecord": false,
+      "locations": [
+        {
+          "cityVerified": "Spring Hill",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "20303 Old Somerset Acres Ln",
+          "city": "Spring Hill",
+          "county": "Pasco County",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "34610",
+          "latitude": 28.3955676,
+          "longitude": -82.4804364,
+          "povPitch": 0,
+          "povHeading": 0
+        }
+      ],
+      "feeAgreementIsRequired": false,
+      "userCanDownloadMd": false,
+      "userExecutedCA": false,
+      "isSavedToBoards": false,
+      "caPrincipalInfoType": "None",
+      "allLoiFieldsRequired": true,
+      "hasClosing": false,
+      "usePrintViewAsFlyer": true,
+      "isInOpportunityZone": true,
+      "capRate": 11.86,
+      "pricePerItemType": "Pad",
+      "pricePerSqFt": 121.88,
+      "isNoteLoan": false,
+      "hasVirtualTour": false,
+      "hidePropertyHistory": false,
+      "hideValuationCalculator": false,
+      "hideClimateRisk": false,
+      "hidePlacerInsights": false,
+      "hideDemographicInsights": false,
+      "brokerProducts": [
+        "All Pro"
+      ],
+      "hasDefaultSummaryDetails": false,
+      "showCountdownAsDate": false,
+      "askingPrice": 975000,
+      "userIsAssetOwner": false,
+      "isSold": false,
+      "isPaused": false,
+      "updatedOn": "2025-12-10T21:56:12.396Z",
+      "isOutdated": false,
+      "hasOM": false,
+      "hasFlyer": true,
+      "types": [
+        "Mobile Home Park"
+      ],
+      "status": "Active",
+      "id": 2298223,
+      "name": "20303 Old Somerset Acres Ln",
+      "description": "Mobile Home Park | 11.86% CAP",
+      "thumbnailUrl": "https://images.crexi.com/assets/2298223/d6b0f1cb8083424f8603a89f37107af9_716x444.jpg",
+      "isPrivate": false,
+      "urlSlug": "florida-20303-old-somerset-acres-ln",
+      "isComp": false,
+      "isElite": false,
+      "isSellSubjectTo": false,
+      "hasAuctioneer": false,
+      "realtorBoards": [],
+      "url1": "https://www.crexi.com/properties/2298223/florida-20303-old-somerset-acres-ln",
+      "ajaxUrl1": "https://api.crexi.com/assets/2298223"
+    },
+    "brokers": [
+      {
+        "capabilities": [
+          {
+            "kind": "Chats"
+          }
+        ],
+        "brokerage": {
+          "location": {
+            "address": "2424 N.Federal Highway",
+            "city": "Boca Raton",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "FL",
+              "name": "Florida"
+            },
+            "zip": "33431",
+            "aptNumber": "150",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "KW Commercial Boca Raton East",
+          "logoUrl": "https://images.crexi.com/user-accounts/20376/b6264652bbd04efdbba6318ca518ce85_150x100_resize.jpg",
+          "website": "https://www.kwcommercial.com/offices/"
+        },
+        "badges": [
+          {
+            "title": "PRO"
+          }
+        ],
+        "numberOfAssets": 76,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "989373a1-9600-4046-9c02-f72cc1dc5031",
+        "id": 2418333,
+        "firstName": "Stephen",
+        "lastName": "Molinari",
+        "thumbnailUrl": "https://images.crexi.com/users/2418333/cd647a6ff77545c9bb30d53189400e51_164x164.jpg",
+        "createdOn": "2025-01-29T13:03:08.114Z",
+        "publicProfileId": "stephenmolina",
+        "licenses": [
+          "3530706"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 2418333,
+            "position": 0,
+            "number": "3530706",
+            "typeId": "Real Estate Sales Person",
+            "createdOn": "2025-01-30T18:14:42.286Z",
+            "licenseStateCode": "FL",
+            "brokerTitle": "Investment Specialist",
+            "brokerageName": "KW Commercial",
+            "brokerageCity": "Boca Raton",
+            "brokerageCounty": "Palm Beach County",
+            "brokerageStateCode": "FL",
+            "brokerageCountry": "United States",
+            "isAuctioneer": false,
+            "brokerageLicensePhone": "561-305-6161"
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      },
+      {
+        "capabilities": [],
+        "brokerage": {
+          "location": {
+            "address": "2424 N.Federal Highway",
+            "city": "Boca Raton",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "FL",
+              "name": "Florida"
+            },
+            "zip": "33431",
+            "aptNumber": "150",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "KW Commercial Boca Raton East",
+          "logoUrl": "https://images.crexi.com/user-accounts/20376/b6264652bbd04efdbba6318ca518ce85_150x100_resize.jpg",
+          "website": "https://www.kwcommercial.com/offices/"
+        },
+        "badges": [],
+        "numberOfAssets": 47,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "fb51a413-bfbb-40b2-a598-1d340cd5859e",
+        "id": 2112053,
+        "firstName": "Austin",
+        "lastName": "Littlepage",
+        "thumbnailUrl": "https://images.crexi.com/users/2112053/b13db98629d443cb8fa6041e34089982_164x164.jpg",
+        "createdOn": "2024-06-04T19:33:44.899Z",
+        "publicProfileId": "austinlittle",
+        "licenses": [
+          "3427888"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 2112053,
+            "position": 0,
+            "number": "3427888",
+            "typeId": "Real Estate Sales Person",
+            "createdOn": "2025-12-03T23:15:47.613Z",
+            "licenseStateCode": "FL",
+            "isAuctioneer": false,
+            "brokerageLicensePhone": "4109713207"
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      }
+    ],
+    "propertyRecord": null,
+    "media": null
+  },
+  {
+    "activatedOn": "2025-12-10T17:01:07Z",
+    "locations": [
+      {
+        "address": "1624 Pine Straw Trail",
+        "city": "Tallahassee",
+        "county": "Leon County",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "32310",
+        "latitude": 30.424967214252774,
+        "longitude": -84.37375986091774,
+        "fullAddress": "1624 Pine Straw Trail, Tallahassee, Leon County, FL 32310"
+      }
+    ],
+    "askingPrice": 850000,
+    "brokerTeamLogoUrl": "https://images.crexi.com/user-accounts/34666/1387886b246a439a93ae6039717ffa6e_150x100_resize.jpg",
+    "brokerageName": "Keller Williams Town & Country",
+    "description": "13 Homes - Fully Leased",
+    "hasFlyer": true,
+    "hasOM": false,
+    "hasVideo": false,
+    "id": 2091913,
+    "isInOpportunityZone": false,
+    "name": "Pine Straw Trail Mobile Home Park",
+    "numberOfGalleryItems": 19,
+    "numberOfImages": 19,
+    "numberOfUnits": 13,
+    "pricePerAcreLand": "$171,370.97/Acre",
+    "showCountdownAsDate": false,
+    "status": "On-Market",
+    "thumbnailUrl": "https://images.crexi.com/assets/2091913/e1ac78a7bade4c28abb46c837887e1ea_716x444.jpg",
+    "types": [
+      "Mobile Home Park"
+    ],
+    "updatedOn": "2025-12-10T17:01:07Z",
+    "urlSlug": "florida-pine-straw-trail-mobile-home-park",
+    "userIsAssetOwner": false,
+    "hasVirtualTour": false,
+    "recommId": "b0aba7bf484ab0641a5fafb4aa39823f",
+    "isNew": false,
+    "lotSizeAcres": 4.96,
+    "url": "https://www.crexi.com/properties/2091913/florida-pine-straw-trail-mobile-home-park",
+    "ajaxUrl": "https://api.crexi.com/assets/2091913",
+    "details": {
+      "customSubtypes": [
+        "Mobile Home Park"
+      ],
+      "investmentHighlights": "<p>13 Park-Owned Mobile Homes</p><p>100% Occupancy</p><p>Strong Rental History</p><p>4.96\u00b1 Acres in Growing Tallahassee Submarket</p><p>Below-Market Rents Offer Immediate Upside</p>",
+      "earnestDepositAmountInPercent": false,
+      "qualFormRequired": false,
+      "marketingDescription": "<p>Presenting a rare investment opportunity in Tallahassee, FL\u2014this 13-unit mobile home park, situated on 4.96\u00b1 acres along Pinestraw Trail, offers immediate cash flow and strong upside potential.\u200b All mobile homes are <strong>park-owned</strong>, providing maximum control over the property and rental terms.\u200b With a consistent history of <strong>full occupancy</strong> and an excellent leasing track record, the community is stabilized and income-producing from day one.\u200b</p><p>Currently operating with <strong>below-market rents</strong>, this asset presents a compelling <strong>value-add opportunity</strong> for investors to increase revenue through strategic rent adjustments and operational improvements.\u200b The expansive acreage also allows for potential future enhancements or expansion (subject to zoning and approvals).\u200b</p>",
+      "hasVault": false,
+      "hasPrivateVault": false,
+      "hideAddress": false,
+      "hideStreetView": false,
+      "details": {
+        "Asking Price": "$850,000",
+        "Property Type": "Mobile Home Park",
+        "Sub Type": "Mobile Home Park",
+        "Investment Type": "Value Add",
+        "Class": "B",
+        "Units": "13",
+        "Pads": "13",
+        "Buildings": "13",
+        "Zoning": "R-1",
+        "Lot Size (acres)": "4.96",
+        "APN": "4106206050000, 4106206130000, 4106206030000"
+      },
+      "summaryDetails": [
+        {
+          "key": "AskingPrice",
+          "value": 850000,
+          "valueType": "Money",
+          "label": "Asking Price",
+          "display": "$850,000"
+        },
+        {
+          "key": "PropertyType",
+          "value": [
+            "Mobile Home Park"
+          ],
+          "valueType": "Array",
+          "label": "Property Type",
+          "display": "Mobile Home Park"
+        },
+        {
+          "key": "SubType",
+          "value": [
+            "Mobile Home Park"
+          ],
+          "valueType": "Array",
+          "label": "Subtype",
+          "display": "Mobile Home Park"
+        },
+        {
+          "key": "InvestmentType",
+          "value": "ValueAdd",
+          "valueType": "Text",
+          "label": "Investment Type",
+          "display": "Value Add"
+        },
+        {
+          "key": "Class",
+          "value": "B",
+          "valueType": "Text",
+          "label": "Class",
+          "display": "B"
+        },
+        {
+          "key": "Units",
+          "value": 13,
+          "valueType": "IntegerType",
+          "label": "Units",
+          "display": "13"
+        },
+        {
+          "key": "Pads",
+          "value": 13,
+          "valueType": "IntegerType",
+          "label": "Pads",
+          "display": "13"
+        },
+        {
+          "key": "Buildings",
+          "value": 13,
+          "valueType": "IntegerType",
+          "label": "Buildings",
+          "display": "13"
+        },
+        {
+          "key": "PermittedZoning",
+          "value": "R-1",
+          "valueType": "Text",
+          "label": "Permitted Zoning",
+          "display": "R-1"
+        },
+        {
+          "key": "LotSize",
+          "value": 4.96,
+          "valueType": "IntegerType",
+          "label": "Lot Size (acres)",
+          "display": "4.96"
+        },
+        {
+          "key": "Apn",
+          "value": "4106206050000, 4106206130000, 4106206030000",
+          "valueType": "Text",
+          "label": "APN",
+          "display": "4106206050000, 4106206130000, 4106206030000"
+        }
+      ],
+      "loanDetails": {},
+      "createdOn": "2025-08-04T14:43:46.524Z",
+      "activatedOn": "2025-12-10T17:01:07.256Z",
+      "vaultAccessStatus": "AuthRequired",
+      "hasBrokerOfRecord": false,
+      "locations": [
+        {
+          "cityVerified": "Tallahassee",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "1624 Pine Straw Trail",
+          "city": "Tallahassee",
+          "county": "Leon County",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "32310",
+          "latitude": 30.424967214252774,
+          "longitude": -84.37375986091774,
+          "povPitch": -3.1036586763139695,
+          "povHeading": 160.68429870923728
+        }
+      ],
+      "feeAgreementIsRequired": false,
+      "userCanDownloadMd": false,
+      "userExecutedCA": false,
+      "isSavedToBoards": false,
+      "caPrincipalInfoType": "None",
+      "allLoiFieldsRequired": true,
+      "hasClosing": false,
+      "usePrintViewAsFlyer": true,
+      "isInOpportunityZone": false,
+      "pricePerItemType": "Pad",
+      "isNoteLoan": false,
+      "hasVirtualTour": false,
+      "hidePropertyHistory": false,
+      "hideValuationCalculator": false,
+      "hideClimateRisk": false,
+      "hidePlacerInsights": false,
+      "hideDemographicInsights": false,
+      "brokerProducts": [
+        "Legacy All Pro"
+      ],
+      "hasDefaultSummaryDetails": false,
+      "showCountdownAsDate": false,
+      "askingPrice": 850000,
+      "userIsAssetOwner": false,
+      "isSold": false,
+      "isPaused": false,
+      "updatedOn": "2025-12-10T17:01:07.256Z",
+      "isOutdated": false,
+      "hasOM": false,
+      "hasFlyer": true,
+      "types": [
+        "Mobile Home Park"
+      ],
+      "status": "Active",
+      "id": 2091913,
+      "name": "Pine Straw Trail Mobile Home Park",
+      "description": "13 Homes - Fully Leased",
+      "thumbnailUrl": "https://images.crexi.com/assets/2091913/e1ac78a7bade4c28abb46c837887e1ea_716x444.jpg",
+      "isPrivate": false,
+      "urlSlug": "florida-pine-straw-trail-mobile-home-park",
+      "isComp": false,
+      "isElite": false,
+      "isSellSubjectTo": false,
+      "hasAuctioneer": false,
+      "realtorBoards": [],
+      "url1": "https://www.crexi.com/properties/2091913/florida-pine-straw-trail-mobile-home-park",
+      "ajaxUrl1": "https://api.crexi.com/assets/2091913"
+    },
+    "brokers": [
+      {
+        "capabilities": [
+          {
+            "kind": "Chats"
+          }
+        ],
+        "brokerage": {
+          "location": {
+            "address": "1520 Killearn Center Blvd",
+            "city": "Tallahassee",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "FL",
+              "name": "Florida"
+            },
+            "zip": "32309",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "Keller Williams Town & Country",
+          "logoUrl": "https://images.crexi.com/user-accounts/34666/1387886b246a439a93ae6039717ffa6e_150x100_resize.jpg",
+          "website": "https://headquarters.kw.com/contact-us/"
+        },
+        "badges": [
+          {
+            "title": "PRO"
+          }
+        ],
+        "numberOfAssets": 18,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "73622441-3ddc-45b4-a032-bb72fc9e3bc2",
+        "id": 501613,
+        "firstName": "Jared",
+        "lastName": "Hatcher",
+        "thumbnailUrl": "https://images.crexi.com/users/501613/9e516bc950974dac99269effa8bc267c_164x164.jpg",
+        "createdOn": "2020-12-02T14:04:37.714Z",
+        "publicProfileId": "jaredhatc",
+        "licenses": [
+          "FL SL3193594"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 501613,
+            "position": 0,
+            "number": "FL SL3193594",
+            "typeId": "Real Estate Sales Person",
+            "createdOn": "2025-02-12T12:13:22.516Z",
+            "licenseStateCode": "FL",
+            "isAuctioneer": false
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      }
+    ],
+    "propertyRecord": null,
+    "media": null
+  },
+  {
+    "activatedOn": "2025-07-08T15:21:23Z",
+    "locations": [
+      {
+        "address": "4991 FL-77",
+        "city": "Graceville",
+        "county": "Jackson County",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "32440",
+        "latitude": 30.9310672,
+        "longitude": -85.5200594,
+        "fullAddress": "4991 FL-77, Graceville, Jackson County, FL 32440"
+      }
+    ],
+    "askingPrice": 549000,
+    "brokerTeamLogoUrl": "https://images.crexi.com/user-accounts/34841/b02adb8e538e4a9b9fb06332351d7524_150x100_resize.jpg",
+    "brokerageName": "Counts Real Estate Group",
+    "description": "Room to expand RV spaces",
+    "hasFlyer": true,
+    "hasOM": false,
+    "hasVideo": false,
+    "id": 2007613,
+    "isInOpportunityZone": false,
+    "name": "4991 Highway 77",
+    "numberOfGalleryItems": 32,
+    "numberOfImages": 32,
+    "numberOfUnits": 7,
+    "pricePerAcreLand": "$66,545.45/Acre",
+    "showCountdownAsDate": false,
+    "status": "On-Market",
+    "thumbnailUrl": "https://images.crexi.com/assets/2007613/de11e7d22cfa493982bc42da614f2f8a_716x444.jpg",
+    "types": [
+      "Multifamily",
+      "Mobile Home Park",
+      "Land"
+    ],
+    "updatedOn": "2025-10-15T19:40:01Z",
+    "urlSlug": "florida-4991-highway-77",
+    "userIsAssetOwner": false,
+    "hasVirtualTour": false,
+    "recommId": "b0aba7bf484ab0641a5fafb4aa39823f",
+    "isNew": false,
+    "capRate": 6.42,
+    "lotSizeAcres": 8.25,
+    "url": "https://www.crexi.com/properties/2007613/florida-4991-highway-77",
+    "ajaxUrl": "https://api.crexi.com/assets/2007613",
+    "details": {
+      "subtypes": [
+        "Commercial",
+        "RV Park"
+      ],
+      "investmentHighlights": "<ul><li>\u200bBuilding Area Total: 3827</li><li>\u200bLot Size Dimensions: Irregular</li><li>\u200bSewer: Septic Tank</li><li>\u200bWater Source: Well</li><li>\u200bConstruction Materials: Block</li><li>\u200bHeating: Wall Furnace</li><li>\u200bCooling: Wall / Window Unit(s)</li><li>\u200bBuilt: 1959</li><li>\u200bStories: 1</li></ul>",
+      "earnestDepositAmountInPercent": false,
+      "qualFormRequired": false,
+      "marketingDescription": "Excellent investment opportunity! Currently operated as Graceville Inn and RV Park.\u200b 6 Inn units were converted into efficiency units leased 7 month terms, 1 unit is used for storage but has a bathroom and can be converted into a rental.\u200b A separate building contains 2 more units.\u200b There are 8 RV spaces, and two efficiency ''cabin'' units.\u200b Gross rents are $7,000+/month with current tenants being long term.\u200b The site has 2 wells and 3 septic systems.\u200b The property also has a walk trail for the residents as well.\u200b With 8.65 acres total, there is plenty of room to expand.\u200b",
+      "hasVault": false,
+      "hasPrivateVault": false,
+      "hideAddress": false,
+      "hideStreetView": false,
+      "details": {
+        "Asking Price": "$549,000",
+        "Property Type": "Multifamily, Land, Mobile Home Park",
+        "Sub Type": "Commercial, RV Park",
+        "Class": "C",
+        "Cap Rate": "6.42%",
+        "Units": "7",
+        "Lot Size (acres)": "8.25"
+      },
+      "summaryDetails": [
+        {
+          "key": "AskingPrice",
+          "value": 549000,
+          "valueType": "Money",
+          "label": "Asking Price",
+          "display": "$549,000"
+        },
+        {
+          "key": "PropertyType",
+          "value": [
+            "Multifamily",
+            "Land",
+            "Mobile Home Park"
+          ],
+          "valueType": "Array",
+          "label": "Property Type",
+          "display": "Multifamily, Land, Mobile Home Park"
+        },
+        {
+          "key": "SubType",
+          "value": [
+            "Commercial",
+            "RV Park"
+          ],
+          "valueType": "Array",
+          "label": "Subtype",
+          "display": "Commercial, RV Park"
+        },
+        {
+          "key": "Class",
+          "value": "C",
+          "valueType": "Text",
+          "label": "Class",
+          "display": "C"
+        },
+        {
+          "key": "CapRate",
+          "value": 6.42,
+          "valueType": "Percentage",
+          "label": "Cap Rate",
+          "display": "6.42%"
+        },
+        {
+          "key": "Units",
+          "value": 7,
+          "valueType": "IntegerType",
+          "label": "Units",
+          "display": "7"
+        },
+        {
+          "key": "LotSize",
+          "value": 8.25,
+          "valueType": "IntegerType",
+          "label": "Lot Size (acres)",
+          "display": "8.25"
+        }
+      ],
+      "loanDetails": {},
+      "createdOn": "2025-07-08T10:51:28.706Z",
+      "activatedOn": "2025-07-08T15:21:23.061Z",
+      "vaultAccessStatus": "AuthRequired",
+      "hasBrokerOfRecord": false,
+      "locations": [
+        {
+          "cityVerified": "Graceville",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "4991 FL-77",
+          "city": "Graceville",
+          "county": "Jackson County",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "32440",
+          "latitude": 30.9310672,
+          "longitude": -85.5200594,
+          "povPitch": 0,
+          "povHeading": 0
+        }
+      ],
+      "feeAgreementIsRequired": false,
+      "userCanDownloadMd": false,
+      "userExecutedCA": false,
+      "isSavedToBoards": false,
+      "caPrincipalInfoType": "None",
+      "allLoiFieldsRequired": true,
+      "hasClosing": false,
+      "usePrintViewAsFlyer": true,
+      "isInOpportunityZone": false,
+      "capRate": 6.42,
+      "isNoteLoan": false,
+      "hasVirtualTour": false,
+      "hidePropertyHistory": false,
+      "hideValuationCalculator": false,
+      "hideClimateRisk": false,
+      "hidePlacerInsights": false,
+      "hideDemographicInsights": false,
+      "depositOption": "Credit Card",
+      "brokerProducts": [],
+      "hasDefaultSummaryDetails": false,
+      "showCountdownAsDate": false,
+      "askingPrice": 549000,
+      "userIsAssetOwner": false,
+      "isSold": false,
+      "isPaused": false,
+      "updatedOn": "2025-10-15T19:40:01.376Z",
+      "isOutdated": false,
+      "hasOM": false,
+      "hasFlyer": true,
+      "types": [
+        "Multifamily",
+        "Land",
+        "Mobile Home Park"
+      ],
+      "status": "Active",
+      "id": 2007613,
+      "name": "4991 Highway 77",
+      "description": "Room to expand RV spaces",
+      "thumbnailUrl": "https://images.crexi.com/assets/2007613/de11e7d22cfa493982bc42da614f2f8a_716x444.jpg",
+      "isPrivate": false,
+      "urlSlug": "florida-4991-highway-77",
+      "isComp": false,
+      "isElite": false,
+      "isSellSubjectTo": false,
+      "hasAuctioneer": false,
+      "realtorBoards": [],
+      "url1": "https://www.crexi.com/properties/2007613/florida-4991-highway-77",
+      "ajaxUrl1": "https://api.crexi.com/assets/2007613"
+    },
+    "brokers": [
+      {
+        "capabilities": [],
+        "brokerage": {
+          "location": {
+            "address": "2515 Thomas Dr",
+            "city": "Panama City Beach",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "FL",
+              "name": "Florida"
+            },
+            "zip": "32408",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "Counts Real Estate Group",
+          "logoUrl": "https://images.crexi.com/user-accounts/34841/b02adb8e538e4a9b9fb06332351d7524_150x100_resize.jpg",
+          "website": "http://eric.countsbeachhomes.com/"
+        },
+        "badges": [],
+        "numberOfAssets": 22,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "11e16d91-7a9d-4c61-925b-826311aaa3f1",
+        "id": 560706,
+        "firstName": "Eren",
+        "lastName": "Sullivan",
+        "thumbnailUrl": "https://images.crexi.com/users/560706/847b85c42cb7429dac13c7dc61194d29_164x164.jpg",
+        "createdOn": "2021-01-23T17:26:16.83Z",
+        "publicProfileId": "erensu",
+        "licenses": [
+          "BK3262520"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 560706,
+            "position": 0,
+            "number": "BK3262520",
+            "createdOn": "2024-10-04T13:01:55.41Z",
+            "isAuctioneer": false
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      }
+    ],
+    "propertyRecord": null,
+    "media": null
+  },
+  {
+    "activatedOn": "2025-04-09T16:09:05Z",
+    "locations": [
+      {
+        "address": "13395 N Indian River Dr",
+        "city": "Sebastian",
+        "county": "Indian River County",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "32958",
+        "latitude": 27.8374594,
+        "longitude": -80.4791924,
+        "fullAddress": "13395 N Indian River Dr, Sebastian, Indian River County, FL 32958"
+      }
+    ],
+    "askingPrice": 997000,
+    "brokerTeamLogoUrl": "https://images.crexi.com/user-accounts/23482/a61e273661944a6c8b821de3ed9d2655_150x100_resize.jpg",
+    "brokerageName": "SLC Commercial Saint Lucie",
+    "description": "Rare Opportunity with views of the Indian River Lagoon",
+    "hasFlyer": true,
+    "hasOM": false,
+    "hasVideo": false,
+    "id": 1890169,
+    "isInOpportunityZone": false,
+    "name": "Indian River Lagoon view",
+    "numberOfGalleryItems": 4,
+    "numberOfImages": 4,
+    "squareFootage": 1560,
+    "pricePerSqFt": 639.1025641025641,
+    "numberOfUnits": 7,
+    "pricePerAcreLand": "$744,029.85/Acre",
+    "showCountdownAsDate": false,
+    "status": "On-Market",
+    "thumbnailUrl": "https://images.crexi.com/assets/1890169/9059d2882eba4b368f4b8ea652bd70cd_716x444.jpg",
+    "types": [
+      "Multifamily",
+      "Mobile Home Park",
+      "Land"
+    ],
+    "updatedOn": "2025-12-17T20:42:04Z",
+    "urlSlug": "florida-indian-river-lagoon-view",
+    "userIsAssetOwner": false,
+    "hasVirtualTour": false,
+    "recommId": "b0aba7bf484ab0641a5fafb4aa39823f",
+    "isNew": false,
+    "lotSizeAcres": 1.34,
+    "url": "https://www.crexi.com/properties/1890169/florida-indian-river-lagoon-view",
+    "ajaxUrl": "https://api.crexi.com/assets/1890169",
+    "details": {
+      "subtypes": [
+        "Residential",
+        "RV Park"
+      ],
+      "investmentHighlights": "<p>* Indian River Lagoon View</p><p>* Zoned RM-6 for multifamily use</p><p>* Within Sebastian CRA District</p><p>* Redevelopment incentives may be available</p><p>* Coastal design guidance aligns with master plan</p>",
+      "earnestDepositAmountInPercent": false,
+      "qualFormRequired": false,
+      "marketingDescription": "<p>A rare Indian River Lagoon view property in the heart of Sebastian, FL, 13395 NE Indian River Dr offers unmatched scenic beauty, redevelopment potential, and location appeal.\u200b Zoned RM-6 (Residential Multi-Family) with M-1 Medium Density Residential-1 future land use, this site is ideally suited for a boutique multifamily development or a high-end custom home.\u200b The unobstructed water views and direct proximity to the Indian River Lagoon make this property truly unique in the Treasure Coast market.\u200b Currently improved with a 1,560sf single family home, with 3 bedrooms and 2 baths.\u200b</p>",
+      "hasVault": false,
+      "hasPrivateVault": false,
+      "hideAddress": false,
+      "hideStreetView": false,
+      "details": {
+        "Asking Price": "$997,000",
+        "Property Type": "Multifamily, Land, Mobile Home Park",
+        "Sub Type": "Residential, RV Park",
+        "Investment Type": "Owner/User",
+        "Square Footage": "1,560",
+        "Occupancy": "70%",
+        "Units": "7",
+        "Pads": "7",
+        "Buildings": "1",
+        "Stories": "1",
+        "Zoning": "RM - 6 (Residential Multi-Family)",
+        "Lot Size (acres)": "1.34",
+        "APN": "31391000005000000003.0"
+      },
+      "summaryDetails": [
+        {
+          "key": "AskingPrice",
+          "value": 997000,
+          "valueType": "Money",
+          "label": "Asking Price",
+          "display": "$997,000"
+        },
+        {
+          "key": "PropertyType",
+          "value": [
+            "Multifamily",
+            "Land",
+            "Mobile Home Park"
+          ],
+          "valueType": "Array",
+          "label": "Property Type",
+          "display": "Multifamily, Land, Mobile Home Park"
+        },
+        {
+          "key": "SubType",
+          "value": [
+            "Residential",
+            "RV Park"
+          ],
+          "valueType": "Array",
+          "label": "Subtype",
+          "display": "Residential, RV Park"
+        },
+        {
+          "key": "InvestmentType",
+          "value": "OwnerUser",
+          "valueType": "Text",
+          "label": "Investment Type",
+          "display": "Owner/User"
+        },
+        {
+          "key": "SquareFootage",
+          "value": 1560,
+          "valueType": "IntegerType",
+          "label": "Square Footage",
+          "display": "1,560"
+        },
+        {
+          "key": "Occupancy",
+          "value": "70",
+          "valueType": "Text",
+          "label": "Occupancy",
+          "display": "70%"
+        },
+        {
+          "key": "Units",
+          "value": 7,
+          "valueType": "IntegerType",
+          "label": "Units",
+          "display": "7"
+        },
+        {
+          "key": "Pads",
+          "value": 7,
+          "valueType": "IntegerType",
+          "label": "Pads",
+          "display": "7"
+        },
+        {
+          "key": "Buildings",
+          "value": 1,
+          "valueType": "IntegerType",
+          "label": "Buildings",
+          "display": "1"
+        },
+        {
+          "key": "Stories",
+          "value": 1,
+          "valueType": "IntegerType",
+          "label": "Stories",
+          "display": "1"
+        },
+        {
+          "key": "PermittedZoning",
+          "value": "RM - 6 (Residential Multi-Family)",
+          "valueType": "Text",
+          "label": "Permitted Zoning",
+          "display": "RM - 6 (Residential Multi-Family)"
+        },
+        {
+          "key": "LotSize",
+          "value": 1.34,
+          "valueType": "IntegerType",
+          "label": "Lot Size (acres)",
+          "display": "1.34"
+        },
+        {
+          "key": "Apn",
+          "value": "31391000005000000003.0",
+          "valueType": "Text",
+          "label": "APN",
+          "display": "31391000005000000003.0"
+        }
+      ],
+      "loanDetails": {},
+      "createdOn": "2025-04-09T15:59:42.705Z",
+      "activatedOn": "2025-04-09T16:09:05.907Z",
+      "vaultAccessStatus": "AuthRequired",
+      "hasBrokerOfRecord": false,
+      "locations": [
+        {
+          "cityVerified": "Sebastian",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "13395 N Indian River Dr",
+          "city": "Sebastian",
+          "county": "Indian River County",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "32958",
+          "latitude": 27.8374594,
+          "longitude": -80.4791924,
+          "povPitch": 0,
+          "povHeading": 0
+        }
+      ],
+      "feeAgreementIsRequired": false,
+      "userCanDownloadMd": false,
+      "userExecutedCA": false,
+      "isSavedToBoards": false,
+      "caPrincipalInfoType": "None",
+      "allLoiFieldsRequired": true,
+      "hasClosing": false,
+      "usePrintViewAsFlyer": false,
+      "isInOpportunityZone": false,
+      "isNoteLoan": false,
+      "hasVirtualTour": false,
+      "hidePropertyHistory": false,
+      "hideValuationCalculator": false,
+      "hideClimateRisk": false,
+      "hidePlacerInsights": false,
+      "hideDemographicInsights": false,
+      "depositOption": "Credit Card",
+      "brokerProducts": [],
+      "hasDefaultSummaryDetails": false,
+      "showCountdownAsDate": false,
+      "askingPrice": 997000,
+      "userIsAssetOwner": false,
+      "isSold": false,
+      "isPaused": false,
+      "updatedOn": "2025-12-17T20:42:04.761Z",
+      "isOutdated": false,
+      "hasOM": false,
+      "hasFlyer": true,
+      "types": [
+        "Multifamily",
+        "Land",
+        "Mobile Home Park"
+      ],
+      "status": "Active",
+      "id": 1890169,
+      "name": "Indian River Lagoon view",
+      "description": "Rare Opportunity with views of the Indian River Lagoon",
+      "thumbnailUrl": "https://images.crexi.com/assets/1890169/9059d2882eba4b368f4b8ea652bd70cd_716x444.jpg",
+      "isPrivate": false,
+      "urlSlug": "florida-indian-river-lagoon-view",
+      "isComp": false,
+      "isElite": false,
+      "isSellSubjectTo": false,
+      "hasAuctioneer": false,
+      "realtorBoards": [],
+      "url1": "https://www.crexi.com/properties/1890169/florida-indian-river-lagoon-view",
+      "ajaxUrl1": "https://api.crexi.com/assets/1890169"
+    },
+    "brokers": [
+      {
+        "capabilities": [],
+        "brokerage": {
+          "location": {
+            "address": "112 Orange Avenue",
+            "city": "Fort Pierce",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "FL",
+              "name": "Florida"
+            },
+            "zip": "34950",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "SLC Commercial Saint Lucie",
+          "logoUrl": "https://images.crexi.com/user-accounts/23482/a61e273661944a6c8b821de3ed9d2655_150x100_resize.jpg",
+          "website": "https://www.slccommercial.com/commercial-real-estate-listings-treasure-coast/"
+        },
+        "badges": [],
+        "numberOfAssets": 12,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "1f0a6b1e-e67b-46f0-822d-553a226aa224",
+        "id": 2085734,
+        "firstName": "Katie",
+        "lastName": "Parada",
+        "thumbnailUrl": "https://images.crexi.com/users/2085734/b27a231f8b4c408cbe010d027f3554bf_164x164.jpg",
+        "createdOn": "2024-05-16T16:15:23.734Z",
+        "publicProfileId": "katiepara",
+        "licenses": [
+          "SL3514594"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 2085734,
+            "position": 0,
+            "number": "SL3514594",
+            "createdOn": "2025-02-12T16:17:17.44Z",
+            "licenseStateCode": "FL",
+            "isAuctioneer": false
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      }
+    ],
+    "propertyRecord": null,
+    "media": null
+  },
+  {
+    "activatedOn": "2025-09-16T12:01:18Z",
+    "locations": [
+      {
+        "address": "251 Us Hwy 1",
+        "city": "Oak Hill",
+        "county": "Volusia",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "32759",
+        "latitude": 28.8582008,
+        "longitude": -80.8501765,
+        "fullAddress": "251 Us Hwy 1, Oak Hill, Volusia, FL 32759"
+      }
+    ],
+    "askingPrice": 589000,
+    "brokerTeamLogoUrl": "https://images.crexi.com/user-accounts/38576/c2f91211ab7144d1bec4981166d04b1c_150x100_resize.jpg",
+    "brokerageName": "The Barnett Group Inc.",
+    "description": "Business for Sale | 522 SqFt",
+    "hasFlyer": true,
+    "hasOM": false,
+    "hasVideo": false,
+    "id": 2179710,
+    "isInOpportunityZone": false,
+    "name": "251 Us Hwy 1",
+    "numberOfGalleryItems": 17,
+    "numberOfImages": 17,
+    "squareFootage": 522,
+    "pricePerSqFt": 1128.352490421456,
+    "pricePerAcreLand": "$161,369.86/Acre",
+    "showCountdownAsDate": false,
+    "status": "On-Market",
+    "thumbnailUrl": "https://images.crexi.com/assets/2179710/841d88aa4a7f40878bdcbd8f10b0cb06_716x444.jpg",
+    "types": [
+      "Multifamily",
+      "Business for Sale",
+      "Land",
+      "Industrial",
+      "Office",
+      "Retail"
+    ],
+    "updatedOn": "2026-01-02T01:06:35Z",
+    "urlSlug": "florida-251-us-hwy-1",
+    "userIsAssetOwner": false,
+    "hasVirtualTour": false,
+    "recommId": "b0aba7bf484ab0641a5fafb4aa39823f",
+    "isNew": false,
+    "lotSizeAcres": 3.65,
+    "url": "https://www.crexi.com/properties/2179710/florida-251-us-hwy-1",
+    "ajaxUrl": "https://api.crexi.com/assets/2179710",
+    "details": {
+      "subtypes": [
+        "Business Only",
+        "Auto Shop",
+        "Storefront",
+        "Traditional Office",
+        "Farm",
+        "Warehouse",
+        "RV Park"
+      ],
+      "customSubtypes": [
+        "Automotive Dealership",
+        "Automotive Repair",
+        "Vehicle Rental",
+        "Junkyard",
+        "Construction/Contractor",
+        "Real Estate",
+        "Storage",
+        "Other"
+      ],
+      "earnestDepositAmountInPercent": false,
+      "qualFormRequired": false,
+      "marketingDescription": "Prime 3.65-acre commercial parcel with B-1 General Commercial zoning on high-visibility US Highway 1 in growing Oak Hill.\u200b Property includes a 522 sq.\u200b ft.\u200b office building with restroom, RV hook-up, and two approved driveway cuts.\u200b Excellent opportunity for multiple business uses including ground storage, office, or redevelopment.\u200b With its excellent visibility, highway frontage, and favorable zoning, this parcel is an outstanding opportunity for investors, business owners, or developers seeking to establish or expand in Southeast Volusia County.\u200b Oak Hill is expanding with many new projects in the pipeline - secure your spot today!",
+      "hasVault": false,
+      "hasPrivateVault": false,
+      "hideAddress": false,
+      "hideStreetView": false,
+      "details": {
+        "Asking Price": "$589,000",
+        "Property Type": "Business for Sale, Retail, Industrial, Office, Land, Multifamily",
+        "Sub Type": "Business Only, Auto Shop, Storefront, Traditional Office, Farm, Warehouse, RV Park, Automotive Dealership, Automotive Repair, Vehicle Rental, Junkyard, Construction/Contractor, Real Estate, Storage, Other",
+        "Square Footage": "522",
+        "Year Built": "2019",
+        "Lot Size (acres)": "3.65",
+        "APN": "9505-00-00-0711"
+      },
+      "summaryDetails": [
+        {
+          "key": "AskingPrice",
+          "value": 589000,
+          "valueType": "Money",
+          "label": "Asking Price",
+          "display": "$589,000"
+        },
+        {
+          "key": "PropertyType",
+          "value": [
+            "Business for Sale",
+            "Retail",
+            "Industrial",
+            "Office",
+            "Land",
+            "Multifamily"
+          ],
+          "valueType": "Array",
+          "label": "Property Type",
+          "display": "Business for Sale, Retail, Industrial, Office, Land, Multifamily"
+        },
+        {
+          "key": "SubType",
+          "value": [
+            "Business Only",
+            "Auto Shop",
+            "Storefront",
+            "Traditional Office",
+            "Farm",
+            "Warehouse",
+            "RV Park",
+            "Automotive Dealership",
+            "Automotive Repair",
+            "Vehicle Rental",
+            "Junkyard",
+            "Construction/Contractor",
+            "Real Estate",
+            "Storage",
+            "Other"
+          ],
+          "valueType": "Array",
+          "label": "Subtype",
+          "display": "Business Only, Auto Shop, Storefront, Traditional Office, Farm, Warehouse, RV Park, Automotive Dealership, Automotive Repair, Vehicle Rental, Junkyard, Construction/Contractor, Real Estate, Storage, Other"
+        },
+        {
+          "key": "SquareFootage",
+          "value": 522,
+          "valueType": "IntegerType",
+          "label": "Square Footage",
+          "display": "522"
+        },
+        {
+          "key": "YearBuilt",
+          "value": "2019",
+          "valueType": "Text",
+          "label": "Year Built",
+          "display": "2019"
+        },
+        {
+          "key": "LotSize",
+          "value": 3.65,
+          "valueType": "IntegerType",
+          "label": "Lot Size (acres)",
+          "display": "3.65"
+        },
+        {
+          "key": "Apn",
+          "value": "9505-00-00-0711",
+          "valueType": "Text",
+          "label": "APN",
+          "display": "9505-00-00-0711"
+        }
+      ],
+      "loanDetails": {},
+      "createdOn": "2025-09-17T12:01:49.611Z",
+      "activatedOn": "2025-09-16T12:01:18Z",
+      "thirdPartyProvider": "Spark",
+      "vaultAccessStatus": "AuthRequired",
+      "hasBrokerOfRecord": false,
+      "locations": [
+        {
+          "cityVerified": "Oak Hill",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "251 Us Hwy 1",
+          "city": "Oak Hill",
+          "county": "Volusia",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "32759",
+          "latitude": 28.8582008,
+          "longitude": -80.8501765
+        }
+      ],
+      "feeAgreementIsRequired": false,
+      "userCanDownloadMd": false,
+      "userExecutedCA": false,
+      "isSavedToBoards": false,
+      "caPrincipalInfoType": "None",
+      "allLoiFieldsRequired": true,
+      "hasClosing": false,
+      "usePrintViewAsFlyer": true,
+      "isInOpportunityZone": false,
+      "isNoteLoan": false,
+      "hasVirtualTour": false,
+      "hidePropertyHistory": false,
+      "hideValuationCalculator": false,
+      "hideClimateRisk": false,
+      "hidePlacerInsights": false,
+      "hideDemographicInsights": false,
+      "brokerProducts": [
+        "Legacy Sale Pro"
+      ],
+      "hasDefaultSummaryDetails": false,
+      "showCountdownAsDate": false,
+      "askingPrice": 589000,
+      "userIsAssetOwner": false,
+      "isSold": false,
+      "isPaused": false,
+      "updatedOn": "2026-01-02T01:06:35.014Z",
+      "isOutdated": false,
+      "hasOM": false,
+      "hasFlyer": true,
+      "types": [
+        "Business for Sale",
+        "Retail",
+        "Industrial",
+        "Office",
+        "Land",
+        "Multifamily"
+      ],
+      "status": "Active",
+      "id": 2179710,
+      "name": "251 Us Hwy 1",
+      "description": "Business for Sale | 522 SqFt",
+      "thumbnailUrl": "https://images.crexi.com/assets/2179710/841d88aa4a7f40878bdcbd8f10b0cb06_716x444.jpg",
+      "isPrivate": false,
+      "urlSlug": "florida-251-us-hwy-1",
+      "isComp": false,
+      "isElite": false,
+      "isSellSubjectTo": false,
+      "hasAuctioneer": false,
+      "realtorBoards": [
+        "Daytona Beach Area Association Of Realtors"
+      ],
+      "url1": "https://www.crexi.com/properties/2179710/florida-251-us-hwy-1",
+      "ajaxUrl1": "https://api.crexi.com/assets/2179710"
+    },
+    "brokers": [
+      {
+        "capabilities": [
+          {
+            "kind": "Chats"
+          }
+        ],
+        "brokerage": {
+          "location": {
+            "address": "3301 S. Ridgewood Ave",
+            "city": "Edgewater",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "FL",
+              "name": "Florida"
+            },
+            "zip": "32141",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "The Barnett Group Inc.",
+          "logoUrl": "https://images.crexi.com/user-accounts/38576/c2f91211ab7144d1bec4981166d04b1c_150x100_resize.jpg",
+          "website": "https://barnettgroupinc.com/"
+        },
+        "badges": [
+          {
+            "title": "PRO"
+          }
+        ],
+        "numberOfAssets": 51,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "525b36b3-f5ab-4072-9af4-0b0a7b752256",
+        "id": 342838,
+        "firstName": "Tracey",
+        "lastName": "Barlow",
+        "thumbnailUrl": "https://images.crexi.com/users/342838/0c136d27e9fd4b0d83e051d93af80ee8_164x164.jpg",
+        "createdOn": "2020-06-19T17:46:45.938Z",
+        "publicProfileId": "traceybarl",
+        "licenses": [],
+        "licenseDetails": [],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      }
+    ],
+    "propertyRecord": null,
+    "media": null
+  },
+  {
+    "activatedOn": "2023-04-27T15:34:08Z",
+    "locations": [
+      {
+        "address": "6408 W Flanders Ln",
+        "city": "Crystal River",
+        "county": "Citrus County",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "34429",
+        "latitude": 28.8775155,
+        "longitude": -82.5411194,
+        "fullAddress": "6408 W Flanders Ln, Crystal River, Citrus County, FL 34429"
+      }
+    ],
+    "askingPrice": 2750000,
+    "brokerTeamLogoUrl": "https://images.crexi.com/brokers/2337875/31aebf38df384526ad3da52ae425a736_150x100_resize.jpg",
+    "description": "4 New Duplexes with 42 additional approved lots",
+    "hasFlyer": true,
+    "hasOM": false,
+    "hasVideo": false,
+    "id": 1115317,
+    "isInOpportunityZone": false,
+    "name": "4 duplexes with 42 additional building lots",
+    "numberOfGalleryItems": 34,
+    "numberOfImages": 34,
+    "showCountdownAsDate": false,
+    "status": "On-Market",
+    "thumbnailUrl": "https://images.crexi.com/assets/1115317/5cfb82db9d4f4c73ae81d776385e8f53_716x444.jpg",
+    "types": [
+      "Self Storage",
+      "Multifamily",
+      "Mobile Home Park",
+      "Land",
+      "Special Purpose"
+    ],
+    "updatedOn": "2026-01-02T13:36:36Z",
+    "urlSlug": "florida-50-lot-mobile-home-park",
+    "userIsAssetOwner": false,
+    "hasVirtualTour": true,
+    "recommId": "b0aba7bf484ab0641a5fafb4aa39823f",
+    "isNew": false,
+    "url": "https://www.crexi.com/properties/1115317/florida-50-lot-mobile-home-park",
+    "ajaxUrl": "https://api.crexi.com/assets/1115317",
+    "details": {
+      "subtypes": [
+        "Apartment Building",
+        "RV Park",
+        "Residential"
+      ],
+      "dueDiligencePeriodCap": 15,
+      "escrowPeriodCap": 30,
+      "earnestDepositAmountInPercent": true,
+      "qualFormRequired": false,
+      "marketingDescription": "<p>If your looking to own and build multi-family, Mobile home community or single family housing this is a great place to start.\u200b</p><p>This is your very rare opportunity to own 8 brand new 1800 Square Feet homes with garages and an additional 42 subdivided lots for future expansion into an RV park or community.\u200b</p><p>Zoned for Duplexes, Single family homes, or Mobile homes</p><p>The price includes 4- 3600 SqFt duplexes with 42 additional approved lots</p><p>Water, Sewer & electrical available at each lot</p><p></p><p>Each lot has it\u2019s own 911 address.\u200b Which means each lot can be sold individually</p><p>Seller can help with development</p><p></p><p>Feel free to call or text the owner with any questions:</p><p>Sarita Harty @ Compass Florida 561-339-8299 or</p><p>Les 518-376-3203</p><p></p>",
+      "hasVault": true,
+      "hasPrivateVault": false,
+      "hideAddress": false,
+      "hideStreetView": false,
+      "details": {
+        "Asking Price": "$2,750,000",
+        "Property Type": "Land, Mobile Home Park, Multifamily, Self Storage, Special Purpose",
+        "Sub Type": "Apartment Building, RV Park, Residential",
+        "Zoning": "MDRMH",
+        "Lot Size (acres)": "4 - 5"
+      },
+      "summaryDetails": [
+        {
+          "key": "AskingPrice",
+          "value": 2750000,
+          "valueType": "Money",
+          "label": "Asking Price",
+          "display": "$2,750,000"
+        },
+        {
+          "key": "PropertyType",
+          "value": [
+            "Land",
+            "Mobile Home Park",
+            "Multifamily",
+            "Self Storage",
+            "Special Purpose"
+          ],
+          "valueType": "Array",
+          "label": "Property Type",
+          "display": "Land, Mobile Home Park, Multifamily, Self Storage, Special Purpose"
+        },
+        {
+          "key": "SubType",
+          "value": [
+            "Apartment Building",
+            "RV Park",
+            "Residential"
+          ],
+          "valueType": "Array",
+          "label": "Subtype",
+          "display": "Apartment Building, RV Park, Residential"
+        },
+        {
+          "key": "PermittedZoning",
+          "value": "MDRMH",
+          "valueType": "Text",
+          "label": "Permitted Zoning",
+          "display": "MDRMH"
+        },
+        {
+          "key": "LotSize",
+          "value": [
+            4,
+            5
+          ],
+          "valueType": "Range",
+          "label": "Lot Size (acres)",
+          "display": "4 - 5"
+        }
+      ],
+      "loanDetails": {},
+      "createdOn": "2023-04-27T15:10:32.555Z",
+      "activatedOn": "2023-04-27T15:34:08.815Z",
+      "vaultAccessStatus": "AuthRequired",
+      "hasBrokerOfRecord": true,
+      "brokerOfRecordName": "Sarita Harty",
+      "brokerOfRecordLicense": "3189231",
+      "locations": [
+        {
+          "cityVerified": "Crystal River",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "6408 W Flanders Ln",
+          "city": "Crystal River",
+          "county": "Citrus County",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "34429",
+          "latitude": 28.8775155,
+          "longitude": -82.5411194,
+          "povPitch": 0,
+          "povHeading": 0
+        }
+      ],
+      "feeAgreementIsRequired": false,
+      "userCanDownloadMd": false,
+      "userExecutedCA": false,
+      "isSavedToBoards": false,
+      "caPrincipalInfoType": "None",
+      "allLoiFieldsRequired": true,
+      "hasClosing": false,
+      "usePrintViewAsFlyer": true,
+      "isInOpportunityZone": false,
+      "pricePerItemType": "Unit",
+      "isNoteLoan": false,
+      "hasVirtualTour": true,
+      "hidePropertyHistory": false,
+      "hideValuationCalculator": false,
+      "hideClimateRisk": false,
+      "hidePlacerInsights": false,
+      "hideDemographicInsights": false,
+      "brokerProducts": [],
+      "hasDefaultSummaryDetails": false,
+      "showCountdownAsDate": false,
+      "askingPrice": 2750000,
+      "userIsAssetOwner": false,
+      "isSold": false,
+      "isPaused": false,
+      "updatedOn": "2026-01-02T13:36:36.538Z",
+      "isOutdated": false,
+      "hasOM": false,
+      "hasFlyer": true,
+      "types": [
+        "Land",
+        "Mobile Home Park",
+        "Multifamily",
+        "Self Storage",
+        "Special Purpose"
+      ],
+      "status": "Active",
+      "id": 1115317,
+      "name": "4 duplexes with 42 additional building lots",
+      "description": "4 New Duplexes with 42 additional approved lots",
+      "thumbnailUrl": "https://images.crexi.com/assets/1115317/5cfb82db9d4f4c73ae81d776385e8f53_716x444.jpg",
+      "isPrivate": false,
+      "urlSlug": "florida-50-lot-mobile-home-park",
+      "isComp": false,
+      "isElite": false,
+      "isSellSubjectTo": false,
+      "hasAuctioneer": false,
+      "realtorBoards": [],
+      "url1": "https://www.crexi.com/properties/1115317/florida-50-lot-mobile-home-park",
+      "ajaxUrl1": "https://api.crexi.com/assets/1115317"
+    },
+    "brokers": [
+      {
+        "capabilities": [],
+        "brokerage": {
+          "location": {
+            "address": "3615 Bromley Grand Ave",
+            "city": "Tampa",
+            "county": "",
+            "country": "United States",
+            "zip": "33607",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "logoUrl": "https://images.crexi.com/brokers/2337875/31aebf38df384526ad3da52ae425a736_150x100_resize.jpg"
+        },
+        "badges": [],
+        "numberOfAssets": 2,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "b5cf5438-cdb5-4ad2-9255-2a5b41a8b6f0",
+        "id": 2337875,
+        "firstName": "sarita",
+        "lastName": "Harty",
+        "thumbnailUrl": "https://images.crexi.com/users/2337875/b90d04b7be734c2fb3d5b24a04061eb7_164x164.jpg",
+        "createdOn": "2024-11-18T19:22:59.76Z",
+        "publicProfileId": "saritahar",
+        "licenses": [
+          "Bk3189231"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 2337875,
+            "position": 0,
+            "number": "Bk3189231",
+            "createdOn": "2024-11-18T19:24:06.493Z",
+            "isAuctioneer": false
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      }
+    ],
+    "propertyRecord": null,
+    "media": null
+  },
+  {
+    "activatedOn": "2025-12-18T17:04:45Z",
+    "locations": [
+      {
+        "address": "14845 Collecting Canal Rd",
+        "city": "Loxahatchee Groves",
+        "county": "Palm Beach County",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "33470",
+        "latitude": 26.6893636,
+        "longitude": -80.2803057,
+        "fullAddress": "14845 Collecting Canal Rd, Loxahatchee Groves, Palm Beach County, FL 33470"
+      }
+    ],
+    "askingPrice": 1888000,
+    "brokerTeamLogoUrl": "https://images.crexi.com/user-accounts/128445/3aca77fec1664f368a9408379e329edd_150x100_resize.jpg",
+    "brokerageName": "SERHANT. Commercial",
+    "description": "Land | 5 acres",
+    "hasFlyer": true,
+    "hasOM": true,
+    "hasVideo": false,
+    "id": 2305725,
+    "isInOpportunityZone": false,
+    "name": "The Cash Cow Farm of \"Wellington North\"",
+    "numberOfGalleryItems": 33,
+    "numberOfImages": 33,
+    "numberOfUnits": 53,
+    "pricePerAcreLand": "$377,600/Acre",
+    "showCountdownAsDate": false,
+    "status": "On-Market",
+    "thumbnailUrl": "https://images.crexi.com/assets/2305725/3d5ec5d12f1a46c1ad493d6dcfb59e1f_716x444.jpg",
+    "types": [
+      "Mobile Home Park",
+      "Land"
+    ],
+    "updatedOn": "2025-12-23T20:03:38Z",
+    "urlSlug": "florida-the-cash-cow-farm-of-wellington-north",
+    "userIsAssetOwner": false,
+    "hasVirtualTour": false,
+    "recommId": "b0aba7bf484ab0641a5fafb4aa39823f",
+    "isNew": false,
+    "capRate": 7.68,
+    "netOperatingIncome": 145013,
+    "lotSizeAcres": 5,
+    "url": "https://www.crexi.com/properties/2305725/florida-the-cash-cow-farm-of-wellington-north",
+    "ajaxUrl": "https://api.crexi.com/assets/2305725",
+    "details": {
+      "subtypes": [
+        "Agricultural",
+        "Farm",
+        "Ranch"
+      ],
+      "investmentHighlights": "<h2><em><strong>Assets:</strong></em></h2><p>11 Stall Center Aisle Barn</p><p>38 Stall Center Aisle Barn</p><p>4 Stall Board</p><p>2 Mobile Homes <em>(with allocated parking)</em></p><p>Private 3/2 Cabin <em>(with allocated parking)</em></p><p>2 Arenas</p><p>1 Round Pen</p><p>19 Rentable Parking Spaces (Trailer Storage)</p><p>3 RV Spaces</p><p>16 Paddocks</p><p>Gated</p><p>Fully Licensed and Transferable Rental Licenses</p><p>Tack/ Feed Rooms</p><p>Wash Racks</p>",
+      "earnestDepositAmountInPercent": false,
+      "qualFormRequired": false,
+      "marketingDescription": "<p><span style=\"color: rgba(0, 0, 0, 1)\">Fully renovated, specialty commercial equestrian facility offering </span><strong><span style=\"color: rgba(0, 0, 0, 1)\">strong in-place income</span></strong><span style=\"color: rgba(0, 0, 0, 1)\"> with </span><em><span style=\"color: rgba(0, 0, 0, 1)\">significant upside</span></em><span style=\"color: rgba(0, 0, 0, 1)\">.\u200b Cash-flowing equestrian farm off Southern Blvd, set on 5 elevated acres in the heart of Loxahatchee Groves, just minutes from Wellington.\u200b The property offers 53 stalls across two updated barns, 16 fenced pastures, two riding arenas, a round pen, three RV spots, and generous trailer parking.\u200b On-site housing includes a 3-bed, 2-bath cabin and two mobile homes.\u200b Current operations deliver a ~7.7% in-place cap at the asking price, with a clear path to mid-to-high teens stabilized returns through lease-up and full utilization of existing assets.\u200b </span><em><strong><span style=\"color: rgba(0, 0, 0, 1)\">Short hack to new equestrian riding trails.\u200b Ride your golf cart to shopping and restaurants.\u200b </span></strong></em><span style=\"color: rgba(0, 0, 0, 1)\">Zoned and fully licensed as a rental operation, the farm supports boarding, training, leasing, and additional equestrian uses.\u200b Numbers are based on current \u201cdry stall\u201d rentals, increase revenues by offering full board.\u200b A rare, turn-key opportunity with strong income, operational flexibility, and close proximity to riding trails, shopping, and world-class horse venues.\u200b</span></p>",
+      "hasVault": false,
+      "hasPrivateVault": false,
+      "hideAddress": false,
+      "hideStreetView": false,
+      "details": {
+        "Asking Price": "$1,888,000",
+        "Property Type": "Land, Mobile Home Park",
+        "Sub Type": "Agricultural, Farm, Ranch",
+        "Investment Type": "Value Add",
+        "Cap Rate": "7.68%",
+        "Pro-Forma Cap Rate": "16.79%",
+        "Occupancy": "50%",
+        "NOI": "$145,013",
+        "Pro-Forma NOI": "$316,959",
+        "Units": "53",
+        "Year Built": "2014",
+        "Year Renovated": "2024",
+        "Buildings": "2",
+        "Zoning": "AG",
+        "Lot Size (acres)": "5",
+        "Parking (spaces)": "19",
+        "Broker Co-Op": "Yes"
+      },
+      "summaryDetails": [
+        {
+          "key": "AskingPrice",
+          "value": 1888000,
+          "valueType": "Money",
+          "label": "Asking Price",
+          "display": "$1,888,000"
+        },
+        {
+          "key": "PropertyType",
+          "value": [
+            "Land",
+            "Mobile Home Park"
+          ],
+          "valueType": "Array",
+          "label": "Property Type",
+          "display": "Land, Mobile Home Park"
+        },
+        {
+          "key": "SubType",
+          "value": [
+            "Agricultural",
+            "Farm",
+            "Ranch"
+          ],
+          "valueType": "Array",
+          "label": "Subtype",
+          "display": "Agricultural, Farm, Ranch"
+        },
+        {
+          "key": "InvestmentType",
+          "value": "ValueAdd",
+          "valueType": "Text",
+          "label": "Investment Type",
+          "display": "Value Add"
+        },
+        {
+          "key": "CapRate",
+          "value": 7.68,
+          "valueType": "Percentage",
+          "label": "Cap Rate",
+          "display": "7.68%"
+        },
+        {
+          "key": "ProFormaCapRate",
+          "value": 16.79,
+          "valueType": "Percentage",
+          "label": "Pro-Forma Cap Rate",
+          "display": "16.79%"
+        },
+        {
+          "key": "Occupancy",
+          "value": "50",
+          "valueType": "Text",
+          "label": "Occupancy",
+          "display": "50%"
+        },
+        {
+          "key": "Noi",
+          "value": 145013,
+          "valueType": "Money",
+          "label": "NOI",
+          "display": "$145,013"
+        },
+        {
+          "key": "ProFormaNoi",
+          "value": 316959,
+          "valueType": "Money",
+          "label": "Pro-Forma NOI",
+          "display": "$316,959"
+        },
+        {
+          "key": "Units",
+          "value": 53,
+          "valueType": "IntegerType",
+          "label": "Units",
+          "display": "53"
+        },
+        {
+          "key": "YearBuilt",
+          "value": "2014",
+          "valueType": "Text",
+          "label": "Year Built",
+          "display": "2014"
+        },
+        {
+          "key": "YearsRenovated",
+          "value": "2024",
+          "valueType": "Text",
+          "label": "Year Renovated",
+          "display": "2024"
+        },
+        {
+          "key": "Buildings",
+          "value": 2,
+          "valueType": "IntegerType",
+          "label": "Buildings",
+          "display": "2"
+        },
+        {
+          "key": "PermittedZoning",
+          "value": "AG",
+          "valueType": "Text",
+          "label": "Permitted Zoning",
+          "display": "AG"
+        },
+        {
+          "key": "LotSize",
+          "value": 5,
+          "valueType": "IntegerType",
+          "label": "Lot Size (acres)",
+          "display": "5"
+        },
+        {
+          "key": "ParkingSpots",
+          "value": 19,
+          "valueType": "Text",
+          "label": "Parking (spaces)",
+          "display": "19.00"
+        },
+        {
+          "key": "BrokerCoOp",
+          "value": "Yes",
+          "valueType": "Text",
+          "label": "Broker Co-Op",
+          "display": "Yes"
+        }
+      ],
+      "loanDetails": {},
+      "createdOn": "2025-12-18T16:00:26.118Z",
+      "activatedOn": "2025-12-18T17:04:45.661Z",
+      "vaultAccessStatus": "AuthRequired",
+      "hasBrokerOfRecord": false,
+      "locations": [
+        {
+          "cityVerified": "Loxahatchee Groves",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "14845 Collecting Canal Rd",
+          "city": "Loxahatchee Groves",
+          "county": "Palm Beach County",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "33470",
+          "latitude": 26.6893636,
+          "longitude": -80.2803057,
+          "povPitch": 0,
+          "povHeading": 0
+        }
+      ],
+      "feeAgreementIsRequired": false,
+      "userCanDownloadMd": false,
+      "userExecutedCA": false,
+      "isSavedToBoards": false,
+      "caPrincipalInfoType": "None",
+      "allLoiFieldsRequired": true,
+      "hasClosing": false,
+      "usePrintViewAsFlyer": true,
+      "isInOpportunityZone": false,
+      "capRate": 7.68,
+      "netOperatingIncome": 145013,
+      "pricePerItemType": "Pad",
+      "isNoteLoan": false,
+      "hasVirtualTour": false,
+      "hidePropertyHistory": false,
+      "hideValuationCalculator": false,
+      "hideClimateRisk": false,
+      "hidePlacerInsights": false,
+      "hideDemographicInsights": false,
+      "brokerProducts": [
+        "Legacy All Pro"
+      ],
+      "hasDefaultSummaryDetails": false,
+      "showCountdownAsDate": false,
+      "askingPrice": 1888000,
+      "userIsAssetOwner": false,
+      "isSold": false,
+      "isPaused": false,
+      "updatedOn": "2025-12-23T20:03:38.318Z",
+      "isOutdated": false,
+      "hasOM": true,
+      "hasFlyer": true,
+      "types": [
+        "Land",
+        "Mobile Home Park"
+      ],
+      "status": "Active",
+      "id": 2305725,
+      "name": "The Cash Cow Farm of \"Wellington North\"",
+      "description": "Land | 5 acres",
+      "thumbnailUrl": "https://images.crexi.com/assets/2305725/3d5ec5d12f1a46c1ad493d6dcfb59e1f_716x444.jpg",
+      "isPrivate": false,
+      "urlSlug": "florida-the-cash-cow-farm-of-wellington-north",
+      "isComp": false,
+      "isElite": false,
+      "isSellSubjectTo": false,
+      "hasAuctioneer": false,
+      "realtorBoards": [],
+      "url1": "https://www.crexi.com/properties/2305725/florida-the-cash-cow-farm-of-wellington-north",
+      "ajaxUrl1": "https://api.crexi.com/assets/2305725"
+    },
+    "brokers": [
+      {
+        "capabilities": [
+          {
+            "kind": "Chats"
+          }
+        ],
+        "brokerage": {
+          "location": {
+            "address": "648 George Bush Blvd",
+            "city": "Delray Beach",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "FL",
+              "name": "Florida"
+            },
+            "zip": "33483",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "SERHANT. Commercial",
+          "logoUrl": "https://images.crexi.com/user-accounts/128445/3aca77fec1664f368a9408379e329edd_150x100_resize.jpg",
+          "website": "https://serhant.com/"
+        },
+        "badges": [
+          {
+            "title": "PRO"
+          }
+        ],
+        "numberOfAssets": 16,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "503623f2-e7f6-4c74-a8fc-f769803aeb39",
+        "id": 2418684,
+        "firstName": "Sheree",
+        "lastName": "Smith",
+        "thumbnailUrl": "https://images.crexi.com/users/2418684/6d5c1582dc9b4af7830b384696cdbae9_164x164.jpg",
+        "createdOn": "2024-07-31T14:54:52.664Z",
+        "publicProfileId": "shereesmith0",
+        "licenses": [
+          "SL3604964"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 2418684,
+            "position": 0,
+            "number": "SL3604964",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2025-02-04T19:47:13.76Z",
+            "licenseStateCode": "FL",
+            "brokerTitle": "Executive Director",
+            "brokerageName": "SERHANT. Commercial",
+            "brokerageAddress": "648 George Bush Boulevard",
+            "brokerageCity": "Delray Beach",
+            "brokerageCounty": "Palm Beach County",
+            "brokerageStateCode": "FL",
+            "brokerageZip": "33483",
+            "brokerageCountry": "United States",
+            "isAuctioneer": false,
+            "brokerageLicensePhone": "5618174464"
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      },
+      {
+        "capabilities": [],
+        "brokerage": {
+          "location": {
+            "address": "648 George Bush Blvd",
+            "city": "Delray Beach",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "FL",
+              "name": "Florida"
+            },
+            "zip": "33483",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "SERHANT. Commercial",
+          "logoUrl": "https://images.crexi.com/user-accounts/128445/3aca77fec1664f368a9408379e329edd_150x100_resize.jpg",
+          "website": "https://serhant.com/"
+        },
+        "badges": [],
+        "numberOfAssets": 2,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "0f592f9e-3f5c-4ced-ba60-c7f82bb2bde7",
+        "id": 843629,
+        "firstName": "Amy",
+        "lastName": "Casal",
+        "thumbnailUrl": "https://images.crexi.com/users/843629/64cf1315f8854a6199d9717d6576d2a1_164x164.jpg",
+        "createdOn": "2021-10-07T15:03:00.018Z",
+        "publicProfileId": "amalcas",
+        "licenses": [
+          "347911"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 843629,
+            "position": 0,
+            "number": "347911",
+            "createdOn": "2025-11-18T19:08:44.81Z",
+            "isAuctioneer": false
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      }
+    ],
+    "propertyRecord": null,
+    "media": null
+  },
+  {
+    "activatedOn": "2025-04-07T12:01:31Z",
+    "locations": [
+      {
+        "address": "7904 SE US HIGHWAY 301",
+        "city": "Hawthorne",
+        "county": "Alachua",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "32640",
+        "latitude": 29.5974578,
+        "longitude": -82.0868639,
+        "fullAddress": "7904 SE US HIGHWAY 301, Hawthorne, Alachua, FL 32640"
+      }
+    ],
+    "askingPrice": 399900,
+    "brokerageName": "US REALTY HUB",
+    "description": "Multifamily | 0 Units",
+    "hasFlyer": true,
+    "hasOM": false,
+    "hasVideo": false,
+    "id": 1887596,
+    "isInOpportunityZone": false,
+    "name": "7904 SE US HIGHWAY 301",
+    "numberOfGalleryItems": 22,
+    "numberOfImages": 22,
+    "numberOfUnits": 0,
+    "showCountdownAsDate": false,
+    "status": "On-Market",
+    "thumbnailUrl": "https://images.crexi.com/assets/1887596/f0a0d3f1c8ed4e1d81d852762ac81a13_716x444.jpg",
+    "types": [
+      "Multifamily"
+    ],
+    "updatedOn": "2025-08-24T18:59:18Z",
+    "urlSlug": "florida-7904-se-us-highway-301",
+    "userIsAssetOwner": false,
+    "hasVirtualTour": false,
+    "recommId": "b0aba7bf484ab0641a5fafb4aa39823f",
+    "isNew": false,
+    "url": "https://www.crexi.com/properties/1887596/florida-7904-se-us-highway-301",
+    "ajaxUrl": "https://api.crexi.com/assets/1887596",
+    "details": {
+      "subtypes": [
+        "RV Park"
+      ],
+      "customSubtypes": [
+        "Mobile Home Park",
+        "Other"
+      ],
+      "earnestDepositAmountInPercent": false,
+      "qualFormRequired": false,
+      "marketingDescription": "One or more photo(s) has been virtually staged.\u200b **Discover Opportunity in Hawthorne, Florida!** POTENTIAL YEARLY NOI OF $407,100! Unlock the potential of 5.13 acres of Commercial General zoned land, perfectly situated with direct highway 301 footage.\u200b This prime property has a rich history, having operated as an RV park from the 1950s until 2012, and presents endless possibilities for development.\u200b The land is primed for various uses, including RV parks, residential developments, or commercial ventures.\u200b The infrastructure is already in place, with power lines ran\u2014just requiring the installation of meters.\u200b Additionally, a spacious 1,000+ SQFT building awaits your vision, ideally suited for a laundromat, convenience store, office, or vending space.\u200b Previously utilized as a bathhouse, laundry room, and store, this building is equipped with a new roof installed in 2023.\u200b Property can accommodate a total of 48 campsites! (38 RV Sites W/ full hookups and 10 dry camping/tent sites!",
+      "hasVault": false,
+      "hasPrivateVault": false,
+      "hideAddress": false,
+      "hideStreetView": false,
+      "details": {
+        "Asking Price": "$399,900",
+        "Property Type": "Multifamily",
+        "Sub Type": "RV Park, Mobile Home Park, Other",
+        "Units": "0",
+        "Lot Size (SqFt)": "223,462.8"
+      },
+      "summaryDetails": [
+        {
+          "key": "AskingPrice",
+          "value": 399900,
+          "valueType": "Money",
+          "label": "Asking Price",
+          "display": "$399,900"
+        },
+        {
+          "key": "PropertyType",
+          "value": [
+            "Multifamily"
+          ],
+          "valueType": "Array",
+          "label": "Property Type",
+          "display": "Multifamily"
+        },
+        {
+          "key": "SubType",
+          "value": [
+            "RV Park",
+            "Mobile Home Park",
+            "Other"
+          ],
+          "valueType": "Array",
+          "label": "Subtype",
+          "display": "RV Park, Mobile Home Park, Other"
+        },
+        {
+          "key": "Units",
+          "value": 0,
+          "valueType": "IntegerType",
+          "label": "Units",
+          "display": "0"
+        },
+        {
+          "key": "LotSize",
+          "value": 223462.8,
+          "valueType": "IntegerType",
+          "label": "Lot Size (SqFt)",
+          "display": "223,462.8"
+        }
+      ],
+      "loanDetails": {},
+      "createdOn": "2025-04-07T12:01:30.16Z",
+      "activatedOn": "2025-04-07T12:01:31.037Z",
+      "thirdPartyProvider": "Spark",
+      "vaultAccessStatus": "AuthRequired",
+      "hasBrokerOfRecord": false,
+      "locations": [
+        {
+          "cityVerified": "Hawthorne",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "7904 SE US HIGHWAY 301",
+          "city": "Hawthorne",
+          "county": "Alachua",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "32640",
+          "latitude": 29.5974578,
+          "longitude": -82.0868639
+        }
+      ],
+      "feeAgreementIsRequired": false,
+      "userCanDownloadMd": false,
+      "userExecutedCA": false,
+      "isSavedToBoards": false,
+      "caPrincipalInfoType": "None",
+      "allLoiFieldsRequired": true,
+      "hasClosing": false,
+      "usePrintViewAsFlyer": true,
+      "isInOpportunityZone": false,
+      "isNoteLoan": false,
+      "hasVirtualTour": false,
+      "hidePropertyHistory": false,
+      "hideValuationCalculator": false,
+      "hideClimateRisk": false,
+      "hidePlacerInsights": false,
+      "hideDemographicInsights": false,
+      "brokerProducts": [],
+      "hasDefaultSummaryDetails": false,
+      "showCountdownAsDate": false,
+      "askingPrice": 399900,
+      "userIsAssetOwner": false,
+      "isSold": false,
+      "isPaused": false,
+      "updatedOn": "2025-08-24T18:59:18.224Z",
+      "isOutdated": true,
+      "hasOM": false,
+      "hasFlyer": true,
+      "types": [
+        "Multifamily"
+      ],
+      "status": "Active",
+      "id": 1887596,
+      "name": "7904 SE US HIGHWAY 301",
+      "description": "Multifamily | 0 Units",
+      "thumbnailUrl": "https://images.crexi.com/assets/1887596/f0a0d3f1c8ed4e1d81d852762ac81a13_716x444.jpg",
+      "isPrivate": false,
+      "urlSlug": "florida-7904-se-us-highway-301",
+      "isComp": false,
+      "isElite": false,
+      "isSellSubjectTo": false,
+      "hasAuctioneer": false,
+      "realtorBoards": [
+        "realMLS (Northeast Florida Multiple Listing Service)"
+      ],
+      "url1": "https://www.crexi.com/properties/1887596/florida-7904-se-us-highway-301",
+      "ajaxUrl1": "https://api.crexi.com/assets/1887596"
+    },
+    "brokers": [
+      {
+        "capabilities": [],
+        "brokerage": {
+          "location": {
+            "county": "",
+            "country": "United States",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "US REALTY HUB"
+        },
+        "badges": [],
+        "numberOfAssets": 5,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "793a5751-0e8d-450a-905d-e1b0f668f946",
+        "id": 1147757,
+        "firstName": "Daniel",
+        "lastName": "Colombo",
+        "createdOn": "2022-07-13T15:43:06.174Z",
+        "publicProfileId": "danielcolom",
+        "licenses": [],
+        "licenseDetails": [],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      }
+    ],
+    "propertyRecord": null,
+    "media": null
+  },
+  {
+    "activatedOn": "2025-07-31T13:55:27Z",
+    "locations": [
+      {
+        "address": "1860 Southpointe Dr",
+        "city": "Sarasota",
+        "county": "Sarasota County",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "34231",
+        "latitude": 27.2410142,
+        "longitude": -82.5095073,
+        "fullAddress": "1860 Southpointe Dr, Sarasota, Sarasota County, FL 34231"
+      },
+      {
+        "address": "1848 Southpointe Dr",
+        "city": "Sarasota",
+        "county": "Sarasota County",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "34231",
+        "latitude": 27.240826,
+        "longitude": -82.5097021,
+        "fullAddress": "1848 Southpointe Dr, Sarasota, Sarasota County, FL 34231"
+      },
+      {
+        "address": "0 Southpointe Dr",
+        "city": "Sarasota",
+        "county": "Sarasota County",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "34231",
+        "latitude": 27.2408836,
+        "longitude": -82.5099636,
+        "fullAddress": "0 Southpointe Dr, Sarasota, Sarasota County, FL 34231"
+      }
+    ],
+    "askingPrice": 2221000,
+    "brokerTeamLogoUrl": "https://images.crexi.com/user-accounts/494/d0407818d76c43988513cc561a8a9860_150x100_resize.jpg",
+    "brokerageName": "American Property Group of Sarasota Inc",
+    "description": "Land | 38,301 SqFt",
+    "hasFlyer": true,
+    "hasOM": false,
+    "hasVideo": false,
+    "id": 2070556,
+    "isInOpportunityZone": false,
+    "name": "Residential Assemblage Near Siesta Key",
+    "numberOfGalleryItems": 5,
+    "numberOfImages": 5,
+    "squareFootage": 3845,
+    "pricePerSqFt": 596.88,
+    "numberOfUnits": 3,
+    "showCountdownAsDate": false,
+    "status": "On-Market",
+    "thumbnailUrl": "https://images.crexi.com/assets/2070556/8b4196482ee14565bcc5d46a962a20e1_716x444.jpg",
+    "types": [
+      "Multifamily",
+      "Land"
+    ],
+    "updatedOn": "2025-12-29T15:05:26Z",
+    "urlSlug": "florida-residential-assemblage-near-siesta-key",
+    "userIsAssetOwner": false,
+    "hasVirtualTour": false,
+    "recommId": "b0aba7bf484ab0641a5fafb4aa39823f",
+    "isNew": false,
+    "url": "https://www.crexi.com/properties/2070556/florida-residential-assemblage-near-siesta-key",
+    "ajaxUrl": "https://api.crexi.com/assets/2070556",
+    "details": {
+      "subtypes": [
+        "Apartment Building",
+        "Commercial",
+        "RV Park"
+      ],
+      "investmentHighlights": "<ul><li>\u200bThree adjacent parcels totaling 38,301 SF</li><li>\u200bRSF-1 Zoning</li><li>\u200bSouthpointe Dr location near Siesta Key beaches</li><li>\u200bCommunity boat dock access</li><li>\u200bInvestment and redevelopment potential</li><li>\u200bDuplex with RV pad and garage</li></ul>",
+      "earnestDepositAmountInPercent": false,
+      "qualFormRequired": false,
+      "marketingDescription": "<p></p><div>American Property Group of Sarasota, Inc.\u200b presents Three Adjacent Residential Parcels on Southpointe Dr, Sarasota, FL</div><p></p><p>Total Lot Size: 38,301 SF (Three parcels totaling 12,767 SF each)</p><p>Rare opportunity to acquire three adjacent residential parcels located on Southpointe Dr in Sarasota, just minutes from the world-famous Siesta Key beaches.\u200b This unique assemblage includes a duplex, a single-family home, and a vacant lot; offering flexibility for personal use, investment income, or future redevelopment.\u200b You can build your dream home with water views easily with a huge yard, easy access to many established local businesses, schools, grocery stores and more, all just a few minutes from Siesta Key Beach!<br style=\"\"><br style=\"\">1.\u200b Duplex \u2013 1,993 SF<br style=\"\">1860 Southpointe Dr, Sarasota, FL<br style=\"\">This well-maintained two-family dwelling features two spacious 2 bedroom, 2 bathroom units, making it ideal for investors or multi-generational living.\u200b The property includes a rare RV full hookup pad, a two-car garage, and access to a community boat dock, enhancing its versatility and rental appeal.\u200b Its location and features make it a prime opportunity for those seeking strong income potential in Sarasota\u2019s hot residential market.\u200b<br style=\"\"><br style=\"\">2.\u200b Single-Family Home \u2013 1,852 SF<br style=\"\">1848 Southpointe Dr, Sarasota, FL<br style=\"\">Charming and versatile, this 2 bedroom, 4 bathroom home offers generous interior space and unique potential for customization or expansion.\u200b\u00a0 The home features a private screened-in in-ground pool; perfect for relaxing or entertaining in the Florida sunshine.\u200b With access to the same community boat dock as the neighboring parcels, it serves as an ideal primary residence, vacation home, or rental property.\u200b<br style=\"\"><br style=\"\">3.\u200b Vacant Residential Lot \u2013 12,767 SF<br style=\"\">0 Southpointe Dr, Sarasota, FL<br style=\"\">Ready for development or held for future investment, this buildable lot shares RSF-1 zoning and offers direct adjacency to the existing homes; perfect for a custom home, guest house, or expansion of your portfolio.\u200b<br style=\"\"><br style=\"\">Each property is available individually or all three can be purchased together as a package.\u200b</p>",
+      "hasVault": false,
+      "hasPrivateVault": false,
+      "hideAddress": false,
+      "hideStreetView": false,
+      "details": {
+        "Asking Price": "$2,221,000",
+        "Property Type": "Land, Multifamily",
+        "Sub Type": "Apartment Building, Commercial, RV Park",
+        "Investment Type": "Redevelopment",
+        "Square Footage": "3,845",
+        "Price per SqFt": "$596.88",
+        "Units": "3",
+        "Year Built": "1968",
+        "Buildings": "2",
+        "Stories": "1",
+        "Zoning": "RSF-1",
+        "Lot Size (SqFt)": "38,301",
+        "APN": "0112140028, 0112140029, 0112130041"
+      },
+      "summaryDetails": [
+        {
+          "key": "AskingPrice",
+          "value": 2221000,
+          "valueType": "Money",
+          "label": "Asking Price",
+          "display": "$2,221,000"
+        },
+        {
+          "key": "PropertyType",
+          "value": [
+            "Land",
+            "Multifamily"
+          ],
+          "valueType": "Array",
+          "label": "Property Type",
+          "display": "Land, Multifamily"
+        },
+        {
+          "key": "SubType",
+          "value": [
+            "Apartment Building",
+            "Commercial",
+            "RV Park"
+          ],
+          "valueType": "Array",
+          "label": "Subtype",
+          "display": "Apartment Building, Commercial, RV Park"
+        },
+        {
+          "key": "InvestmentType",
+          "value": "Redevelopment",
+          "valueType": "Text",
+          "label": "Investment Type",
+          "display": "Redevelopment"
+        },
+        {
+          "key": "SquareFootage",
+          "value": 3845,
+          "valueType": "IntegerType",
+          "label": "Square Footage",
+          "display": "3,845"
+        },
+        {
+          "key": "PriceSqFt",
+          "value": 596.88,
+          "valueType": "Money",
+          "label": "Price/SqFt",
+          "display": "$596.88"
+        },
+        {
+          "key": "Units",
+          "value": 3,
+          "valueType": "IntegerType",
+          "label": "Units",
+          "display": "3"
+        },
+        {
+          "key": "YearBuilt",
+          "value": "1968",
+          "valueType": "Text",
+          "label": "Year Built",
+          "display": "1968"
+        },
+        {
+          "key": "Buildings",
+          "value": 2,
+          "valueType": "IntegerType",
+          "label": "Buildings",
+          "display": "2"
+        },
+        {
+          "key": "Stories",
+          "value": 1,
+          "valueType": "IntegerType",
+          "label": "Stories",
+          "display": "1"
+        },
+        {
+          "key": "PermittedZoning",
+          "value": "RSF-1",
+          "valueType": "Text",
+          "label": "Permitted Zoning",
+          "display": "RSF-1"
+        },
+        {
+          "key": "LotSize",
+          "value": 38301,
+          "valueType": "IntegerType",
+          "label": "Lot Size (SqFt)",
+          "display": "38,301"
+        },
+        {
+          "key": "Apn",
+          "value": "0112140028, 0112140029, 0112130041",
+          "valueType": "Text",
+          "label": "APN",
+          "display": "0112140028, 0112140029, 0112130041"
+        }
+      ],
+      "loanDetails": {},
+      "createdOn": "2025-07-29T19:24:49.317Z",
+      "activatedOn": "2025-07-31T13:55:27.497Z",
+      "vaultAccessStatus": "AuthRequired",
+      "hasBrokerOfRecord": false,
+      "locations": [
+        {
+          "cityVerified": "Sarasota",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "1860 Southpointe Dr",
+          "city": "Sarasota",
+          "county": "Sarasota County",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "34231",
+          "latitude": 27.2410142,
+          "longitude": -82.5095073,
+          "povPitch": 0,
+          "povHeading": 0
+        },
+        {
+          "cityVerified": "Sarasota",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "1848 Southpointe Dr",
+          "city": "Sarasota",
+          "county": "Sarasota County",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "34231",
+          "latitude": 27.240826,
+          "longitude": -82.5097021,
+          "povPitch": 0,
+          "povHeading": 0
+        },
+        {
+          "cityVerified": "Sarasota",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "0 Southpointe Dr",
+          "city": "Sarasota",
+          "county": "Sarasota County",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "34231",
+          "latitude": 27.2408836,
+          "longitude": -82.5099636,
+          "povPitch": 0,
+          "povHeading": 0
+        }
+      ],
+      "feeAgreementIsRequired": false,
+      "userCanDownloadMd": false,
+      "userExecutedCA": false,
+      "isSavedToBoards": false,
+      "caPrincipalInfoType": "None",
+      "allLoiFieldsRequired": true,
+      "hasClosing": false,
+      "usePrintViewAsFlyer": false,
+      "isInOpportunityZone": false,
+      "pricePerItemType": "Unit",
+      "pricePerSqFt": 596.88,
+      "isNoteLoan": false,
+      "hasVirtualTour": false,
+      "hidePropertyHistory": false,
+      "hideValuationCalculator": false,
+      "hideClimateRisk": false,
+      "hidePlacerInsights": false,
+      "hideDemographicInsights": false,
+      "depositOption": "Credit Card",
+      "brokerProducts": [
+        "Legacy All Pro"
+      ],
+      "hasDefaultSummaryDetails": false,
+      "showCountdownAsDate": false,
+      "askingPrice": 2221000,
+      "userIsAssetOwner": false,
+      "isSold": false,
+      "isPaused": false,
+      "updatedOn": "2025-12-29T15:05:26.228Z",
+      "isOutdated": false,
+      "hasOM": false,
+      "hasFlyer": true,
+      "types": [
+        "Land",
+        "Multifamily"
+      ],
+      "status": "Active",
+      "id": 2070556,
+      "name": "Residential Assemblage Near Siesta Key",
+      "description": "Land | 38,301 SqFt",
+      "thumbnailUrl": "https://images.crexi.com/assets/2070556/8b4196482ee14565bcc5d46a962a20e1_716x444.jpg",
+      "isPrivate": false,
+      "urlSlug": "florida-residential-assemblage-near-siesta-key",
+      "isComp": false,
+      "isElite": false,
+      "isSellSubjectTo": false,
+      "hasAuctioneer": false,
+      "realtorBoards": [],
+      "url1": "https://www.crexi.com/properties/2070556/florida-residential-assemblage-near-siesta-key",
+      "ajaxUrl1": "https://api.crexi.com/assets/2070556"
+    },
+    "brokers": [
+      {
+        "capabilities": [
+          {
+            "kind": "Chats"
+          }
+        ],
+        "brokerage": {
+          "location": {
+            "address": "7750 South Tamiami Trail",
+            "city": "Sarasota",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "FL",
+              "name": "Florida"
+            },
+            "zip": "34231",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "American Property Group of Sarasota Inc",
+          "logoUrl": "https://images.crexi.com/user-accounts/494/d0407818d76c43988513cc561a8a9860_150x100_resize.jpg",
+          "website": "https://americanpropertygroup.com/"
+        },
+        "badges": [
+          {
+            "title": "PRO"
+          }
+        ],
+        "numberOfAssets": 137,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "d76f6d16-0cc1-4f7d-9759-3d2362124cce",
+        "id": 18616,
+        "firstName": "Adam",
+        "lastName": "Seidel",
+        "thumbnailUrl": "https://images.crexi.com/users/18616/c14137b19cb542b4a2d49f1f343c208c_164x164.jpg",
+        "createdOn": "2017-03-27T23:13:23.173Z",
+        "publicProfileId": "adamse",
+        "licenses": [
+          "FL SL3213728"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 18616,
+            "position": 1,
+            "number": "FL SL3213728",
+            "createdOn": "2024-02-02T21:38:56.026Z",
+            "isAuctioneer": false
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      }
+    ],
+    "propertyRecord": null,
+    "media": null
+  },
+  {
+    "activatedOn": "2025-07-24T16:43:36Z",
+    "locations": [
+      {
+        "address": "9215 SW 190th Avenue Rd",
+        "city": "Dunnellon",
+        "county": "Marion County",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "34432",
+        "latitude": 29.0894677,
+        "longitude": -82.4304598,
+        "fullAddress": "9215 SW 190th Avenue Rd, Dunnellon, Marion County, FL 34432"
+      }
+    ],
+    "askingPrice": 6500000,
+    "brokerTeamLogoUrl": "https://images.crexi.com/user-accounts/73544/4851ca3735e64141a41e469d63ac95b7_150x100_resize.jpg",
+    "brokerageName": "NAI Outdoor Hospitality Brokers",
+    "description": "Turnkey 22-Unit Bungalow Community Steps From the Rainbow River, Near Numerous Outdoor Destinations",
+    "hasFlyer": false,
+    "hasOM": true,
+    "hasVideo": false,
+    "id": 2034536,
+    "isInOpportunityZone": false,
+    "name": "Rainbow River Bungalows",
+    "numberOfGalleryItems": 29,
+    "numberOfImages": 29,
+    "numberOfUnits": 22,
+    "pricePerAcreLand": "$1,380,042.46/Acre",
+    "showCountdownAsDate": false,
+    "status": "On-Market",
+    "thumbnailUrl": "https://images.crexi.com/assets/2034536/62b2f7a90a974747adf904f5c331dbbc_716x444.jpg",
+    "types": [
+      "Mobile Home Park"
+    ],
+    "updatedOn": "2025-11-07T23:22:36Z",
+    "urlSlug": "florida-rainbow-river-bungalows",
+    "userIsAssetOwner": false,
+    "hasVirtualTour": false,
+    "recommId": "b0aba7bf484ab0641a5fafb4aa39823f",
+    "isNew": false,
+    "capRate": 10.6,
+    "lotSizeAcres": 4.71,
+    "url": "https://www.crexi.com/properties/2034536/florida-rainbow-river-bungalows",
+    "ajaxUrl": "https://api.crexi.com/assets/2034536",
+    "details": {
+      "customSubtypes": [
+        "Bungalow Resort",
+        "Outdoor Resort"
+      ],
+      "investmentHighlights": "<ul><li>\u200bTurnkey Vacation Rental Community: Rainbow River Bungalows is a fully operational, redeveloped vacation rental community with 22 modern tiny homes, all built in 2019 or newer. The property is efficiently managed, offering a smooth, turnkey operation for investors.</li><li>\u200bPrime Location with Deeded Access: Situated in Dunnellon, Florida, just steps from the Rainbow River and KP Hole County Park, with free deeded access to the river for water sports like kayaking, paddleboarding, and snorkeling. The Gulf of Mexico is only 20 miles away, providing additional appeal for tourists.</li><li>\u200bStrong Revenue Streams: The property generates consistent revenue from short-term rentals, lot rents, and value-added services including equipment rentals, food trucks, and resort fees.</li><li>\u200bPositioned for Growth: With opportunities to expand offerings such as food trucks, live entertainment, and branded merchandise\u2014along with the potential to build a single-family home for additional rental income or resale value\u2014the property is primed for significant revenue growth.</li><li>\u200bConvenient Access: Located just 1.5 hours from both Tampa and Orlando Airports, offering easy access for tourists and travelers.</li></ul>",
+      "earnestDepositAmountInPercent": false,
+      "qualFormRequired": false,
+      "marketingDescription": "<p>Rainbow River Bungalows is a turnkey vacation rental community located in Dunnellon, Florida, offering 22 modern tiny homes with deeded access to the scenic Rainbow River and KP Hole County Park.\u200b Since its opening in 2021, the property has seen impressive financial growth, doubling its Net Operating Income (NOI) each year.\u200b Revenue is generated through short-term rentals, lot rents, and value-added services such as equipment rentals, food trucks, and resort fees.\u200b</p><p>With its prime location, just 20 miles from the Gulf of Mexico and 1.5 hours from both Tampa and Orlando Airports, Rainbow River Bungalows attracts visitors seeking outdoor recreation.\u200b The property operates smoothly and is well-positioned for future growth, with opportunities to expand amenities like food trucks, live entertainment, and branded merchandise.\u200b This investment offers both immediate returns and long-term potential in a high-demand market.\u200b</p>",
+      "hasVault": true,
+      "hasPrivateVault": false,
+      "hideAddress": false,
+      "hideStreetView": false,
+      "details": {
+        "Asking Price": "$6,500,000",
+        "Property Type": "Mobile Home Park",
+        "Sub Type": "Bungalow Resort, Outdoor Resort",
+        "Class": "A",
+        "Cap Rate": "10.60%",
+        "Units": "22",
+        "Year Built": "1970's",
+        "Year Renovated": "Extensively Rebuilt in 2019",
+        "Buildings": "23",
+        "Zoning": "Grandfathered-in MHP in an R1",
+        "Lot Size (acres)": "4.71",
+        "APN": "34701-000-00"
+      },
+      "summaryDetails": [
+        {
+          "key": "AskingPrice",
+          "value": 6500000,
+          "valueType": "Money",
+          "label": "Asking Price",
+          "display": "$6,500,000"
+        },
+        {
+          "key": "PropertyType",
+          "value": [
+            "Mobile Home Park"
+          ],
+          "valueType": "Array",
+          "label": "Property Type",
+          "display": "Mobile Home Park"
+        },
+        {
+          "key": "SubType",
+          "value": [
+            "Bungalow Resort",
+            "Outdoor Resort"
+          ],
+          "valueType": "Array",
+          "label": "Subtype",
+          "display": "Bungalow Resort, Outdoor Resort"
+        },
+        {
+          "key": "Class",
+          "value": "A",
+          "valueType": "Text",
+          "label": "Class",
+          "display": "A"
+        },
+        {
+          "key": "CapRate",
+          "value": 10.6,
+          "valueType": "Percentage",
+          "label": "Cap Rate",
+          "display": "10.60%"
+        },
+        {
+          "key": "Units",
+          "value": 22,
+          "valueType": "IntegerType",
+          "label": "Units",
+          "display": "22"
+        },
+        {
+          "key": "YearBuilt",
+          "value": "1970's",
+          "valueType": "Text",
+          "label": "Year Built",
+          "display": "1970's"
+        },
+        {
+          "key": "YearsRenovated",
+          "value": "Extensively Rebuilt in 2019",
+          "valueType": "Text",
+          "label": "Year Renovated",
+          "display": "Extensively Rebuilt in 2019"
+        },
+        {
+          "key": "Buildings",
+          "value": 23,
+          "valueType": "IntegerType",
+          "label": "Buildings",
+          "display": "23"
+        },
+        {
+          "key": "PermittedZoning",
+          "value": "Grandfathered-in MHP in an R1",
+          "valueType": "Text",
+          "label": "Permitted Zoning",
+          "display": "Grandfathered-in MHP in an R1"
+        },
+        {
+          "key": "LotSize",
+          "value": 4.71,
+          "valueType": "IntegerType",
+          "label": "Lot Size (acres)",
+          "display": "4.71"
+        },
+        {
+          "key": "Apn",
+          "value": "34701-000-00",
+          "valueType": "Text",
+          "label": "APN",
+          "display": "34701-000-00"
+        }
+      ],
+      "loanDetails": {},
+      "createdOn": "2025-07-22T23:33:08.447Z",
+      "activatedOn": "2025-07-24T16:43:36.286Z",
+      "vaultAccessStatus": "AuthRequired",
+      "hasBrokerOfRecord": true,
+      "brokerOfRecordName": "Randy Buss",
+      "brokerOfRecordLicense": "BK3105657",
+      "brokerOfRecordTitle": "Broker of Record",
+      "brokerOfRecordBrokerageName": "NAI Heritage",
+      "brokerOfRecordPhone": "",
+      "locations": [
+        {
+          "cityVerified": "Dunnellon",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "9215 SW 190th Avenue Rd",
+          "city": "Dunnellon",
+          "county": "Marion County",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "34432",
+          "latitude": 29.0894677,
+          "longitude": -82.4304598,
+          "povPitch": 0,
+          "povHeading": 0
+        }
+      ],
+      "feeAgreementIsRequired": false,
+      "userCanDownloadMd": false,
+      "userExecutedCA": false,
+      "isSavedToBoards": false,
+      "caPrincipalInfoType": "None",
+      "allLoiFieldsRequired": true,
+      "hasClosing": false,
+      "usePrintViewAsFlyer": false,
+      "isInOpportunityZone": false,
+      "capRate": 10.6,
+      "pricePerItemType": "Pad",
+      "isNoteLoan": false,
+      "hasVirtualTour": false,
+      "hidePropertyHistory": false,
+      "hideValuationCalculator": false,
+      "hideClimateRisk": false,
+      "hidePlacerInsights": false,
+      "hideDemographicInsights": false,
+      "depositOption": "Credit Card",
+      "brokerProducts": [
+        "Legacy Sale Pro"
+      ],
+      "hasDefaultSummaryDetails": false,
+      "showCountdownAsDate": false,
+      "askingPrice": 6500000,
+      "userIsAssetOwner": false,
+      "isSold": false,
+      "isPaused": false,
+      "updatedOn": "2025-11-07T23:22:36.803Z",
+      "isOutdated": false,
+      "hasOM": true,
+      "hasFlyer": false,
+      "types": [
+        "Mobile Home Park"
+      ],
+      "status": "Active",
+      "id": 2034536,
+      "name": "Rainbow River Bungalows",
+      "description": "Turnkey 22-Unit Bungalow Community Steps From the Rainbow River, Near Numerous Outdoor Destinations",
+      "thumbnailUrl": "https://images.crexi.com/assets/2034536/62b2f7a90a974747adf904f5c331dbbc_716x444.jpg",
+      "isPrivate": false,
+      "urlSlug": "florida-rainbow-river-bungalows",
+      "isComp": false,
+      "isElite": false,
+      "isSellSubjectTo": false,
+      "hasAuctioneer": false,
+      "realtorBoards": [],
+      "url1": "https://www.crexi.com/properties/2034536/florida-rainbow-river-bungalows",
+      "ajaxUrl1": "https://api.crexi.com/assets/2034536"
+    },
+    "brokers": [
+      {
+        "capabilities": [
+          {
+            "kind": "Chats"
+          }
+        ],
+        "brokerage": {
+          "location": {
+            "address": "334 Sopris Cir",
+            "city": "Basalt",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "CO",
+              "name": "Colorado"
+            },
+            "zip": "81621",
+            "aptNumber": "1800",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "NAI Outdoor Hospitality Brokers",
+          "logoUrl": "https://images.crexi.com/user-accounts/73544/4851ca3735e64141a41e469d63ac95b7_150x100_resize.jpg"
+        },
+        "badges": [
+          {
+            "title": "PRO"
+          }
+        ],
+        "numberOfAssets": 133,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "18468895-0c72-45f8-bccc-41ebe980d6e9",
+        "id": 16897,
+        "firstName": "Bob",
+        "lastName": "Kaplan",
+        "thumbnailUrl": "https://images.crexi.com/users/16897/c3b8585e696040e8ad2fb41d36820b19_164x164.jpg",
+        "createdOn": "2017-03-06T22:57:01.171Z",
+        "publicProfileId": "bobkap",
+        "licenses": [
+          "ER.100052334"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 16897,
+            "position": 0,
+            "number": "ER.100052334",
+            "createdOn": "2024-06-26T21:49:54.785Z",
+            "licenseStateCode": "CO",
+            "isAuctioneer": false
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      },
+      {
+        "capabilities": [],
+        "brokerage": {
+          "location": {
+            "address": "334 Sopris Cir",
+            "city": "Basalt",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "CO",
+              "name": "Colorado"
+            },
+            "zip": "81621",
+            "aptNumber": "1800",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "NAI Outdoor Hospitality Brokers",
+          "logoUrl": "https://images.crexi.com/user-accounts/73544/4851ca3735e64141a41e469d63ac95b7_150x100_resize.jpg"
+        },
+        "badges": [],
+        "numberOfAssets": 22,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "3d3cbf22-725f-473c-a717-f26d0350d3e6",
+        "id": 1046739,
+        "firstName": "Maria",
+        "lastName": "Piper",
+        "thumbnailUrl": "https://images.crexi.com/users/1046739/e2f9028dea02473daf5b439cf475b03c_164x164.jpg",
+        "createdOn": "2022-04-07T18:02:39.042Z",
+        "publicProfileId": "mariapip",
+        "licenses": [
+          "FA.100097795"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 1046739,
+            "position": 1,
+            "number": "FA.100097795",
+            "createdOn": "2022-09-08T21:33:58.403Z",
+            "licenseStateCode": "CO",
+            "isAuctioneer": false
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      }
+    ],
+    "propertyRecord": null,
+    "media": null
+  },
+  {
+    "activatedOn": "2025-03-16T13:24:09Z",
+    "locations": [
+      {
+        "address": "9345 SE 140th Place",
+        "city": "Summerfield",
+        "county": "Other",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "34491",
+        "latitude": 29.0182864,
+        "longitude": -82.0005753,
+        "fullAddress": "9345 SE 140th Place, Summerfield, Other, FL 34491"
+      }
+    ],
+    "askingPrice": 1320000,
+    "brokerTeamLogoUrl": "https://images.crexi.com/user-accounts/32997/039178f2cb224433938e5b96d606df83_150x100_resize.jpg",
+    "brokerageName": "Mr. Landman",
+    "description": "Land | 10 acres",
+    "hasFlyer": true,
+    "hasOM": false,
+    "hasVideo": false,
+    "id": 2080302,
+    "isInOpportunityZone": false,
+    "name": "9345 SE 140th Place",
+    "numberOfGalleryItems": 6,
+    "numberOfImages": 6,
+    "pricePerAcreLand": "$132,000/Acre",
+    "showCountdownAsDate": false,
+    "status": "On-Market",
+    "thumbnailUrl": "https://images.crexi.com/assets/2080302/65b8ed3437cc43f984e62898d5a31f70_716x444.jpg",
+    "types": [
+      "Multifamily",
+      "Land"
+    ],
+    "updatedOn": "2025-12-30T10:44:17Z",
+    "urlSlug": "florida-9345-se-140th-place",
+    "userIsAssetOwner": false,
+    "hasVirtualTour": false,
+    "recommId": "b0aba7bf484ab0641a5fafb4aa39823f",
+    "isNew": false,
+    "lotSizeAcres": 10,
+    "url": "https://www.crexi.com/properties/2080302/florida-9345-se-140th-place",
+    "ajaxUrl": "https://api.crexi.com/assets/2080302",
+    "details": {
+      "subtypes": [
+        "RV Park"
+      ],
+      "customSubtypes": [
+        "Mobile Home/RV Park"
+      ],
+      "earnestDepositAmountInPercent": false,
+      "qualFormRequired": false,
+      "marketingDescription": "Two manufactured housing development projects in fast-growing Marion County, just minutes from The Villages, offered together for $2.495M  80 planned double-wide homesites on 15.77 acres across Belleview and Summerfield, FL  At pro forma $700 lot rent and a 5.5% cap, a stabilized 80-pad portfolio here supports an estimated value of ~$8MBelleview project: 31 pads at 11987 S US Hwy 301, Belleview, FL 34420 - PMH-zoned, fully entitled, shovel-ready with signed permits, public water/sewer, Duke Energy, strong US-301 frontage, plus an existing ~1,500 sq ft home ideal for future clubhouse/sales office.\u200b  Summerfield project: 49 pads at 9345 SE 140th Pl, Summerfield, FL 34491 - 10 acre cleared site with public utilities, PMH-zoned  and concept plan approved, near US-441 and The Villages  Ground-up development with upside beyond a typical stabilized community; sites are ~10 minutes apart for shared crews, staging, home orders, and management to reduce per-pad construction and operating costs, with a natural phased strategy to stabilize Belleview first and, potentially refinance it to help fund infrastructure and home rollout at Summerfield  Flexible exit: land-lease, home sales, and/or rentals  Contact listing agent for the full OM; access by appointment only-do not disturb sites or neighbors.\u200b",
+      "hasVault": false,
+      "hasPrivateVault": false,
+      "hideAddress": false,
+      "hideStreetView": false,
+      "details": {
+        "Asking Price": "$1,320,000",
+        "Property Type": "Land, Multifamily",
+        "Sub Type": "RV Park, Mobile Home/RV Park",
+        "Zoning": "OTHER",
+        "Lot Size (acres)": "10",
+        "APN": "45509-000-00"
+      },
+      "summaryDetails": [
+        {
+          "key": "AskingPrice",
+          "value": 1320000,
+          "valueType": "Money",
+          "label": "Asking Price",
+          "display": "$1,320,000"
+        },
+        {
+          "key": "PropertyType",
+          "value": [
+            "Land",
+            "Multifamily"
+          ],
+          "valueType": "Array",
+          "label": "Property Type",
+          "display": "Land, Multifamily"
+        },
+        {
+          "key": "SubType",
+          "value": [
+            "RV Park",
+            "Mobile Home/RV Park"
+          ],
+          "valueType": "Array",
+          "label": "Subtype",
+          "display": "RV Park, Mobile Home/RV Park"
+        },
+        {
+          "key": "PermittedZoning",
+          "value": "OTHER",
+          "valueType": "Text",
+          "label": "Permitted Zoning",
+          "display": "OTHER"
+        },
+        {
+          "key": "LotSize",
+          "value": 10,
+          "valueType": "IntegerType",
+          "label": "Lot Size (acres)",
+          "display": "10"
+        },
+        {
+          "key": "Apn",
+          "value": "45509-000-00",
+          "valueType": "Text",
+          "label": "APN",
+          "display": "45509-000-00"
+        }
+      ],
+      "loanDetails": {},
+      "createdOn": "2025-08-02T13:40:18.416Z",
+      "activatedOn": "2025-03-16T13:24:09Z",
+      "thirdPartyProvider": "MlsGrid",
+      "vaultAccessStatus": "AuthRequired",
+      "hasBrokerOfRecord": false,
+      "locations": [
+        {
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "9345 SE 140th Place",
+          "city": "Summerfield",
+          "county": "Other",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "34491",
+          "latitude": 29.0182864,
+          "longitude": -82.0005753
+        }
+      ],
+      "feeAgreementIsRequired": false,
+      "userCanDownloadMd": false,
+      "userExecutedCA": false,
+      "isSavedToBoards": false,
+      "caPrincipalInfoType": "None",
+      "allLoiFieldsRequired": true,
+      "hasClosing": false,
+      "usePrintViewAsFlyer": true,
+      "isInOpportunityZone": false,
+      "isNoteLoan": false,
+      "hasVirtualTour": false,
+      "hidePropertyHistory": false,
+      "hideValuationCalculator": false,
+      "hideClimateRisk": false,
+      "hidePlacerInsights": false,
+      "hideDemographicInsights": false,
+      "brokerProducts": [
+        "Legacy All Pro"
+      ],
+      "hasDefaultSummaryDetails": false,
+      "showCountdownAsDate": false,
+      "askingPrice": 1320000,
+      "userIsAssetOwner": false,
+      "isSold": false,
+      "isPaused": false,
+      "updatedOn": "2025-12-30T10:44:17.219Z",
+      "isOutdated": false,
+      "hasOM": false,
+      "hasFlyer": true,
+      "types": [
+        "Land",
+        "Multifamily"
+      ],
+      "status": "Active",
+      "id": 2080302,
+      "name": "9345 SE 140th Place",
+      "description": "Land | 10 acres",
+      "thumbnailUrl": "https://images.crexi.com/assets/2080302/65b8ed3437cc43f984e62898d5a31f70_716x444.jpg",
+      "isPrivate": false,
+      "urlSlug": "florida-9345-se-140th-place",
+      "isComp": false,
+      "isElite": false,
+      "isSellSubjectTo": false,
+      "hasAuctioneer": false,
+      "realtorBoards": [
+        "MRED"
+      ],
+      "url1": "https://www.crexi.com/properties/2080302/florida-9345-se-140th-place",
+      "ajaxUrl1": "https://api.crexi.com/assets/2080302"
+    },
+    "brokers": [
+      {
+        "capabilities": [
+          {
+            "kind": "Chats"
+          }
+        ],
+        "brokerage": {
+          "location": {
+            "address": "968 County Road 1000N",
+            "city": "Champaign",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "IL",
+              "name": "Illinois"
+            },
+            "zip": "61822",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "Mr. Landman",
+          "logoUrl": "https://images.crexi.com/user-accounts/32997/039178f2cb224433938e5b96d606df83_150x100_resize.jpg",
+          "website": "https://illinoisfarmground.com/"
+        },
+        "badges": [
+          {
+            "title": "PRO"
+          }
+        ],
+        "numberOfAssets": 418,
+        "isInternal": false,
+        "isPlatinum": true,
+        "globalId": "824cebdd-ed5c-4c22-802e-414379ac6f74",
+        "id": 56239,
+        "firstName": "Jon",
+        "lastName": "Fisher",
+        "thumbnailUrl": "https://images.crexi.com/users/56239/ecf10225b8194835bd1b9e39cb2d912a_164x164.jpg",
+        "createdOn": "2018-02-09T19:39:27.306Z",
+        "publicProfileId": "jonfis",
+        "licenses": [
+          "IL 471.020503",
+          "IN RB18000549",
+          "AL 134713-0",
+          "IA B68919000",
+          "GA 78450",
+          "WI 59034-90",
+          "ME DB924033",
+          "TN 358759",
+          "NC 325370",
+          "CO 100090363",
+          "SC 117228",
+          "FL BK3489532",
+          "MO 2021009405",
+          "OK 201422",
+          "AR PB00090772",
+          "KS 00247140",
+          "LA BROK.995709646-ACT",
+          "ND 10982",
+          "SD 20262",
+          "MN 40783935",
+          "NE 20220411",
+          "MI 6502432213",
+          "KY 284073",
+          "PA RM425074",
+          "TX 819440",
+          "OHBRKP.2025001469"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 56239,
+            "position": 0,
+            "number": "IL 471.020503",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 1,
+            "number": "IN RB18000549",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 2,
+            "number": "AL 134713-0",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 3,
+            "number": "IA B68919000",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 4,
+            "number": "GA 78450",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 5,
+            "number": "WI 59034-90",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 6,
+            "number": "ME DB924033",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 7,
+            "number": "TN 358759",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 8,
+            "number": "NC 325370",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 9,
+            "number": "CO 100090363",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 10,
+            "number": "SC 117228",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 11,
+            "number": "FL BK3489532",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 12,
+            "number": "MO 2021009405",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 13,
+            "number": "OK 201422",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 14,
+            "number": "AR PB00090772",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 15,
+            "number": "KS 00247140",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 16,
+            "number": "LA BROK.995709646-ACT",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 17,
+            "number": "ND 10982",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 18,
+            "number": "SD 20262",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 19,
+            "number": "MN 40783935",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 20,
+            "number": "NE 20220411",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 21,
+            "number": "MI 6502432213",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 22,
+            "number": "KY 284073",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 23,
+            "number": "PA RM425074",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 24,
+            "number": "TX 819440",
+            "createdOn": "2024-12-20T12:04:56.665Z",
+            "licenseStateCode": "TX",
+            "isAuctioneer": false
+          },
+          {
+            "brokerId": 56239,
+            "position": 25,
+            "number": "OHBRKP.2025001469",
+            "typeId": "Real Estate Broker",
+            "createdOn": "2025-07-22T15:07:33.552Z",
+            "isAuctioneer": false
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      }
+    ],
+    "propertyRecord": null,
+    "media": null
+  },
+  {
+    "id": 1900473,
+    "name": "Rare 5 Acre Multi Use Investment Property",
+    "description": "14-Lot RV Park, 2 Park Model Homes, Club House, 3000 sq ft. Home and approx plus 2.5 acre Vacant Lot",
+    "thumbnailUrl": "https://images.crexi.com/assets/1900473/f0eb24103ebd4340b8a2bd3b8392b9ba_716x444.jpg",
+    "urlSlug": "florida-rare-75-acre-multi-use-investment-property",
+    "brokerTeamLogoUrl": "https://images.crexi.com/user-accounts/79319/32b018c56641451bbf3b94ed285073c8_150x100_resize.jpg",
+    "brokerageName": "RE/MAX Premier Group",
+    "activatedOn": "2025-04-22T17:21:23.927Z",
+    "isInOpportunityZone": true,
+    "hasVideo": false,
+    "numberOfGalleryItems": 55,
+    "showCountdownAsDate": false,
+    "askingPrice": 1950000,
+    "userIsAssetOwner": false,
+    "updatedOn": "2025-10-16T14:23:19.304Z",
+    "numberOfImages": 55,
+    "types": [
+      "Land",
+      "Mobile Home Park"
+    ],
+    "hasOM": false,
+    "hasFlyer": true,
+    "status": "On-Market",
+    "hasVirtualTour": false,
+    "locations": [
+      {
+        "address": "4045 - 4049 Allen Rd",
+        "city": "Zephyrhills",
+        "county": "Pasco",
+        "state": {
+          "code": "FL",
+          "name": "Florida"
+        },
+        "zip": "33541",
+        "latitude": 28.216743,
+        "longitude": -82.205964,
+        "fullAddress": "4045 - 4049 Allen Rd, Zephyrhills, Pasco, FL 33541"
+      }
+    ],
+    "isNew": false,
+    "url": "https://www.crexi.com/properties/1900473/florida-rare-75-acre-multi-use-investment-property",
+    "ajaxUrl": "https://api.crexi.com/assets/1900473",
+    "details": {
+      "subtypes": [
+        "Commercial"
+      ],
+      "earnestDepositAmountInPercent": false,
+      "qualFormRequired": false,
+      "marketingDescription": "<p>This unique approximately 5-acre multi-building property presents an unparalleled income-generating opportunity in one of Florida\u2019s fastest-growing markets! Featuring four well-maintained buildings, including 3000 sq.\u200b ft.\u200b 4 bedroom, 2 Bath home plus  14-lot RV park.\u200b This property offers multiple revenue streams and huge upside potential.\u200b Located just off State Road 54, it provides easy access to major highways, Downtown Zephyrhills, Wesley Chapel, and Tampa, making it an ideal long-term investment</p><p>Property Overview:</p><p>14-Lot RV Park on 3 Acres mol :</p><p>Full hook-ups with 50 amp electric, county water, and septic system</p><p>Generous 40' x 65' lots to accommodate large RVs, utility sheds, and parking</p><p>High and Dry location with strong potential for expansion or redevelopment</p><p>Currently undervalued rental rates, offering immediate upside for new ownership</p><p>Includes Two Chariot Park Model Homes:</p><p>Each features concrete drive with attached carport, washer/dryer utility room, plus room addition.\u200b</p><p>Comfortable, long-term rental units with high occupancy potential</p><p>Concrete Block Clubhouse & Office Space:</p><p>Includes a dedicated private office for park management</p><p>Two full bathrooms with showers for tenant convenience</p><p>Large covered front awning, ideal for community gatherings</p><p>Concrete Block Home on 2 Acres mol :</p><p>3000 sf 4-bedroom, 2-bath home with an additional office or 5th bedroom</p><p>Spacious 20' x 40' game room</p><p>Metal detached garage with large carport and extra storage buildings and carports</p><p>Fully fenced for security and privacy, security alarm, generator transfer panel, and 3 bay dog kennel</p><p>Fully fenced and primed for RV park expansion, storage units, or future development</p><p>Provides additional flexibility for the property\u2019s highest and best use</p><p>Investment Highlights & Growth Potential:</p><p>Located Near State Road 54: Provides easy access to Tampa, Wesley Chapel, and major commercial hubs.\u200b</p><p>Surging Real Estate Growth: Zephyrhills is a high-growth area with increasing demand for housing, RV accommodations, and commercial developments.\u200b</p><p>Expanding RV Market: Florida\u2019s RV park industry is booming, with a projected value of $658.6M by 2025and increasing traveler demand for long-term stays.\u200b</p><p>Multiple Uses & Expansion Options:</p><p>Convert additional land into storage units, a mobile home park, or an event venue</p><p>Expand the RV park with additional full-service lots</p><p>Develop rental cabins or glamping sites to attract higher-income tenants</p><p>Not in a Flood Zone: No risk of flooding, reducing insurance costs and investment risks.\u200b</p><p>Well-Maintained Infrastructure: No damage from recent hurricanes, ensuring a turnkey investment with minimal initial upgrades required.\u200b</p><p>Additional Possible Uses:</p><p>\u00b7 Glamping or Tiny Home Community \u2013 Capitalize on the short-term rental boom</p><p>\u00b7 Office Space or Business Park \u2013 Perfect for small businesses, co-working, or professional offices</p><p>\u00b7 Assisted Living or Senior Housing \u2013 Zephyrhills is a top retirement destination!</p><p>\u00b7 Event Venue or Retreat Center \u2013 Weddings, corporate retreats, festivals, and more</p><p>\u00b7 Truck/RV/Boat Storage or Flex Space \u2013 High demand for vehicle storage in this area</p><p>\u00b7 Short-Term Vacation Rentals \u2013 Convert buildings into Airbnbs or seasonal rentals</p><p>Zephyrhills is experiencing rapid development, driven by:</p><p>-Major infrastructure projects improving roads and access to Tampa and Orlando</p><p>-Increased tourism and long-term RV living trends, making RV parks a high-demand asset</p><p>-New residential and commercial developments, bringing more businesses and long-term residents to the area</p><p>-Expansion of healthcare and retail amenities, further driving population growth</p><p>***Please Do not disturb the tenants.\u200b***Do not walk the property without to Don\u2019t miss this chance to invest in one of Florida\u2019s fastest-growing markets.\u200b Contact us today for financials, zoning details, and a private tour!</p>",
+      "hasVault": false,
+      "hasPrivateVault": false,
+      "hideAddress": false,
+      "hideStreetView": false,
+      "details": {
+        "Asking Price": "$1,950,000",
+        "Property Type": "Land, Mobile Home Park",
+        "Sub Type": "Commercial"
+      },
+      "summaryDetails": [
+        {
+          "key": "AskingPrice",
+          "value": 1950000,
+          "valueType": "Money",
+          "label": "Asking Price",
+          "display": "$1,950,000"
+        },
+        {
+          "key": "PropertyType",
+          "value": [
+            "Land",
+            "Mobile Home Park"
+          ],
+          "valueType": "Array",
+          "label": "Property Type",
+          "display": "Land, Mobile Home Park"
+        },
+        {
+          "key": "SubType",
+          "value": [
+            "Commercial"
+          ],
+          "valueType": "Array",
+          "label": "Subtype",
+          "display": "Commercial"
+        }
+      ],
+      "loanDetails": {},
+      "createdOn": "2025-04-22T17:05:23.125Z",
+      "activatedOn": "2025-04-22T17:21:23.927Z",
+      "vaultAccessStatus": "AuthRequired",
+      "hasBrokerOfRecord": false,
+      "locations": [
+        {
+          "cityVerified": "Zephyrhills",
+          "stateVerified": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "address": "4045 - 4049 Allen Rd",
+          "city": "Zephyrhills",
+          "county": "Pasco",
+          "state": {
+            "code": "FL",
+            "name": "Florida"
+          },
+          "zip": "33541",
+          "latitude": 28.216743,
+          "longitude": -82.205964,
+          "povPitch": 0,
+          "povHeading": 0
+        }
+      ],
+      "feeAgreementIsRequired": false,
+      "userCanDownloadMd": false,
+      "userExecutedCA": false,
+      "isSavedToBoards": false,
+      "caPrincipalInfoType": "None",
+      "allLoiFieldsRequired": false,
+      "hasClosing": false,
+      "usePrintViewAsFlyer": true,
+      "isInOpportunityZone": true,
+      "pricePerItemType": "Pad",
+      "isNoteLoan": false,
+      "hasVirtualTour": false,
+      "hidePropertyHistory": false,
+      "hideValuationCalculator": false,
+      "hideClimateRisk": false,
+      "hidePlacerInsights": false,
+      "hideDemographicInsights": false,
+      "brokerProducts": [],
+      "hasDefaultSummaryDetails": false,
+      "showCountdownAsDate": false,
+      "askingPrice": 1950000,
+      "userIsAssetOwner": false,
+      "isSold": false,
+      "isPaused": false,
+      "updatedOn": "2025-10-16T14:23:19.304Z",
+      "isOutdated": false,
+      "hasOM": false,
+      "hasFlyer": true,
+      "types": [
+        "Land",
+        "Mobile Home Park"
+      ],
+      "status": "Active",
+      "id": 1900473,
+      "name": "Rare 5 Acre Multi Use Investment Property",
+      "description": "14-Lot RV Park, 2 Park Model Homes, Club House, 3000 sq ft. Home and approx plus 2.5 acre Vacant Lot",
+      "thumbnailUrl": "https://images.crexi.com/assets/1900473/f0eb24103ebd4340b8a2bd3b8392b9ba_716x444.jpg",
+      "isPrivate": false,
+      "urlSlug": "florida-rare-75-acre-multi-use-investment-property",
+      "isComp": false,
+      "isElite": false,
+      "isSellSubjectTo": false,
+      "hasAuctioneer": false,
+      "realtorBoards": [],
+      "url1": "https://www.crexi.com/properties/1900473/florida-rare-75-acre-multi-use-investment-property",
+      "ajaxUrl1": "https://api.crexi.com/assets/1900473"
+    },
+    "brokers": [
+      {
+        "capabilities": [],
+        "brokerage": {
+          "location": {
+            "address": "27219 State Rd 56",
+            "city": "Wesley Chapel",
+            "county": "",
+            "country": "United States",
+            "state": {
+              "code": "FL",
+              "name": "Florida"
+            },
+            "zip": "33544",
+            "latitude": 0,
+            "longitude": 0
+          },
+          "name": "RE/MAX Premier Group",
+          "logoUrl": "https://images.crexi.com/user-accounts/79319/32b018c56641451bbf3b94ed285073c8_150x100_resize.jpg",
+          "website": "https://www.remax.com/"
+        },
+        "badges": [],
+        "numberOfAssets": 2,
+        "isInternal": false,
+        "isPlatinum": false,
+        "globalId": "f04f77d4-1ce6-49b0-b265-90150dd3470e",
+        "id": 1058417,
+        "firstName": "Sunny",
+        "lastName": "Sidhu",
+        "thumbnailUrl": "https://images.crexi.com/users/1058417/698b5641c5d54fbda3d35597243e8171_164x164.jpg",
+        "createdOn": "2022-04-18T01:39:43.429Z",
+        "publicProfileId": "sunnysid",
+        "licenses": [
+          "BK3326186"
+        ],
+        "licenseDetails": [
+          {
+            "brokerId": 1058417,
+            "position": 1,
+            "number": "BK3326186",
+            "typeId": "Associate Real Estate Broker",
+            "createdOn": "2022-04-21T02:20:44.763Z",
+            "isAuctioneer": false
+          }
+        ],
+        "isAuctioneer": false,
+        "verificationMethod": "None"
+      }
+    ],
+    "propertyRecord": null,
+    "media": null
+  }
+]

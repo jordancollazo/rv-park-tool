@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHP Opportunity Zones - Florida</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            height: 100%;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            padding: 1rem 2rem;
+            border-bottom: 1px solid #334155;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .stats {
+            display: flex;
+            gap: 1.5rem;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+        .stat-label {
+            font-size: 0.7rem;
+            color: #94a3b8;
+            text-transform: uppercase;
+        }
+        .stat.purple .stat-value { color: #a855f7; }
+        .stat.blue .stat-value { color: #60a5fa; }
+        .stat.green .stat-value { color: #4ade80; }
+        
+        .controls {
+            background: #1e293b;
+            padding: 0.75rem 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            border-bottom: 1px solid #334155;
+        }
+        .layer-toggles {
+            display: flex;
+            gap: 0.75rem;
+        }
+        .toggle-btn {
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            border: 1px solid #475569;
+            background: transparent;
+            color: #94a3b8;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: all 0.2s;
+        }
+        .toggle-btn.active {
+            border-color: transparent;
+            color: white;
+        }
+        .toggle-btn.growth.active { background: #dc2626; }
+        .toggle-btn.afford.active { background: #16a34a; }
+        .toggle-btn.opportunity.active { background: #9333ea; }
+        .toggle-btn.leads.active { background: #3b82f6; }
+        .toggle-btn.filter-leads.active { background: #f59e0b; color: white; border-color: transparent; }
+        .toggle-btn.displacement.active { background: #dc2626; }
+        .toggle-btn.progress.active { background: #16a34a; }
+        .toggle-btn.snowbird.active { background: #2563eb; }
+        .toggle-btn.slumlord.active { background: #ea580c; }
+        .toggle-btn.exurb.active { background: #d946ef; }
+        
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-left: auto;
+        }
+        .filter-group label {
+            font-size: 0.8rem;
+            color: #94a3b8;
+        }
+        input[type="range"] {
+            width: 120px;
+            accent-color: #a855f7;
+        }
+        .score-display {
+            background: #334155;
+            padding: 0.25rem 0.5rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            min-width: 60px;
+            text-align: center;
+        }
+        
+        .legends {
+            display: flex;
+            gap: 2rem;
+            padding: 0.5rem 2rem;
+            background: #1e293b;
+            border-bottom: 1px solid #334155;
+            font-size: 0.7rem;
+        }
+        .legend {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+        .legend-title {
+            color: #94a3b8;
+            margin-right: 0.5rem;
+        }
+        .legend-bar {
+            display: flex;
+            height: 12px;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+        .legend-bar span {
+            width: 20px;
+        }
+        .legend-labels {
+            display: flex;
+            justify-content: space-between;
+            width: 100px;
+            color: #64748b;
+            font-size: 0.65rem;
+        }
+        
+        .map-container {
+            display: flex;
+            flex: 1;
+            min-height: 500px; /* Explicit fallback height */
+        }
+        #map {
+            flex: 1;
+            min-height: 500px; /* Explicit fallback height */
+        }
+        #thesis-info-panel {
+            width: 280px;
+            background: #1e293b;
+            border-left: 1px solid #334155;
+            padding: 1rem;
+            overflow-y: auto;
+            font-size: 0.85rem;
+        }
+        .thesis-panel-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #f1f5f9;
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #475569;
+        }
+        .thesis-section {
+            margin-bottom: 1rem;
+        }
+        .thesis-section-header {
+            color: #94a3b8;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.25rem;
+        }
+        .thesis-section-content {
+            color: #cbd5e1;
+            line-height: 1.5;
+        }
+        .thesis-formula {
+            background: #0f172a;
+            border-radius: 6px;
+            padding: 0.5rem;
+            font-family: monospace;
+            font-size: 0.75rem;
+            color: #a5b4fc;
+        }
+        .thesis-formula-line {
+            margin: 0.25rem 0;
+        }
+        .thesis-usecase {
+            background: linear-gradient(135deg, #1e3a5f 0%, #1e293b 100%);
+            border-radius: 6px;
+            padding: 0.5rem;
+            border-left: 3px solid #3b82f6;
+        }
+        
+        .leaflet-popup-content-wrapper {
+            background: #1e293b;
+            color: #e2e8f0;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+        }
+        .leaflet-popup-tip {
+            background: #1e293b;
+        }
+        .popup-content {
+            min-width: 220px;
+            padding: 0.25rem;
+        }
+        .popup-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #334155;
+        }
+        .popup-zcta {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #f1f5f9;
+        }
+        .popup-score-badge {
+            padding: 0.25rem 0.5rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: white;
+        }
+        .popup-metrics {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+            font-size: 0.8rem;
+        }
+        .popup-metric {
+            display: flex;
+            flex-direction: column;
+        }
+        .popup-metric-label {
+            color: #64748b;
+            font-size: 0.7rem;
+        }
+        .popup-metric-value {
+            color: #e2e8f0;
+            font-weight: 500;
+        }
+        .popup-metric-value.positive { color: #4ade80; }
+        .popup-metric-value.negative { color: #f87171; }
+        
+        /* Lead popup styles */
+        .popup-name {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #f1f5f9;
+        }
+        .popup-row {
+            display: flex;
+            margin-bottom: 0.4rem;
+            font-size: 0.85rem;
+        }
+        .popup-label {
+            color: #64748b;
+            min-width: 65px;
+        }
+        .popup-value {
+            color: #cbd5e1;
+        }
+        .popup-value a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+        .popup-actions {
+            margin-top: 0.5rem;
+            display: flex;
+            gap: 0.5rem;
+        }
+        .popup-btn {
+            flex: 1;
+            padding: 0.4rem;
+            border-radius: 6px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        .popup-btn.maps { background: #3b82f6; color: white; }
+        .popup-btn.website { background: #334155; color: #e2e8f0; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📍 MHP Opportunity Zones - Florida</h1>
+        <div class="stats">
+            <div class="stat purple">
+                <div class="stat-value" id="stat-hot-zones">2</div>
+                <div class="stat-label" id="label-hot-zones">Hot Zones (60+)</div>
+            </div>
+            <div class="stat blue">
+                <div class="stat-value" id="stat-zips">2</div>
+                <div class="stat-label">Zip Codes</div>
+            </div>
+            <div class="stat green">
+                <div class="stat-value" id="stat-leads">3</div>
+                <div class="stat-label">Leads</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="controls">
+        <div class="layer-toggles">
+            <button class="toggle-btn opportunity active" onclick="toggleLayer('opportunity')">
+                🎯 Opportunity Score
+            </button>
+            <button class="toggle-btn growth" onclick="toggleLayer('growth')">
+                📈 Population Growth
+            </button>
+            <button class="toggle-btn afford" onclick="toggleLayer('afford')">
+                🏠 Affordability
+            </button>
+            <button class="toggle-btn displacement" onclick="toggleLayer('displacement')">
+                🔴 Displacement Play
+            </button>
+            <button class="toggle-btn progress" onclick="toggleLayer('progress')">
+                💰 Path of Progress
+            </button>
+            <button class="toggle-btn snowbird" onclick="toggleLayer('snowbird')">
+                🌴 Snowbird Haven
+            </button>
+            <button class="toggle-btn slumlord" onclick="toggleLayer('slumlord')">
+                🔧 Slumlord Rehab
+            </button>
+            <button class="toggle-btn exurb" onclick="toggleLayer('exurb')">
+                🏡 Remote Work Exurb
+            </button>
+            <button class="toggle-btn leads active" onclick="toggleLayer('leads')">
+                📍 Leads
+            </button>
+            <button class="toggle-btn filter-leads" onclick="toggleLayer('filterLeads')" title="Only show leads inside visible opportunity zones">
+                🛡️ Filter Leads in Zones
+            </button>
+        </div>
+        <div class="filter-group">
+            <label>Min Score:</label>
+            <input type="range" id="minScoreFilter" min="0" max="100" value="0">
+            <span class="score-display" id="minScoreValue">≥ 0</span>
+        </div>
+    </div>
+    
+    <div class="legends">
+        <div class="legend" id="legend-opportunity">
+            <span class="legend-title">Opportunity:</span>
+            <div class="legend-bar">
+                <span style="background:#f3e8ff"></span>
+                <span style="background:#d8b4fe"></span>
+                <span style="background:#a855f7"></span>
+                <span style="background:#7c3aed"></span>
+            </div>
+            <div class="legend-labels"><span>Low</span><span>High</span></div>
+        </div>
+        <div class="legend" id="legend-growth" style="display:none;">
+            <span class="legend-title">Growth:</span>
+            <div class="legend-bar">
+                <span style="background:#fecaca"></span>
+                <span style="background:#f87171"></span>
+                <span style="background:#dc2626"></span>
+                <span style="background:#991b1b"></span>
+            </div>
+            <div class="legend-labels"><span>-5%</span><span>+15%</span></div>
+        </div>
+        <div class="legend" id="legend-afford" style="display:none;">
+            <span class="legend-title">Affordability:</span>
+            <div class="legend-bar">
+                <span style="background:#14532d"></span>
+                <span style="background:#22c55e"></span>
+                <span style="background:#4ade80"></span>
+                <span style="background:#bbf7d0"></span>
+            </div>
+            <div class="legend-labels"><span>Cheap</span><span>Expensive</span></div>
+        </div>
+        <div class="legend" id="legend-displacement" style="display:none;">
+            <span class="legend-title">Displacement:</span>
+            <div class="legend-bar">
+                <span style="background:#fee2e2"></span>
+                <span style="background:#fca5a5"></span>
+                <span style="background:#ef4444"></span>
+                <span style="background:#b91c1c"></span>
+            </div>
+            <div class="legend-labels"><span>Low</span><span>High</span></div>
+        </div>
+        <div class="legend" id="legend-progress" style="display:none;">
+            <span class="legend-title">Path of Progress:</span>
+            <div class="legend-bar">
+                <span style="background:#dcfce7"></span>
+                <span style="background:#86efac"></span>
+                <span style="background:#22c55e"></span>
+                <span style="background:#15803d"></span>
+            </div>
+            <div class="legend-labels"><span>Low</span><span>High</span></div>
+        </div>
+        <div class="legend" id="legend-snowbird" style="display:none;">
+            <span class="legend-title">Snowbird Haven:</span>
+            <div class="legend-bar">
+                <span style="background:#dbeafe"></span>
+                <span style="background:#93c5fd"></span>
+                <span style="background:#3b82f6"></span>
+                <span style="background:#1d4ed8"></span>
+            </div>
+            <div class="legend-labels"><span>Low</span><span>High</span></div>
+        </div>
+        <div class="legend" id="legend-slumlord" style="display:none;">
+            <span class="legend-title">Slumlord Rehab:</span>
+            <div class="legend-bar">
+                <span style="background:#ffedd5"></span>
+                <span style="background:#fdba74"></span>
+                <span style="background:#f97316"></span>
+                <span style="background:#c2410c"></span>
+            </div>
+            <div class="legend-labels"><span>Low</span><span>High</span></div>
+        </div>
+        <div class="legend" id="legend-exurb" style="display:none;">
+            <span class="legend-title">Remote Work Exurb:</span>
+            <div class="legend-bar">
+                <span style="background:#fae8ff"></span>
+                <span style="background:#e879f9"></span>
+                <span style="background:#d946ef"></span>
+                <span style="background:#a21caf"></span>
+            </div>
+            <div class="legend-labels"><span>Low</span><span>High</span></div>
+        </div>
+    </div>
+    
+    <div class="map-container">
+        <div id="map"></div>
+        <div id="thesis-info-panel">
+            <div class="thesis-panel-title" id="thesis-title">🎯 Opportunity Score</div>
+            <div class="thesis-section">
+                <div class="thesis-section-header">What It Measures</div>
+                <div class="thesis-section-content" id="thesis-description">
+                    The "All-Rounder" score combining population growth, housing affordability, mobile home market presence, and healthy vacancy rates.
+                </div>
+            </div>
+            <div class="thesis-section">
+                <div class="thesis-section-header">How It's Scored</div>
+                <div class="thesis-formula" id="thesis-formula">
+                    <div class="thesis-formula-line">45% Population Growth</div>
+                    <div class="thesis-formula-line">35% Affordability (Low PTI)</div>
+                    <div class="thesis-formula-line">10% Mobile Home %</div>
+                    <div class="thesis-formula-line">10% Vacancy Rate (5-10%)</div>
+                </div>
+            </div>
+            <div class="thesis-section">
+                <div class="thesis-section-header">Best For</div>
+                <div class="thesis-usecase" id="thesis-usecase">
+                    First-time investors or those seeking low-risk "Core+" assets with balanced growth and stability.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Data
+        const markersData = [{"lat": 27.65, "lng": -81.5, "name": "Test Lead 1", "address": "123 Main St", "city": "Avon Park", "phone": "555-1234", "website": "", "mapsUrl": "", "rating": "", "reviews": "", "score": 8, "distress": 2, "reasons": "", "color": "#22c55e"}, {"lat": 27.62, "lng": -81.52, "name": "Test Lead 2", "address": "456 Elm St", "city": "Avon Park", "phone": "555-5678", "website": "", "mapsUrl": "", "rating": "", "reviews": "", "score": 5, "distress": 9, "reasons": "", "color": "#ef4444"}, {"lat": 27.58, "lng": -81.6, "name": "Test Lead 3", "address": "789 Oak Ave", "city": "Sebring", "phone": "555-9012", "website": "", "mapsUrl": "", "rating": "", "reviews": "", "score": 7, "distress": 4, "reasons": "", "color": "#22c55e"}];
+        const choroplethData = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[-81.55, 27.6], [-81.45, 27.6], [-81.45, 27.7], [-81.55, 27.7], [-81.55, 27.6]]]}, "properties": {"zcta": "33825", "county": "", "growth": null, "pti": null, "score": 80, "rank": null, "mhPct": null, "vacancy": null, "homeValue": null, "income": null, "population": null, "medianAge": null, "seniorPct": null, "rentBurden": null, "incomeGrowth": null, "displacementScore": null, "progressScore": null, "snowbirdScore": null, "slumlordScore": null, "exurbScore": null, "growthScore": 0, "affordScore": 0, "growthColor": "#808080", "affordColor": "#808080", "scoreColor": "#7c3aed", "displacementColor": "#808080", "progressColor": "#808080", "snowbirdColor": "#808080", "slumlordColor": "#808080", "exurbColor": "#808080"}}, {"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[-81.65, 27.55], [-81.55, 27.55], [-81.55, 27.65], [-81.65, 27.65], [-81.65, 27.55]]]}, "properties": {"zcta": "33826", "county": "", "growth": null, "pti": null, "score": 65, "rank": null, "mhPct": null, "vacancy": null, "homeValue": null, "income": null, "population": null, "medianAge": null, "seniorPct": null, "rentBurden": null, "incomeGrowth": null, "displacementScore": null, "progressScore": null, "snowbirdScore": null, "slumlordScore": null, "exurbScore": null, "growthScore": 0, "affordScore": 0, "growthColor": "#808080", "affordColor": "#808080", "scoreColor": "#a855f7", "displacementColor": "#808080", "progressColor": "#808080", "snowbirdColor": "#808080", "slumlordColor": "#808080", "exurbColor": "#808080"}}]};
+        
+        // Layer state
+        const layerState = {
+            opportunity: true,
+            growth: false,
+            afford: false,
+            displacement: false,
+            progress: false,
+            snowbird: false,
+            slumlord: false,
+            exurb: false,
+            leads: true,
+            filterLeads: false
+        };
+        
+        // Thesis descriptions for info panel
+        const thesisDescriptions = {
+            opportunity: {
+                title: '🎯 Opportunity Score',
+                description: 'The "All-Rounder" score combining population growth, housing affordability, mobile home market presence, and healthy vacancy rates.',
+                formula: [
+                    '45% Population Growth',
+                    '35% Affordability (Low PTI)',
+                    '10% Mobile Home %',
+                    '10% Vacancy Rate (5-10%)'
+                ],
+                usecase: 'First-time investors or those seeking low-risk "Core+" assets with balanced growth and stability.'
+            },
+            growth: {
+                title: '📈 Population Growth',
+                description: 'Identifies areas where people are moving. High growth = increasing demand for housing of all types, including affordable MH lots.',
+                formula: [
+                    '100% Population Change',
+                    'Compares 2019 vs 2023',
+                    '+20% growth = Score 100'
+                ],
+                usecase: '"Buy and Hold" strategy. If population grows, lot rents rise naturally over time.'
+            },
+            afford: {
+                title: '🏠 Affordability',
+                description: 'Finds markets where traditional housing is unaffordable, creating strong demand for MH alternatives.',
+                formula: [
+                    '100% Price-to-Income Ratio',
+                    'PTI ≤ 2.5 = Very Affordable',
+                    'PTI ≥ 6.5 = Expensive'
+                ],
+                usecase: '"Recession Proof" thesis. In expensive markets, MH is the only option—low turnover, high occupancy.'
+            },
+            displacement: {
+                title: '🔴 Displacement Play',
+                description: 'Identifies areas where renters are stretched thin—high rent burden + low vacancy = captive audience for affordable MH.',
+                formula: [
+                    '40% Rent Burden (>40% = stressed)',
+                    '30% Low Vacancy (tight market)',
+                    '30% Still Affordable (PTI < 6)'
+                ],
+                usecase: '"Value-Add Aggressive" strategy. Target areas with under-market rents where you can raise to market and still be cheapest option.'
+            },
+            progress: {
+                title: '💰 Path of Progress',
+                description: 'Finds the next boomtown—areas where incomes are rising but home prices haven\\'t caught up yet.',
+                formula: [
+                    '50% Income Growth Rate',
+                    '50% Still Affordable (low PTI)'
+                ],
+                usecase: '"Equity Flip" strategy. Buy cheap, wait for gentrification, sell at higher cap rate in 5-7 years.'
+            },
+            snowbird: {
+                title: '🌴 Snowbird Haven',
+                description: 'Targets 55+ communities—areas with high median age and large senior populations (65+).',
+                formula: [
+                    '40% Median Age (55+ ideal)',
+                    '60% Senior Percentage (30%+ = haven)'
+                ],
+                usecase: 'Senior parks are quieter, easier to manage, and have lower capex. Perfect for "hands-off" investors.'
+            },
+            slumlord: {
+                title: '🔧 Slumlord Rehab',
+                description: 'Finds distressed areas with turnaround potential—high vacancy, cheap prices, but existing MH market.',
+                formula: [
+                    '40% High Vacancy (10-25%)',
+                    '30% Low Home Value (<$150k)',
+                    '30% High Mobile Home % (>15%)'
+                ],
+                usecase: '"Heavy Lift" strategy. Buy mismanaged parks cheap, fix infrastructure, clean up tenants, double property value.'
+            },
+            exurb: {
+                title: '🏡 Remote Work Exurb',
+                description: 'The "Goldilocks Zone"—45-75 miles from metro. Close enough to commute, far enough to be affordable.',
+                formula: [
+                    '40% Distance Sweet Spot (45-75mi)',
+                    '30% Affordability (PTI < 5)',
+                    '30% Population Growth'
+                ],
+                usecase: '"Yield Maximizer" thesis. Big investors ignore these areas—less competition, better prices for quality parks.'
+            }
+        };
+        
+        function updateThesisPanel(thesis) {
+            const info = thesisDescriptions[thesis];
+            if (!info) return;
+            
+            document.getElementById('thesis-title').textContent = info.title;
+            document.getElementById('thesis-description').textContent = info.description;
+            document.getElementById('thesis-formula').innerHTML = info.formula.map(f => 
+                `<div class="thesis-formula-line">${f}</div>`
+            ).join('');
+            document.getElementById('thesis-usecase').textContent = info.usecase;
+        }
+        
+        // Thesis-to-metrics mapping for contextual popups
+        const thesisMetrics = {
+            opportunity: {
+                name: '🎯 Opportunity Score',
+                scoreKey: 'score',
+                metrics: [
+                    { key: 'growth', label: 'Pop Growth', format: 'percent' },
+                    { key: 'pti', label: 'Price/Income', format: 'ratio' },
+                    { key: 'mhPct', label: 'Mobile Home %', format: 'percent' },
+                    { key: 'vacancy', label: 'Vacancy', format: 'percent' }
+                ]
+            },
+            growth: {
+                name: '📈 Population Growth',
+                scoreKey: 'growthScore', // Assuming this is calculated or we use raw
+                metrics: [
+                    { key: 'growth', label: 'Pop Growth', format: 'percent' }
+                ]
+            },
+            afford: {
+                name: '🏠 Affordability',
+                scoreKey: 'affordScore',
+                metrics: [
+                    { key: 'pti', label: 'Price/Income', format: 'ratio' },
+                    { key: 'homeValue', label: 'Home Value', format: 'currency' }
+                ]
+            },
+            displacement: {
+                name: '📉 Displacement Risk',
+                scoreKey: 'displacementScore',
+                metrics: [
+                    { key: 'rentBurden', label: 'Rent Burden', format: 'percent' },
+                    { key: 'vacancy', label: 'Vacancy', format: 'percent' },
+                    { key: 'pti', label: 'Price/Income', format: 'ratio' }
+                ]
+            },
+            progress: {
+                name: '🏘️ Path of Progress',
+                scoreKey: 'progressScore',
+                metrics: [
+                    { key: 'incomeGrowth', label: 'Income Growth', format: 'percent' },
+                    { key: 'pti', label: 'Price/Income', format: 'ratio' }
+                ]
+            },
+            snowbird: {
+                name: '🦩 Snowbird Haven',
+                scoreKey: 'snowbirdScore',
+                metrics: [
+                    { key: 'medianAge', label: 'Median Age', format: 'number' },
+                    { key: 'seniorPct', label: 'Senior %', format: 'percent' }
+                ]
+            },
+            slumlord: {
+                name: '🛠️ Slumlord Rehab',
+                scoreKey: 'slumlordScore',
+                metrics: [
+                    { key: 'vacancy', label: 'Vacancy', format: 'percent' },
+                    { key: 'homeValue', label: 'Home Value', format: 'currency' },
+                    { key: 'mhPct', label: 'Mobile Home %', format: 'percent' }
+                ]
+            },
+            exurb: {
+                name: '🏡 Remote Work Exurb',
+                scoreKey: 'exurbScore',
+                metrics: [
+                    { key: 'distanceToMetro', label: 'Dist to Metro', format: 'miles' },
+                    { key: 'growth', label: 'Pop Growth', format: 'percent' },
+                    { key: 'pti', label: 'Price/Income', format: 'ratio' }
+                ]
+            }
+        };
+        
+        // Find ZCTA zone for a given lat/lng
+        function findZoneForPoint(lat, lng) {
+            for (let feature of choroplethData.features) {
+                if (isPointInTarget(lat, lng, feature)) {
+                    return feature.properties;
+                }
+            }
+            return null;
+        }
+        
+        // Format a metric value based on type
+        function formatMetricValue(value, format) {
+            if (value === null || value === undefined) return 'N/A';
+            switch (format) {
+                case 'percent':
+                    return (value >= 0 ? '+' : '') + value.toFixed(1) + '%';
+                case 'ratio':
+                    return value.toFixed(1) + 'x';
+                case 'currency':
+                    return '$' + (value >= 1000000 ? (value/1000000).toFixed(1) + 'M' : 
+                                  value >= 1000 ? (value/1000).toFixed(0) + 'K' : value);
+                case 'miles':
+                    return value.toFixed(0) + ' mi';
+                case 'number':
+                default:
+                    return value.toFixed(1);
+            }
+        }
+        
+        // Build zone insights HTML for active active theses
+        function buildZoneInsightsHtml(zoneProps) {
+            if (!zoneProps) return '';
+            
+            const activeLayers = Object.keys(thesisMetrics).filter(k => layerState[k]);
+            if (activeLayers.length === 0) return '';
+            
+            let html = '<div style="border-top:1px solid #334155;margin-top:8px;padding-top:8px">';
+            html += '<div style="font-weight:600;color:#94a3b8;font-size:0.7rem;text-transform:uppercase;margin-bottom:6px">Zone Insights (ZIP ' + zoneProps.zcta + ')</div>';
+            
+            activeLayers.forEach(layer => {
+                const thesis = thesisMetrics[layer];
+                const score = zoneProps[thesis.scoreKey];
+                const scoreDisplay = score !== null && score !== undefined ? score.toFixed(0) : 'N/A';
+                
+                html += '<div style="margin-bottom:8px">';
+                html += '<div style="font-weight:600;color:#e2e8f0;font-size:0.8rem">' + thesis.name + ': ' + scoreDisplay + '</div>';
+                
+                thesis.metrics.forEach(m => {
+                    let val = zoneProps[m.key];
+                    // Handle special key mapping for exurb distance
+                    if (m.key === 'distanceToMetro') val = zoneProps['distance_to_nearest_metro'];
+                    
+                    html += '<div style="display:flex;justify-content:space-between;font-size:0.75rem;color:#94a3b8;padding-left:8px">';
+                    html += '<span>' + m.label + ':</span>';
+                    html += '<span style="color:#e2e8f0">' + formatMetricValue(val, m.format) + '</span>';
+                    html += '</div>';
+                });
+                html += '</div>';
+            });
+            
+            html += '</div>';
+            return html;
+        }
+
+        
+        // Initialize map
+        window.map = L.map('map').setView([27.616666666666664, -81.54], 7);
+        const map = window.map;
+        
+        // Create custom pane for lead markers with higher z-index than choropleth
+        map.createPane('leadMarkers');
+        map.getPane('leadMarkers').style.zIndex = 650;  // overlayPane is 400, shadowPane is 500
+        
+        // Tile layer - using OpenStreetMap (known working)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors',
+            maxZoom: 19
+        }).addTo(map);
+        
+        // Force Leaflet to recalculate size after DOM is ready
+        setTimeout(function() {
+            map.invalidateSize();
+            console.log('Map size invalidated');
+        }, 100);
+        
+        // Choropleth layer
+        let choroplethLayer = null;
+        
+        function getChoroplethStyle(feature) {
+            const props = feature.properties;
+            
+            // Collect active layer colors
+            const colors = [];
+            if (layerState.opportunity && props.scoreColor && props.scoreColor !== '#808080') {
+                colors.push(props.scoreColor);
+            }
+            if (layerState.growth && props.growthColor && props.growthColor !== '#808080') {
+                colors.push(props.growthColor);
+            }
+            if (layerState.afford && props.affordColor && props.affordColor !== '#808080') {
+                colors.push(props.affordColor);
+            }
+            if (layerState.displacement && props.displacementColor && props.displacementColor !== '#808080') {
+                colors.push(props.displacementColor);
+            }
+            if (layerState.progress && props.progressColor && props.progressColor !== '#808080') {
+                colors.push(props.progressColor);
+            }
+            if (layerState.snowbird && props.snowbirdColor && props.snowbirdColor !== '#808080') {
+                colors.push(props.snowbirdColor);
+            }
+            if (layerState.slumlord && props.slumlordColor && props.slumlordColor !== '#808080') {
+                colors.push(props.slumlordColor);
+            }
+            if (layerState.exurb && props.exurbColor && props.exurbColor !== '#808080') {
+                colors.push(props.exurbColor);
+            }
+            
+            // Blend colors if multiple active, otherwise use single or default gray
+            let fillColor = '#334155'; // Default dark blue-gray for "no data/low score"
+            if (colors.length === 1) {
+                fillColor = colors[0];
+            } else if (colors.length > 1) {
+                fillColor = blendColors(colors);
+            }
+            
+            // Highlight top opportunity zones
+            const isHotZone = props.score && props.score >= 60;
+            
+            return {
+                fillColor: fillColor,
+                fillOpacity: 0.6,
+                color: isHotZone ? '#fbbf24' : '#334155',
+                weight: isHotZone ? 2 : 0.5,
+                opacity: 1
+            };
+        }
+        
+        // Blend multiple hex colors by averaging RGB
+        function blendColors(hexColors) {
+            let r = 0, g = 0, b = 0;
+            hexColors.forEach(hex => {
+                const result = /^#?([a-f\\d]{2})([a-f\\d]{2})([a-f\\d]{2})$/i.exec(hex);
+                if (result) {
+                    r += parseInt(result[1], 16);
+                    g += parseInt(result[2], 16);
+                    b += parseInt(result[3], 16);
+                }
+            });
+            const n = hexColors.length;
+            r = Math.round(r / n);
+            g = Math.round(g / n);
+            b = Math.round(b / n);
+            return '#' + [r, g, b].map(x => x.toString(16).padStart(2, '0')).join('');
+        }
+        
+        function formatNumber(num) {
+            if (num === null || num === undefined) return 'N/A';
+            if (num >= 1000000) return (num / 1000000).toFixed(1) + 'M';
+            if (num >= 1000) return (num / 1000).toFixed(0) + 'K';
+            return num.toLocaleString();
+        }
+        
+        function formatPercent(num) {
+            if (num === null || num === undefined) return 'N/A';
+            const sign = num >= 0 ? '+' : '';
+            return sign + num.toFixed(1) + '%';
+        }
+        
+        function onEachFeature(feature, layer) {
+            const props = feature.properties;
+            
+            const growthClass = props.growth > 0 ? 'positive' : 'negative';
+            const ptiLabel = props.pti ? (props.pti <= 4 ? 'Affordable' : props.pti <= 6 ? 'Moderate' : 'Expensive') : 'N/A';
+            
+            const popup = `
+                <div class="popup-content">
+                    <div class="popup-header">
+                        <span class="popup-zcta">ZIP ${props.zcta}</span>
+                        <span class="popup-score-badge" style="background:${props.scoreColor || '#666'}">
+                            ${props.score ? props.score.toFixed(0) : 'N/A'} pts
+                        </span>
+                    </div>
+                    <div class="popup-metrics">
+                        <div class="popup-metric">
+                            <span class="popup-metric-label">Pop Growth (5yr)</span>
+                            <span class="popup-metric-value ${growthClass}">${formatPercent(props.growth)}</span>
+                        </div>
+                        <div class="popup-metric">
+                            <span class="popup-metric-label">Price/Income</span>
+                            <span class="popup-metric-value">${props.pti ? props.pti.toFixed(1) + 'x' : 'N/A'} (${ptiLabel})</span>
+                        </div>
+                        <div class="popup-metric">
+                            <span class="popup-metric-label">Mobile Home %</span>
+                            <span class="popup-metric-value">${props.mhPct ? props.mhPct.toFixed(1) + '%' : 'N/A'}</span>
+                        </div>
+                        <div class="popup-metric">
+                            <span class="popup-metric-label">Vacancy</span>
+                            <span class="popup-metric-value">${props.vacancy ? props.vacancy.toFixed(1) + '%' : 'N/A'}</span>
+                        </div>
+                        <div class="popup-metric">
+                            <span class="popup-metric-label">Med. Home Value</span>
+                            <span class="popup-metric-value">$${formatNumber(props.homeValue)}</span>
+                        </div>
+                        <div class="popup-metric">
+                            <span class="popup-metric-label">Population</span>
+                            <span class="popup-metric-value">${formatNumber(props.population)}</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            layer.bindPopup(popup, { maxWidth: 300 });
+            
+            layer.on({
+                mouseover: function(e) {
+                    const layer = e.target;
+                    layer.setStyle({
+                        weight: 3,
+                        color: '#fff',
+                        fillOpacity: 0.8
+                    });
+                    layer.bringToFront();
+                },
+                mouseout: function(e) {
+                    choroplethLayer.resetStyle(e.target);
+                }
+            });
+        }
+        
+        function updateChoropleth() {
+            if (choroplethLayer) {
+                map.removeLayer(choroplethLayer);
+            }
+            
+            const minScore = parseInt(document.getElementById('minScoreFilter').value);
+            
+            // Determine active thesis keys that have scores
+            const activeThesisKeys = Object.keys(thesisMetrics).filter(k => layerState[k]);
+            
+            // Filter features by min score on ANY active thesis
+            const filteredData = {
+                type: 'FeatureCollection',
+                features: choroplethData.features.filter(f => {
+                    // If no scored layers are active (e.g. only Growth/Afford), show all
+                    if (activeThesisKeys.length === 0) return true;
+                    
+                    // Show feature if it meets the threshold for AT LEAST ONE active thesis
+                    return activeThesisKeys.some(key => {
+                        const scoreKey = thesisMetrics[key].scoreKey;
+                        const score = f.properties[scoreKey] || 0;
+                        return score >= minScore;
+                    });
+                })
+            };
+            
+            // Update Stats
+            document.getElementById('stat-zips').textContent = filteredData.features.length;
+            document.getElementById('label-hot-zones').textContent = `Hot Zones (${minScore}+)`;
+            document.getElementById('stat-hot-zones').textContent = filteredData.features.length; // Simply count visible zones as "Hot" for the current filter
+            
+            if (layerState.opportunity || layerState.growth || layerState.afford || layerState.displacement || layerState.progress || layerState.snowbird || layerState.slumlord || layerState.exurb) {
+                choroplethLayer = L.geoJSON(filteredData, {
+                    style: getChoroplethStyle,
+                    onEachFeature: onEachFeature
+                }).addTo(map);
+            }
+        }
+        
+        // Lead markers
+        const leadMarkers = [];
+        
+        markersData.forEach(data => {
+            const marker = L.circleMarker([data.lat, data.lng], {
+                radius: 8,
+                fillColor: data.color,
+                color: '#ffffff',
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.9,
+                pane: 'leadMarkers'  // Use custom pane to stay above choropleth
+            });
+            
+            const distressLabel = data.distress >= 8 ? '<span style="background:#ef4444;color:white;padding:2px 6px;border-radius:4px;font-size:0.7rem;margin-left:6px">🔥 HOT TARGET</span>' : 
+                                 data.distress >= 6 ? '<span style="background:#f97316;color:white;padding:2px 6px;border-radius:4px;font-size:0.7rem;margin-left:6px">⚠️ DISTRESSED</span>' : '';
+            
+            let popupHtml = `
+                <div class="popup-content">
+                    <div class="popup-header">
+                        <div>
+                            <span class="popup-name">${data.name}</span>${distressLabel}
+                            ${data.city ? `<div style="font-size:0.75rem;color:#94a3b8;margin-top:2px">${data.city}</div>` : ''}
+                        </div>
+                        <span class="popup-score-badge" style="background:${data.color}">
+                            ${data.score}/10
+                        </span>
+                    </div>
+                    <div class="popup-row">
+                        <span class="popup-label">Address:</span>
+                        <span class="popup-value">${data.address}</span>
+                    </div>
+            `;
+            
+            if (data.phone) {
+                popupHtml += `
+                    <div class="popup-row">
+                        <span class="popup-label">Phone:</span>
+                        <span class="popup-value"><a href="tel:${data.phone}">${data.phone}</a></span>
+                    </div>
+                `;
+            }
+            
+            if (data.rating) {
+                popupHtml += `
+                    <div class="popup-row">
+                        <span class="popup-label">Rating:</span>
+                        <span class="popup-value">⭐ ${data.rating} (${data.reviews} reviews)</span>
+                    </div>
+                `;
+            }
+            
+            popupHtml += `<div class="popup-actions">`;
+            if (data.mapsUrl) {
+                popupHtml += `<a href="${data.mapsUrl}" target="_blank" class="popup-btn maps">📍 Maps</a>`;
+            }
+            if (data.website) {
+                popupHtml += `<a href="${data.website}" target="_blank" class="popup-btn website">🌐 Web</a>`;
+            }
+            popupHtml += `</div></div>`;
+            
+            // Store lat/lng for dynamic zone lookup on popup open
+            marker._leadData = data;
+            
+            marker.on('click', function(e) {
+                const zoneProps = findZoneForPoint(data.lat, data.lng);
+                const zoneInsights = buildZoneInsightsHtml(zoneProps);
+                const fullPopupHtml = popupHtml + zoneInsights;
+                this.bindPopup(fullPopupHtml, { maxWidth: 320 }).openPopup();
+            });
+            
+            leadMarkers.push(marker);
+            
+            if (layerState.leads) {
+                marker.addTo(map);
+            }
+        });
+
+        // Debounce helper
+        function debounce(func, wait) {
+            let timeout;
+            return function() {
+                const context = this, args = arguments;
+                clearTimeout(timeout);
+                timeout = setTimeout(() => func.apply(context, args), wait);
+            };
+        }
+
+        // Filtering Logic
+        function updateVisibleLeads() {
+             if (!layerState.leads) return;
+             
+             let visibleCount = 0;
+             
+             // If filter is OFF, just show all
+             if (!layerState.filterLeads) {
+                 leadMarkers.forEach(m => {
+                     m.addTo(map);
+                     visibleCount++;
+                 });
+             } else {
+                // If filter is ON, filter by visible zones
+                const minScore = parseInt(document.getElementById('minScoreFilter').value);
+                const validFeatures = choroplethData.features.filter(f => {
+                     const score = f.properties.score || 0; 
+                     // IMPORTANT: This filter logic MUST match updateChoropleth for consistency
+                     const activeThesisKeys = Object.keys(thesisMetrics).filter(k => layerState[k]);
+                     if (activeThesisKeys.length === 0) return true;
+                     return activeThesisKeys.some(key => {
+                        const scoreKey = thesisMetrics[key].scoreKey;
+                        const s = f.properties[scoreKey] || 0;
+                        return s >= minScore;
+                     });
+                });
+                
+                if (validFeatures.length === 0) {
+                    leadMarkers.forEach(m => m.remove());
+                } else {
+                    leadMarkers.forEach(marker => {
+                        const lat = marker.getLatLng().lat;
+                        const lng = marker.getLatLng().lng;
+                        let isInside = false;
+                        for (let i = 0; i < validFeatures.length; i++) {
+                            if (isPointInTarget(lat, lng, validFeatures[i])) {
+                                isInside = true;
+                                break;
+                            }
+                        }
+                        if (isInside) {
+                            marker.addTo(map);
+                            visibleCount++;
+                        } else {
+                            marker.remove();
+                        }
+                    });
+                }
+             }
+             // Update lead stat
+             document.getElementById('stat-leads').textContent = visibleCount;
+        }
+        
+        // Toggle layer visibility
+        function toggleLayer(layer) {
+            layerState[layer] = !layerState[layer];
+            
+            // Update button states - map CSS class to layer name
+            document.querySelectorAll('.toggle-btn').forEach(btn => {
+                const layerName = btn.classList.contains('opportunity') ? 'opportunity' :
+                                  btn.classList.contains('growth') ? 'growth' :
+                                  btn.classList.contains('afford') ? 'afford' :
+                                  btn.classList.contains('displacement') ? 'displacement' :
+                                  btn.classList.contains('progress') ? 'progress' :
+                                  btn.classList.contains('snowbird') ? 'snowbird' :
+                                  btn.classList.contains('slumlord') ? 'slumlord' :
+                                  btn.classList.contains('exurb') ? 'exurb' :
+                                  btn.classList.contains('filter-leads') ? 'filterLeads' :
+                                  btn.classList.contains('leads') ? 'leads' : null;
+                if (layerName) {
+                    btn.classList.toggle('active', layerState[layerName]);
+                }
+            });
+            
+            // Update legends
+            document.getElementById('legend-opportunity').style.display = layerState.opportunity ? 'flex' : 'none';
+            document.getElementById('legend-growth').style.display = layerState.growth ? 'flex' : 'none';
+            document.getElementById('legend-afford').style.display = layerState.afford ? 'flex' : 'none';
+            document.getElementById('legend-displacement').style.display = layerState.displacement ? 'flex' : 'none';
+            document.getElementById('legend-progress').style.display = layerState.progress ? 'flex' : 'none';
+            document.getElementById('legend-snowbird').style.display = layerState.snowbird ? 'flex' : 'none';
+            document.getElementById('legend-slumlord').style.display = layerState.slumlord ? 'flex' : 'none';
+            document.getElementById('legend-exurb').style.display = layerState.exurb ? 'flex' : 'none';
+            
+            // Update thesis info panel for the selected thesis
+            const thesisKeys = ['opportunity', 'growth', 'afford', 'displacement', 'progress', 'snowbird', 'slumlord', 'exurb'];
+            if (thesisKeys.includes(layer) && layerState[layer]) {
+                updateThesisPanel(layer);
+            }
+            
+            // Update choropleth
+            updateChoropleth();
+            
+             // Update lead markers
+            // Update lead markers
+            if (layer === 'leads') {
+                 // If toggling main leads switch
+                 leadMarkers.forEach(marker => {
+                    if (layerState.leads) {
+                        marker.addTo(map);
+                    } else {
+                        marker.remove();
+                    }
+                });
+                // Re-apply spatial filter if needed
+                if (layerState.leads) updateVisibleLeads();
+            } else if (layer === 'filterLeads') {
+                updateVisibleLeads();
+            } else {
+                // Toggling any thesis layer potentially changes the visible zones
+                if (layerState.filterLeads) updateVisibleLeads();
+            }
+        }
+        
+        // Min score filter
+        const minScoreFilter = document.getElementById('minScoreFilter');
+        const minScoreValue = document.getElementById('minScoreValue');
+        
+        const debouncedUpdate = debounce(() => {
+            updateChoropleth();
+            if (layerState.filterLeads) updateVisibleLeads();
+        }, 250);
+
+        minScoreFilter.addEventListener('input', function() {
+            minScoreValue.textContent = '≥ ' + this.value;
+            debouncedUpdate();
+        });
+        
+        // Initial render
+        updateChoropleth();
+        updateVisibleLeads();
+        
+        // --- Point in Polygon Logic ---
+        
+        function isPointInPolygon(point, vs) {
+            // ray-casting algorithm based on
+            // https://github.com/substack/point-in-polygon
+            
+            var x = point[0], y = point[1];
+            
+            var inside = false;
+            for (var i = 0, j = vs.length - 1; i < vs.length; j = i++) {
+                var xi = vs[i][0], yi = vs[i][1];
+                var xj = vs[j][0], yj = vs[j][1];
+                
+                var intersect = ((yi > y) != (yj > y))
+                    && (x < (xj - xi) * (y - yi) / (yj - yi) + xi);
+                if (intersect) inside = !inside;
+            }
+            
+            return inside;
+        }
+
+        function isPointInMultiPolygon(point, multiPoly) {
+            // multiPoly is an array of polygons
+            // GeoJSON Polygon: [ [ [x,y]... ] ] (coordinates is array of rings)
+            // GeoJSON MultiPolygon: [ [ [ [x,y]... ] ] ] (coordinates is array of polygons)
+            
+            // In GeoJSON structure from Leaflet/feature content:
+            // geometry.type will be "Polygon" or "MultiPolygon"
+            // geometry.coordinates will be the data
+            
+            // We need to handle this at the feature level
+            return false;
+        }
+
+        function isPointInTarget(lat, lng, feature) {
+            if (!feature || !feature.geometry) return false;
+            
+            const x = lng;
+            const y = lat;
+            const geom = feature.geometry;
+            const coords = geom.coordinates;
+            
+            if (geom.type === 'Polygon') {
+                // coords[0] is the outer ring
+                return isPointInPolygon([x, y], coords[0]);
+            } else if (geom.type === 'MultiPolygon') {
+                for (let i = 0; i < coords.length; i++) {
+                    // coords[i][0] is the outer ring of the i-th polygon
+                    if (isPointInPolygon([x, y], coords[i][0])) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+        // --- Filtering Logic ---
+
+        function updateVisibleLeads() {
+            if (!layerState.leads) return; // If leads are off globaly, nothing to do
+            
+            // If filter is OFF, just show all valid leads
+            if (!layerState.filterLeads) {
+                leadMarkers.forEach(m => m.addTo(map));
+                return;
+            }
+            
+            // If filter is ON, we need the currently visible zones
+            // We can get them from the global 'choroplethData' using current filters
+            const minScore = parseInt(document.getElementById('minScoreFilter').value);
+            const validFeatures = choroplethData.features.filter(f => {
+                const score = f.properties.score || 0;
+                return score >= minScore;
+            });
+            
+            // Optimization: if no zones visible, hide all leads
+            if (validFeatures.length === 0) {
+                leadMarkers.forEach(m => m.remove());
+                return;
+            }
+            
+            // Check each marker
+            leadMarkers.forEach(marker => {
+                const lat = marker.getLatLng().lat;
+                const lng = marker.getLatLng().lng;
+                
+                let isInside = false;
+                // Ideally use spatial index, but for <2k polygons and <5k points this O(N*M) might fly 
+                // if we don't drag slider too fast. 
+                // Let's implement a quick bounding box check or just iterate.
+                for (let i = 0; i < validFeatures.length; i++) {
+                    if (isPointInTarget(lat, lng, validFeatures[i])) {
+                        isInside = true;
+                        break;
+                    }
+                }
+                
+                if (isInside) {
+                    marker.addTo(map);
+                } else {
+                    marker.remove();
+                }
+            });
+        }
+
+    </script>
+</body>
+</html>

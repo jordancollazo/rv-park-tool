@@ -1,0 +1,737 @@
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Serving Flask app 'diligence_server'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8001
+ * Running on http://10.110.192.33:8001
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\diligence_analyzer.py', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\crm_server.py', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\db.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_insert.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\crm_server.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_db_schema.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\build_storm_pressure_grid.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_tables.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_import.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_check_broken.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\crawl_website.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_db_amenities.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\batch_scrape.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_fetch_results.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\count_matches.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_schema_search.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_broken_schema.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\add_test_llc.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\batch_crawl_and_score.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_crexi_types.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_schema.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_export.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\count_loopnet.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_crexi_runs.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\add_manual_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\backfill_crexi_urls.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_broken_cols.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\count_crexi.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_apify_run.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_crexi_counts.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_excel.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_raw.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\cleanup_non_mhp_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\compute_tax_shock.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_all_enrichments.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_excel.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_backup.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_enrichment_status.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_minimal.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\compute_insurance_pressure.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\compute_attraction_density.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_apify_dataset.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_llc_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_apify.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_activity.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_columns.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_mhp_db.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\clean_loopnet_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_crm_db.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_triggers.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\diligence_analyzer.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\diligence_crm_lookup.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\diligence_chat.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\diligence_document_processor.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\debug_update.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\diligence_server.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\display_loopnet_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\diligence_utils.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_openfema_disaster_pressure.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_county.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_census_data.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\fetch_crexi_sample.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_nfhl_flood_zone.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_coords.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_leads_gmaps.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\drop_bad_tables.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_storm_pressure.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_zcta_counties.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_sms_capability.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\ensure_columns.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_zcta_risk.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_leads_zcta.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\fetch_apify_dataset.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\export_to_map.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\migrate_add_owner_fatigue.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\ingest_crexi_export.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\export_opportunity_map.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\export_to_sheets.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\fix_crexi_url_slugs.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\show_detailed_loopnet_samples.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\update_test_llc.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\run_insurance_pressure_enrichment.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\migrate_add_loopnet_fields.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\snapshot_db.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\list_apify_runs.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\fetch_zcta_boundaries.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\ingest_apify_cloud.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\financial_calc_webscrape.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\show_crexi_sample.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\migrate_add_crexi_fields.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\migrate_add_enrichment_fields.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\list_apify_datasets.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\test_apify.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\run_enrichment_loopnet_crexi.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\financial_calc_server.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\fetch_florida_zcta_data.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\import_outscraper_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\migrate_add_detailed_loopnet.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\show_recent_loopnet_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\list_all_runs.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\migrate_add_crexi_details.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\restore_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\financial_calc_ocr.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\gmail_sync.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\fetch_dataset.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\get_run_info.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\reset_enrichment.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\inspect_loopnet_raw.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\geocode_loopnet_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\scrape_loopnet_apify.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\map_html.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\normalize_places.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\recover_coords.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\ingest_crexi_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\ingest_florida_millage.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\populate_county_names.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\migrate_schema_deep_enrichment.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\ingest_recovered_json.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\pipeline.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\migrate_schema_v2.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\migrate_schema_enrichment.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\migrate_add_reviews.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\fix_foreign_keys.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\migrate_csv_to_db.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\persist_fatigue.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\score_owner_fatigue.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\run_owner_fatigue_enrichment.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\run_landwatch_pipeline.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\score_website.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\run_places_search.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\verify_enrichment.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\scrapers\\fetch_landwatch.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\scrapers\\process_landwatch.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\verify_crexi_recovery.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\verify_crexi_results.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\tests\\test_owner_fatigue.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\tests\\test_scoring.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\tests\\test_insurance_pressure.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\tests\\test_loopnet_ingest.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\verify_counts.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_invalid_leads.py.tmp.27772.1768072002786', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_invalid_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_invalid_leads.py.tmp.27772.1768072030996', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_invalid_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_invalid_leads.py.tmp.27772.1768072039169', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_invalid_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_invalid_leads.py.tmp.27772.1768072051500', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_invalid_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_invalid_leads.py.tmp.27772.1768072070095', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_invalid_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_invalid_leads.py.tmp.27772.1768072089911', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Python313\\Lib\\encodings\\cp1252.py', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_invalid_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_invalid_leads.py.tmp.27772.1768072105637', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_non_mhp_leads.py.tmp.30012.1768073263966', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_non_mhp_properties.py.tmp.30012.1768073328325', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_non_mhp_properties.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_non_mhp_properties.py.tmp.30012.1768073342888', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_non_mhp_properties.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_non_mhp_properties.py.tmp.30012.1768073349489', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_non_mhp_properties.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_non_mhp_properties.py.tmp.30012.1768073355858', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_unclear_leads.py.tmp.30012.1768073378541', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_listing_details.py.tmp.30012.1768073414093', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\generate_validation_report.py.tmp.30012.1768073498159', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\ingest_crexi_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\crm_server.py', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_non_mhp_properties.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_non_mhp_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_unclear_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_listing_details.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\generate_validation_report.py', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+on\\check_unclear_leads.py.tmp.30012.1768073378541', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_listing_details.py.tmp.30012.1768073414093', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\generate_validation_report.py.tmp.30012.1768073498159', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\ingest_crexi_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\crm_server.py', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\identify_non_mhp_properties.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_non_mhp_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\check_unclear_leads.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\enrich_listing_details.py', reloading
+ * Detected change in 'C:\\Users\\jorda\\Desktop\\mhp-proprietary-outreach-tool\\execution\\generate_validation_report.py', reloading
+============================================================
+Starting Deal Diligence Agent Server
+============================================================
+
+API Endpoints:
+  GET    /api/diligence/deals - List all deals
+  POST   /api/diligence/deals - Create new deal
+  GET    /api/diligence/deals/<id> - Get deal details
+  POST   /api/diligence/deals/<id>/documents - Upload document
+  POST   /api/diligence/deals/<id>/analyze - Run AI analysis
+  GET    /api/diligence/deals/<id>/report - Get markdown report
+  POST   /api/diligence/deals/<id>/chat - Send chat message
+  GET    /api/diligence/deals/<id>/chat - Get chat history
+
+Web Interface:
+  http://localhost:8001/diligence
+
+============================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 141-347-958

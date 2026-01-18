@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deal Diligence Agent - MHP Acquisitions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #f5f7fa;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            color: #2c3e50;
+        }
+
+        header p {
+            color: #7f8c8d;
+            margin-top: 5px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #2980b9;
+        }
+
+        .btn-success {
+            background: #27ae60;
+        }
+
+        .btn-success:hover {
+            background: #229954;
+        }
+
+        .btn-danger {
+            background: #e74c3c;
+        }
+
+        .btn-danger:hover {
+            background: #c0392b;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+
+        .deals-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .deal-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .deal-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .deal-card h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .deal-card .meta {
+            font-size: 13px;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .badge-created { background: #ecf0f1; color: #7f8c8d; }
+        .badge-uploading { background: #f39c12; color: white; }
+        .badge-uploaded { background: #3498db; color: white; }
+        .badge-analyzing { background: #9b59b6; color: white; }
+        .badge-analyzed { background: #27ae60; color: white; }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            overflow-y: auto;
+        }
+
+        .modal-content {
+            background: white;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 500px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+
+        .modal-content h2 {
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .close {
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            color: #aaa;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: #000;
+        }
+
+        #dealView {
+            display: none;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .tab:hover {
+            background: #ecf0f1;
+        }
+
+        .tab.active {
+            border-bottom-color: #3498db;
+            font-weight: 600;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .document-list {
+            list-style: none;
+        }
+
+        .document-list li {
+            padding: 10px;
+            border-bottom: 1px solid #ecf0f1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chat-container {
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            border: 1px solid #ecf0f1;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 10px;
+            background: #f8f9fa;
+        }
+
+        .chat-message {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            max-width: 80%;
+        }
+
+        .chat-message.user {
+            background: #3498db;
+            color: white;
+            margin-left: auto;
+        }
+
+        .chat-message.assistant {
+            background: white;
+            border: 1px solid #ecf0f1;
+        }
+
+        .chat-input-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-input-group input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+        }
+
+        .alert {
+            padding: 12px 20px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .alert-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .report-content {
+            padding: 20px;
+            background: white;
+            border-radius: 4px;
+            line-height: 1.8;
+        }
+
+        .report-content h1,
+        .report-content h2,
+        .report-content h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .report-content ul {
+            margin-left: 20px;
+        }
+
+        pre {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+
+        .file-upload-zone {
+            border: 2px dashed #ddd;
+            border-radius: 4px;
+            padding: 30px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .file-upload-zone:hover {
+            border-color: #3498db;
+            background: #f8f9fa;
+        }
+
+        .file-upload-zone.dragover {
+            border-color: #27ae60;
+            background: #d4edda;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📊 Deal Diligence Agent</h1>
+            <p>AI-powered MHP acquisition analysis</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Deals List View -->
+        <div id="dealsListView">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <h2>Your Deals</h2>
+                <button class="btn btn-success" onclick="showNewDealModal()">+ New Deal</button>
+            </div>
+
+            <div id="dealsGrid" class="deals-grid">
+                <div class="loading">Loading deals...</div>
+            </div>
+        </div>
+
+        <!-- Single Deal View -->
+        <div id="dealView">
+            <div style="margin-bottom: 20px;">
+                <button class="btn" onclick="backToDeals()">← Back to Deals</button>
+            </div>
+
+            <div class="card">
+                <h2 id="dealTitle">Deal Name</h2>
+                <p id="dealMeta" class="meta"></p>
+            </div>
+
+            <div class="tabs">
+                <div class="tab active" onclick="showTab('documents')">📄 Documents</div>
+                <div class="tab" onclick="showTab('analysis')">🔍 Analysis</div>
+                <div class="tab" onclick="showTab('chat')">💬 Chat</div>
+            </div>
+
+            <!-- Documents Tab -->
+            <div id="tab-documents" class="tab-content active">
+                <div class="card">
+                    <h2>Upload Documents</h2>
+                    <div class="file-upload-zone" id="uploadZone">
+                        <p>📁 Drag & drop files here or click to browse</p>
+                        <input type="file" id="fileInput" style="display: none;" multiple>
+                    </div>
+                    <div class="form-group" style="margin-top: 15px;">
+                        <label>Document Type:</label>
+                        <select id="docType">
+                            <option value="offering_memo">Offering Memorandum</option>
+                            <option value="financials">Financial Statements</option>
+                            <option value="photos">Property Photos</option>
+                            <option value="legal">Legal Documents</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>Uploaded Documents</h2>
+                    <ul id="documentsList" class="document-list">
+                        <li class="loading">No documents uploaded yet</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Analysis Tab -->
+            <div id="tab-analysis" class="tab-content">
+                <div class="card">
+                    <h2>AI Analysis</h2>
+                    <button class="btn btn-success" onclick="runAnalysis()" id="analyzeBtn">🚀 Run Analysis</button>
+                    <div id="analysisStatus" style="margin-top: 15px;"></div>
+                </div>
+
+                <div id="analysisReport" class="card" style="display: none;">
+                    <div id="reportContent" class="report-content"></div>
+                </div>
+            </div>
+
+            <!-- Chat Tab -->
+            <div id="tab-chat" class="tab-content">
+                <div class="card">
+                    <h2>Ask Questions About This Deal</h2>
+                    <div class="chat-container">
+                        <div id="chatMessages" class="chat-messages">
+                            <p class="loading">Start a conversation by asking a question below...</p>
+                        </div>
+                        <div class="chat-input-group">
+                            <input type="text" id="chatInput" placeholder="Ask a question about this deal...">
+                            <button class="btn" onclick="sendMessage()">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- New Deal Modal -->
+    <div id="newDealModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeNewDealModal()">&times;</span>
+            <h2>Create New Deal</h2>
+            <div class="form-group">
+                <label>Deal Name *</label>
+                <input type="text" id="newDealName" placeholder="e.g., Sunset MHP">
+            </div>
+            <div class="form-group">
+                <label>Link to CRM Lead (optional)</label>
+                <input type="number" id="newDealLeadId" placeholder="Lead ID">
+            </div>
+            <button class="btn btn-success" onclick="createDeal()">Create Deal</button>
+        </div>
+    </div>
+
+    <script>
+        let currentDealId = null;
+        const API_BASE = '/api/diligence';
+
+        // Load deals on page load
+        loadDeals();
+
+        async function loadDeals() {
+            try {
+                const response = await fetch(`${API_BASE}/deals`);
+                const data = await response.json();
+
+                const grid = document.getElementById('dealsGrid');
+
+                if (data.success && data.deals.length > 0) {
+                    grid.innerHTML = data.deals.map(deal => `
+                        <div class="deal-card" onclick="viewDeal('${deal.deal_id}')">
+                            <h3>${deal.name || 'Unnamed Deal'}</h3>
+                            <p class="meta">Created: ${new Date(deal.created_at).toLocaleDateString()}</p>
+                            <p class="meta">Documents: ${deal.documents ? deal.documents.length : 0}</p>
+                            <span class="badge badge-${deal.status}">${deal.status}</span>
+                        </div>
+                    `).join('');
+                } else {
+                    grid.innerHTML = '<div class="loading">No deals yet. Create your first deal!</div>';
+                }
+            } catch (error) {
+                console.error('Error loading deals:', error);
+                document.getElementById('dealsGrid').innerHTML = '<div class="alert alert-error">Error loading deals</div>';
+            }
+        }
+
+        function showNewDealModal() {
+            document.getElementById('newDealModal').style.display = 'block';
+        }
+
+        function closeNewDealModal() {
+            document.getElementById('newDealModal').style.display = 'none';
+        }
+
+        async function createDeal() {
+            const name = document.getElementById('newDealName').value;
+            const leadId = document.getElementById('newDealLeadId').value;
+
+            if (!name) {
+                alert('Please enter a deal name');
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_BASE}/deals`, {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({name, lead_id: leadId || null})
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    closeNewDealModal();
+                    document.getElementById('newDealName').value = '';
+                    document.getElementById('newDealLeadId').value = '';
+                    loadDeals();
+                    viewDeal(data.deal_id);
+                } else {
+                    alert('Error: ' + data.error);
+                }
+            } catch (error) {
+                alert('Error creating deal: ' + error.message);
+            }
+        }
+
+        async function viewDeal(dealId) {
+            currentDealId = dealId;
+
+            document.getElementById('dealsListView').style.display = 'none';
+            document.getElementById('dealView').style.display = 'block';
+
+            // Load deal details
+            try {
+                const response = await fetch(`${API_BASE}/deals/${dealId}`);
+                const data = await response.json();
+
+                if (data.success) {
+                    const deal = data.deal;
+                    document.getElementById('dealTitle').textContent = deal.metadata.name || 'Unnamed Deal';
+                    document.getElementById('dealMeta').textContent =
+                        `Status: ${deal.metadata.status} | Created: ${new Date(deal.metadata.created_at).toLocaleString()}`;
+
+                    // Load documents
+                    loadDocuments(deal.documents);
+
+                    // Load analysis if available
+                    if (deal.analysis) {
+                        showAnalysisReport(deal.analysis);
+                    }
+
+                    // Load chat history
+                    loadChatHistory();
+                }
+            } catch (error) {
+                console.error('Error loading deal:', error);
+            }
+        }
+
+        function backToDeals() {
+            document.getElementById('dealView').style.display = 'none';
+            document.getElementById('dealsListView').style.display = 'block';
+            currentDealId = null;
+            loadDeals();
+        }
+
+        function showTab(tabName) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+
+            event.target.classList.add('active');
+            document.getElementById(`tab-${tabName}`).classList.add('active');
+        }
+
+        // File upload
+        const uploadZone = document.getElementById('uploadZone');
+        const fileInput = document.getElementById('fileInput');
+
+        uploadZone.onclick = () => fileInput.click();
+
+        uploadZone.ondragover = (e) => {
+            e.preventDefault();
+            uploadZone.classList.add('dragover');
+        };
+
+        uploadZone.ondragleave = () => {
+            uploadZone.classList.remove('dragover');
+        };
+
+        uploadZone.ondrop = (e) => {
+            e.preventDefault();
+            uploadZone.classList.remove('dragover');
+            handleFiles(e.dataTransfer.files);
+        };
+
+        fileInput.onchange = () => {
+            handleFiles(fileInput.files);
+        };
+
+        async function handleFiles(files) {
+            const docType = document.getElementById('docType').value;
+
+            for (let file of files) {
+                await uploadFile(file, docType);
+            }
+
+            // Reload deal
+            viewDeal(currentDealId);
+        }
+
+        async function uploadFile(file, docType) {
+            const formData = new FormData();
+            formData.append('file', file);
+            formData.append('doc_type', docType);
+
+            try {
+                const response = await fetch(`${API_BASE}/deals/${currentDealId}/documents`, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    console.log('Uploaded:', file.name);
+                } else {
+                    alert('Error uploading ' + file.name + ': ' + data.error);
+                }
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        function loadDocuments(documents) {
+            const list = document.getElementById('documentsList');
+
+            if (!documents || documents.length === 0) {
+                list.innerHTML = '<li class="loading">No documents uploaded yet</li>';
+                return;
+            }
+
+            list.innerHTML = documents.map(doc => `
+                <li>
+                    <div>
+                        <strong>${doc.filename}</strong><br>
+                        <small>Type: ${doc.doc_type} | Uploaded: ${new Date(doc.uploaded_at).toLocaleString()}</small>
+                    </div>
+                    <span class="badge badge-${doc.extraction_status}">${doc.extraction_status}</span>
+                </li>
+            `).join('');
+        }
+
+        async function runAnalysis() {
+            const btn = document.getElementById('analyzeBtn');
+            const status = document.getElementById('analysisStatus');
+
+            btn.disabled = true;
+            btn.textContent = '⏳ Analyzing...';
+            status.innerHTML = '<div class="alert alert-success">Running AI analysis... This may take 30-60 seconds.</div>';
+
+            try {
+                const response = await fetch(`${API_BASE}/deals/${currentDealId}/analyze`, {
+                    method: 'POST'
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    status.innerHTML = '<div class="alert alert-success">✅ Analysis complete!</div>';
+                    showAnalysisReport(data.analysis);
+                } else {
+                    status.innerHTML = `<div class="alert alert-error">❌ Error: ${data.error}</div>`;
+                }
+            } catch (error) {
+                status.innerHTML = `<div class="alert alert-error">❌ Error: ${error.message}</div>`;
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🚀 Run Analysis';
+            }
+        }
+
+        async function showAnalysisReport(analysis) {
+            // Get markdown report
+            try {
+                const response = await fetch(`${API_BASE}/deals/${currentDealId}/report`);
+                const data = await response.json();
+
+                if (data.success) {
+                    const reportDiv = document.getElementById('analysisReport');
+                    const contentDiv = document.getElementById('reportContent');
+
+                    // Convert markdown to HTML (basic conversion)
+                    contentDiv.innerHTML = markdownToHtml(data.report);
+                    reportDiv.style.display = 'block';
+                }
+            } catch (error) {
+                console.error('Error loading report:', error);
+            }
+        }
+
+        function markdownToHtml(markdown) {
+            // Basic markdown to HTML conversion
+            return markdown
+                .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+                .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+                .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+                .replace(/^\* (.*$)/gim, '<li>$1</li>')
+                .replace(/^\- (.*$)/gim, '<li>$1</li>')
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\n\n/g, '</p><p>')
+                .replace(/^(.+)$/gm, '<p>$1</p>')
+                .replace(/<p><li>/g, '<ul><li>')
+                .replace(/<\/li><\/p>/g, '</li></ul>');
+        }
+
+        async function loadChatHistory() {
+            try {
+                const response = await fetch(`${API_BASE}/deals/${currentDealId}/chat`);
+                const data = await response.json();
+
+                const messagesDiv = document.getElementById('chatMessages');
+
+                if (data.success && data.messages.length > 0) {
+                    messagesDiv.innerHTML = data.messages.map(msg => `
+                        <div class="chat-message ${msg.role}">
+                            <strong>${msg.role === 'user' ? 'You' : 'AI'}:</strong><br>
+                            ${msg.content}
+                        </div>
+                    `).join('');
+
+                    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+                }
+            } catch (error) {
+                console.error('Error loading chat:', error);
+            }
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+
+            if (!message) return;
+
+            const messagesDiv = document.getElementById('chatMessages');
+
+            // Show user message immediately
+            messagesDiv.innerHTML += `
+                <div class="chat-message user">
+                    <strong>You:</strong><br>
+                    ${message}
+                </div>
+            `;
+
+            input.value = '';
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+
+            // Send to API
+            try {
+                const response = await fetch(`${API_BASE}/deals/${currentDealId}/chat`, {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({message})
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    messagesDiv.innerHTML += `
+                        <div class="chat-message assistant">
+                            <strong>AI:</strong><br>
+                            ${data.response}
+                        </div>
+                    `;
+                } else {
+                    messagesDiv.innerHTML += `
+                        <div class="chat-message assistant">
+                            <strong>AI:</strong><br>
+                            ❌ Error: ${data.error}
+                        </div>
+                    `;
+                }
+
+                messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        // Enable Enter key to send chat
+        document.getElementById('chatInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') sendMessage();
+        });
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('newDealModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

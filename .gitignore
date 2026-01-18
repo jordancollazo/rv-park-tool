@@ -1,0 +1,21 @@
+# Environment and credentials
+.env
+credentials.json
+token.json
+
+# Temporary/intermediate files
+.tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+nul
+.claude/settings.local.json
