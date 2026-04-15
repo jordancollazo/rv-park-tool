@@ -43,7 +43,8 @@ data/Export*.xlsx
 # Build / output
 output/
 backups/
-.tmp/
+.tmp/*
+!.tmp/florida_zcta_boundaries.geojson
 .playwright-mcp/
 
 # IDE
