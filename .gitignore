@@ -1,11 +1,3 @@
-# Environment and credentials
-.env
-credentials.json
-token.json
-
-# Temporary/intermediate files
-.tmp/
-
 # Python
 __pycache__/
 *.py[cod]
@@ -13,6 +5,46 @@ __pycache__/
 .Python
 venv/
 .venv/
+
+# Env / secrets
+.env
+credentials.json
+token.json
+
+# Databases (committed leads.db is the seeded demo; exclude runtime copies)
+*.db.bak
+*.db.backup*
+crm.db
+
+# Logs
+*.log
+
+# Debug / throwaway
+debug_*.json
+debug_*.txt
+*_debug.txt
+
+# Scraper output dumps
+apify_dataset_*.json
+apify_runs*.txt
+crexi_runs.txt
+loopnet_*.txt
+loopnet_*.json
+fatigue_examples.txt
+leads_output.txt
+orlando_analysis.txt
+
+# Large reference data not needed at runtime
+data/ibtracs/
+data/*.backup_*.db
+data/mhp_leads.db
+data/Export*.xlsx
+
+# Build / output
+output/
+backups/
+.tmp/
+.playwright-mcp/
 
 # IDE
 .vscode/

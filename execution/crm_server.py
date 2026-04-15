@@ -762,11 +762,12 @@ def api_zcta_boundaries():
 if __name__ == "__main__":
     # Initialize DB on start
     init_db()
-    
-    # Check if we should auto-sync on start (optional)
-    # from gmail_sync import sync_all_leads
-    # sync_all_leads()
-    
-    print("Starting CRM server at http://localhost:8000")
-    app.run(debug=True, port=8000)
+
+    # Honor Railway / Render / Heroku's PORT env var; fall back to 8000 locally.
+    port = int(os.environ.get("PORT", 8000))
+    host = os.environ.get("HOST", "0.0.0.0")
+    debug = os.environ.get("FLASK_DEBUG", "false").lower() == "true"
+
+    print(f"Starting CRM server at http://{host}:{port}")
+    app.run(host=host, port=port, debug=debug)
 

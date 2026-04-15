@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "gunicorn --chdir execution --bind 0.0.0.0:$PORT --timeout 120 crm_server:app"
+restartPolicyType = "on_failure"
+healthcheckPath = "/"
+healthcheckTimeout = 60
