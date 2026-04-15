@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: rv-park-tool
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn --chdir execution --bind 0.0.0.0:$PORT --timeout 120 crm_server:app
+    healthCheckPath: /
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0
